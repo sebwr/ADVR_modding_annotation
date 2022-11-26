@@ -1,0 +1,182 @@
+{
+	"onSwordHitEntity": {
+		"prefix": "onSwordHitEntity",
+		"body": "--- This event gets called whenever an entity is hit by the player's melee weapon and will about to be damaged, the event passes on some data about the situation and expects you to return the damage with if applicable any modified damage values. Be aware that the entity value in the parameters may not always be valid as this method also gets called to indicate the damage amount for the melee weapon in the stats menu!\n--- @param name HitInfos desc\nfunction onSwordHitEntity(name)\n    $0\nend",
+		"description": "This event gets called whenever an entity is hit by the player's melee weapon and will about to be damaged, the event passes on some data about the situation and expects you to return the damage with if applicable any modified damage values. Be aware that the entity value in the parameters may not always be valid as this method also gets called to indicate the damage amount for the melee weapon in the stats menu!"
+	},
+	"onKnifeHitEntity": {
+		"prefix": "onKnifeHitEntity",
+		"body": "--- This event gets called whenever an entity is hit by the player's ranged weapon and will about to be damaged, the event passes on some data about the situation and expects you to return the damage with if applicable any modified damage values.  Be aware that the entity value in the parameters may not always be valid as this method also gets called to indicate the damage amount for the ranged weapon in the stats menu!\n--- @param name HitInfos desc\nfunction onKnifeHitEntity(name)\n    $0\nend",
+		"description": "This event gets called whenever an entity is hit by the player's ranged weapon and will about to be damaged, the event passes on some data about the situation and expects you to return the damage with if applicable any modified damage values.  Be aware that the entity value in the parameters may not always be valid as this method also gets called to indicate the damage amount for the ranged weapon in the stats menu!"
+	},
+	"onDungeonGenerated": {
+		"prefix": "onDungeonGenerated",
+		"body": "--- This event gets called whenever a dungeon floor is generating, this specific one is called whenever the first room of a dungeon floor has been generated and (if needed) the player has been teleported into the dungeon.\n\nfunction onDungeonGenerated()\n    $0\nend",
+		"description": "This event gets called whenever a dungeon floor is generating, this specific one is called whenever the first room of a dungeon floor has been generated and (if needed) the player has been teleported into the dungeon."
+	},
+	"onPreDungeonGenerated": {
+		"prefix": "onPreDungeonGenerated",
+		"body": "--- This event gets called right before a dungeon floor is about to generate. This may be handy if you want to influence any generation before the starting room has been generated.\n\nfunction onPreDungeonGenerated()\n    $0\nend",
+		"description": "This event gets called right before a dungeon floor is about to generate. This may be handy if you want to influence any generation before the starting room has been generated."
+	},
+	"onEntityDeath": {
+		"prefix": "onEntityDeath",
+		"body": "--- This event indicates that an entity has died. The first parameter gives a reference to the entity and the second one is, if defined, the source of what killed the entity. Note! For performance reasons and for convenience it's highly recommend to set in the 'onLoad' the 'entityDeathListeners' variable, this will make sure that not all entities that die trigger this callback.\n--- @param name LivingBase desc\n--- @param name GameObject desc\nfunction onEntityDeath(name, name)\n    $0\nend",
+		"description": "This event indicates that an entity has died. The first parameter gives a reference to the entity and the second one is, if defined, the source of what killed the entity. Note! For performance reasons and for convenience it's highly recommend to set in the 'onLoad' the 'entityDeathListeners' variable, this will make sure that not all entities that die trigger this callback."
+	},
+	"onPlayerDeath": {
+		"prefix": "onPlayerDeath",
+		"body": "--- This event gets called whenever the player died.\n--- @param name PlayerLiving desc\nfunction onPlayerDeath(name)\n    $0\nend",
+		"description": "This event gets called whenever the player died."
+	},
+	"onKnifeCollide": {
+		"prefix": "onKnifeCollide",
+		"body": "--- This event gets called whenever a ranged projectile, shot or thrown by the player, hits an object.\n--- @param name WeaponBase desc\n--- @param name Collision desc\nfunction onKnifeCollide(name, name)\n    $0\nend",
+		"description": "This event gets called whenever a ranged projectile, shot or thrown by the player, hits an object."
+	},
+	"onSwordCollide": {
+		"prefix": "onSwordCollide",
+		"body": "--- This event gets called whenever a melee weapon hits an object.\n--- @param name SwordBase desc\n--- @param name Collision desc\nfunction onSwordCollide(name, name)\n    $0\nend",
+		"description": "This event gets called whenever a melee weapon hits an object."
+	},
+	"onPlayerHit": {
+		"prefix": "onPlayerHit",
+		"body": "--- This event gets called whenever the player gets hit, this event should return the first parameter and may modify this value to either do more or less damage.\n--- @param playerDamage integer The damage the player will receive\n--- @param damageSource GameObject The source that hit the player (if available)\n--- @param attacktype ATTACKTYPE The type of hit\n--- @param hitPosition Vector3 The position where the player was hit\nfunction onPlayerHit(playerDamage, damageSource, attacktype, hitPosition)\n    $0\nend",
+		"description": "This event gets called whenever the player gets hit, this event should return the first parameter and may modify this value to either do more or less damage."
+	},
+	"onKnifeThrow": {
+		"prefix": "onKnifeThrow",
+		"body": "--- This event gets called whenever the player shoots or throws their ranged weapon.\n\nfunction onKnifeThrow()\n    $0\nend",
+		"description": "This event gets called whenever the player shoots or throws their ranged weapon."
+	},
+	"onSaveLoaded": {
+		"prefix": "onSaveLoaded",
+		"body": "--- This event gets called when a player has a previous saved game and decides to load it again, after most of the world, the player stats and similar things have loaded this event will be called.\n\nfunction onSaveLoaded()\n    $0\nend",
+		"description": "This event gets called when a player has a previous saved game and decides to load it again, after most of the world, the player stats and similar things have loaded this event will be called."
+	},
+	"onPickupTaken": {
+		"prefix": "onPickupTaken",
+		"body": "--- This event gets called whenever a player picks up an upgrade item during a run, the first parameter will be the item representation that is associated with the item and the second parameter is the game object that represents the item in the world which will very shortly after this event get destroyed!\n--- @param name PickupDiskRepresentation desc\n--- @param name ItemUpgrade desc\nfunction onPickupTaken(name, name)\n    $0\nend",
+		"description": "This event gets called whenever a player picks up an upgrade item during a run, the first parameter will be the item representation that is associated with the item and the second parameter is the game object that represents the item in the world which will very shortly after this event get destroyed!"
+	},
+	"onSwordSwing": {
+		"prefix": "onSwordSwing",
+		"body": "--- This event gets called whenever the player swings their sword with a certain amount of force and after a small cooldown. The first and only parameter indicates how much force was used for the swing, this value represents the magnitude of the velocity vector.\n--- @param name number desc\nfunction onSwordSwing(name)\n    $0\nend",
+		"description": "This event gets called whenever the player swings their sword with a certain amount of force and after a small cooldown. The first and only parameter indicates how much force was used for the swing, this value represents the magnitude of the velocity vector."
+	},
+	"onPlayerValueChanged": {
+		"prefix": "onPlayerValueChanged",
+		"body": "--- This event gets called whenever a player related value changes such as their health, max health and more. The first parameter indicates through a string which value has been changed.\n--- @param name string desc\nfunction onPlayerValueChanged(name)\n    $0\nend",
+		"description": "This event gets called whenever a player related value changes such as their health, max health and more. The first parameter indicates through a string which value has been changed."
+	},
+	"onRunComplete": {
+		"prefix": "onRunComplete",
+		"body": "--- This event gets called whenever the beast has been defeated in it's very last stage, even before the death animation of the beast has fully been completed.\n\nfunction onRunComplete()\n    $0\nend",
+		"description": "This event gets called whenever the beast has been defeated in it's very last stage, even before the death animation of the beast has fully been completed."
+	},
+	"onEnteredNGPlus": {
+		"prefix": "onEnteredNGPlus",
+		"body": "--- This event gets called whenever the player decides to enter 'New Game+' and will have the New Game+ level as the only parameter\n--- @param name integer desc\nfunction onEnteredNGPlus(name)\n    $0\nend",
+		"description": "This event gets called whenever the player decides to enter 'New Game+' and will have the New Game+ level as the only parameter"
+	},
+	"onSpawnInHomeBase": {
+		"prefix": "onSpawnInHomeBase",
+		"body": "--- This event gets called every time the player gets teleported into the home base, whether this is after finishing a run or simply coming back from the main menu.\n\nfunction onSpawnInHomeBase()\n    $0\nend",
+		"description": "This event gets called every time the player gets teleported into the home base, whether this is after finishing a run or simply coming back from the main menu."
+	},
+	"onSlotMachineGamble": {
+		"prefix": "onSlotMachineGamble",
+		"body": "--- This event gets called whenever the player uses a slot machine, the first parameter indicates what type of slot machine it is and the second says whether or not the player has won anything from it.\n--- @param name string desc\n--- @param name boolean desc\nfunction onSlotMachineGamble(name, name)\n    $0\nend",
+		"description": "This event gets called whenever the player uses a slot machine, the first parameter indicates what type of slot machine it is and the second says whether or not the player has won anything from it."
+	},
+	"onProgressBought": {
+		"prefix": "onProgressBought",
+		"body": "--- This event gets called whenever the player purchases a progression upgrade from a NPC such as a weapon augment or an insight upgrade. The first parameter indicates which NPC the upgrade was bought from and the second represents the representation associated with the upgrade item that handles the game logic code.\n--- @param name string desc\n--- @param name ProgressDiskRepresentation desc\nfunction onProgressBought(name, name)\n    $0\nend",
+		"description": "This event gets called whenever the player purchases a progression upgrade from a NPC such as a weapon augment or an insight upgrade. The first parameter indicates which NPC the upgrade was bought from and the second represents the representation associated with the upgrade item that handles the game logic code."
+	},
+	"onVersionUpgrade": {
+		"prefix": "onVersionUpgrade",
+		"body": "--- This event gets called whenever a new version of the game is available for the person playing the game, the game keeps track of the last version the person has played. This data is stored in their save file. The game may perform some backwards compatible upgrades to make sure that everything still works after upgrading, the game has used this for example in milestones. The first parameter is the old version indicated as a number and the second is the current game version to which everything is being upgraded to.\n--- @param name integer desc\n--- @param name integer desc\nfunction onVersionUpgrade(name, name)\n    $0\nend",
+		"description": "This event gets called whenever a new version of the game is available for the person playing the game, the game keeps track of the last version the person has played. This data is stored in their save file. The game may perform some backwards compatible upgrades to make sure that everything still works after upgrading, the game has used this for example in milestones. The first parameter is the old version indicated as a number and the second is the current game version to which everything is being upgraded to."
+	},
+	"onPreBossFoodSpawn": {
+		"prefix": "onPreBossFoodSpawn",
+		"body": "--- This event gets called right before the food item after a boss spawns, if the user did not purchase this insight upgrade the event will still be called. The event serves the purpose of being able to override the item that spawns by returning an override, if you do not want to override the item make sure to return the override that has been given as the first parameter. The second parameter is the location at which the item will spawn.\n--- @param name GameObject desc\n--- @param name Vector3 desc\nfunction onPreBossFoodSpawn(name, name)\n    $0\nend",
+		"description": "This event gets called right before the food item after a boss spawns, if the user did not purchase this insight upgrade the event will still be called. The event serves the purpose of being able to override the item that spawns by returning an override, if you do not want to override the item make sure to return the override that has been given as the first parameter. The second parameter is the location at which the item will spawn."
+	},
+	"onVoidClearerDestroyed": {
+		"prefix": "onVoidClearerDestroyed",
+		"body": "--- This event gets called whenever a 'void clearer' destroys and object, the void clearer is a big box underneath the level that destroys objects that fall out of the map to make sure they don't keep falling forever and take unecessary performance away. The first parameter gives a reference to the about getting destroyed game object.\n--- @param name GameObject desc\nfunction onVoidClearerDestroyed(name)\n    $0\nend",
+		"description": "This event gets called whenever a 'void clearer' destroys and object, the void clearer is a big box underneath the level that destroys objects that fall out of the map to make sure they don't keep falling forever and take unecessary performance away. The first parameter gives a reference to the about getting destroyed game object."
+	},
+	"onKnifeInHand": {
+		"prefix": "onKnifeInHand",
+		"body": "--- This event gets called whenever a ranged weapon projectile has returned to the player.\n\nfunction onKnifeInHand()\n    $0\nend",
+		"description": "This event gets called whenever a ranged weapon projectile has returned to the player."
+	},
+	"onItemBought": {
+		"prefix": "onItemBought",
+		"body": "--- This event gets called whenever the player has bought an item in a shop. \n--- @param itemBase ItemBase the game object that represents the item in the world and will very shortly after this event get destroyed\n--- @param purchasePosition Vector3 The location where the purchased item was bought.\nfunction onItemBought(itemBase, purchasePosition)\n    $0\nend",
+		"description": "This event gets called whenever the player has bought an item in a shop. "
+	},
+	"onFoodEaten": {
+		"prefix": "onFoodEaten",
+		"body": "--- This event gets called whenever a player eats some food, the first parameter is a reference to the food that has been eaten.\n--- @param name ItemFood desc\nfunction onFoodEaten(name)\n    $0\nend",
+		"description": "This event gets called whenever a player eats some food, the first parameter is a reference to the food that has been eaten."
+	},
+	"onGlobalTick": {
+		"prefix": "onGlobalTick",
+		"body": "--- This event gets called every now and then (by default every 0.5 seconds) which allows you to execute time based functions.\n\nfunction onGlobalTick()\n    $0\nend",
+		"description": "This event gets called every now and then (by default every 0.5 seconds) which allows you to execute time based functions."
+	},
+	"onObjectCollect": {
+		"prefix": "onObjectCollect",
+		"body": "--- This event gets called when either a key or a coin in the world has been picked up by the player. The first parameter indicates whether it's a key or coin as a string.\n--- @param name string desc\nfunction onObjectCollect(name)\n    $0\nend",
+		"description": "This event gets called when either a key or a coin in the world has been picked up by the player. The first parameter indicates whether it's a key or coin as a string."
+	},
+	"onPreObjectCollect": {
+		"prefix": "onPreObjectCollect",
+		"body": "--- This event gets called when either a key or a coin has been picked up and is about to change the player's current cash and trigger necessary events. This allows you to change the outcome, you should always return a valid number indicating the amount of coins or keys. If the outcome is zero or less then the sequence will be cancelled. The first parameter is indicating whether it's a \"key\" or a \"coin\" and the second parameter gives the value that will be applied (may have already been changed by different event listeners!).\n--- @param name string desc\n--- @param name integer desc\nfunction onPreObjectCollect(name, name)\n    $0\nend",
+		"description": "This event gets called when either a key or a coin has been picked up and is about to change the player's current cash and trigger necessary events. This allows you to change the outcome, you should always return a valid number indicating the amount of coins or keys. If the outcome is zero or less then the sequence will be cancelled. The first parameter is indicating whether it's a \"key\" or a \"coin\" and the second parameter gives the value that will be applied (may have already been changed by different event listeners!)."
+	},
+	"onButtonPress": {
+		"prefix": "onButtonPress",
+		"body": "--- This event gets called whenever a button has been pressed on a motion controller. The first parameter indicates the ID of the button and the second indicates whether it's being pressed or is not being pressed (so released).\n--- @param name string desc\n--- @param name boolean desc\nfunction onButtonPress(name, name)\n    $0\nend",
+		"description": "This event gets called whenever a button has been pressed on a motion controller. The first parameter indicates the ID of the button and the second indicates whether it's being pressed or is not being pressed (so released)."
+	},
+	"onTwitchMessage": {
+		"prefix": "onTwitchMessage",
+		"body": "--- This event gets called whenever a person has connected their Twitch account in the game and receives a message from a Twitch viewer during a live stream. The first parameter indicates the username of the person sending the message, the second parameter is the message it self.\n--- @param name string desc\n--- @param name string desc\nfunction onTwitchMessage(name, name)\n    $0\nend",
+		"description": "This event gets called whenever a person has connected their Twitch account in the game and receives a message from a Twitch viewer during a live stream. The first parameter indicates the username of the person sending the message, the second parameter is the message it self."
+	},
+	"onRoomEntered": {
+		"prefix": "onRoomEntered",
+		"body": "--- This event gets called whenever a player enters a room for the first time during a run. This will still be called for rooms that are the same but spawn more than once.\n--- @param name RoomFile desc\nfunction onRoomEntered(name)\n    $0\nend",
+		"description": "This event gets called whenever a player enters a room for the first time during a run. This will still be called for rooms that are the same but spawn more than once."
+	},
+	"onPreObjectSpawn": {
+		"prefix": "onPreObjectSpawn",
+		"body": "--- This event gets called whenever a prefab is about to be instantiated (spawned/created) but has not been spawned yet, this makes it possible to override the spawn. A note on this: You need to pre-define what objects you want to listen for as this would otherwise be very performance intensive. The first parameter is the prefab that is used but more importantly the second parameter is the override, the override may have already changed by the time it gets called in your code by other mods or the game it self. An override can be changed by you by simply returning a different prefab, if you do not intend to change the prefab please return the override. The third parameter is the location where the object will spawn and the fourth parameter is the rotation at which the object will spawn.\n--- @param name GameObject desc\n--- @param name GameObject desc\n--- @param name Vector3 desc\n--- @param name Quaternion desc\nfunction onPreObjectSpawn(name, name, name, name)\n    $0\nend",
+		"description": "This event gets called whenever a prefab is about to be instantiated (spawned/created) but has not been spawned yet, this makes it possible to override the spawn. A note on this: You need to pre-define what objects you want to listen for as this would otherwise be very performance intensive. The first parameter is the prefab that is used but more importantly the second parameter is the override, the override may have already changed by the time it gets called in your code by other mods or the game it self. An override can be changed by you by simply returning a different prefab, if you do not intend to change the prefab please return the override. The third parameter is the location where the object will spawn and the fourth parameter is the rotation at which the object will spawn."
+	},
+	"onPostObjectSpawn": {
+		"prefix": "onPostObjectSpawn",
+		"body": "--- This event gets called whenever a prefab has been instantiated (spawned/created). A note on this: You need to pre-define what objects you want to listen for as this would otherwise be very performance intensive. The first parameter tells you what the original prefab looks like and the second parameter gives you the actual game object that was spawned, which may or may not be the same as the prefab.\n--- @param name GameObject desc\n--- @param name GameObject desc\nfunction onPostObjectSpawn(name, name)\n    $0\nend",
+		"description": "This event gets called whenever a prefab has been instantiated (spawned/created). A note on this: You need to pre-define what objects you want to listen for as this would otherwise be very performance intensive. The first parameter tells you what the original prefab looks like and the second parameter gives you the actual game object that was spawned, which may or may not be the same as the prefab."
+	},
+	"onPickup": {
+		"prefix": "onPickup",
+		"body": "--- This is called when the player picks up an item.\n\nfunction onPickup()\n    $0\nend",
+		"description": "This is called when the player picks up an item."
+	},
+	"onLoadPickUp": {
+		"prefix": "onLoad",
+		"body": "function onLoad()\n    pickup.name =\"${1:}\"\n    pickup.desc =\"${2:}\"\n    pickup.probability = ${3:}\n    pickup.maxAmount = ${4:}\n    pickup.amountUses = ${5:}\n    pickup.price = ${6:}\n    pickup.tier = ${7:}\n    pickup.spawnsIn = {${8:}}\n    pickup.isActivateItem = ${9:}\nend",
+		"description": ""
+	},
+	"onLoadAchievement": {
+		"prefix": "onLoad",
+		"body": "function onLoad()\n    achievement.name =\"${1:}\"\n    achievement.desc =\"${2:}\"\n    achievement.hideDescription = ${3:}\n    achievement.insightReward = ${4:}\nend",
+		"description": ""
+	}
+}
