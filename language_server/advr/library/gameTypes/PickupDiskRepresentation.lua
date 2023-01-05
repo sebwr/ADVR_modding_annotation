@@ -1,6 +1,5 @@
 --- @meta
 --- @alias spawnsInOptions
---- | '"room"'
 --- | '"chest"'
 --- | '"boss"'
 --- | '"goldenChest"'
