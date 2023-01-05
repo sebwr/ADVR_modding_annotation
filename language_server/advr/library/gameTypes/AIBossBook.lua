@@ -18,6 +18,6 @@ AIBossBook = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIBossBook.Shoot() end
+function AIBossBook.shoot() end
 
 return AIBossBook

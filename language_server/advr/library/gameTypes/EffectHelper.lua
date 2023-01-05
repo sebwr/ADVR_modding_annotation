@@ -11,6 +11,6 @@ EffectHelper = {}
 --- @param overrideMaterial Material [WIP] - Add description for parameter
 --- @param _rotationBase Transform [WIP] - Add description for parameter
 --- @return GameObject
-function EffectHelper.SpawnParticleEffect(_object,pos,destroyAfter,overrideMaterial,_rotationBase) end
+function EffectHelper.spawnParticleEffect(_object,pos,destroyAfter,overrideMaterial,_rotationBase) end
 
 return EffectHelper

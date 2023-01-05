@@ -34,18 +34,18 @@ AIFlyingBook = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIFlyingBook.Start() end
+function AIFlyingBook.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIFlyingBook.OnLoosePlayer() end
+function AIFlyingBook.onLoosePlayer() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIFlyingBook.OnSeePlayer() end
+function AIFlyingBook.onSeePlayer() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIFlyingBook.Update() end
+function AIFlyingBook.update() end
 
 return AIFlyingBook

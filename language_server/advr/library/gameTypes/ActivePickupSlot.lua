@@ -11,14 +11,14 @@ ActivePickupSlot = {}
 --- [WIP] - No method annotation provided
 --- @param _pickup PickupDiskRepresentation [WIP] - Add description for parameter
 --- @return void
-function ActivePickupSlot.UpdateActivePickupSlot(_pickup) end
+function ActivePickupSlot.updateActivePickupSlot(_pickup) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ActivePickupSlot.UpdateChargeDisplay() end
+function ActivePickupSlot.updateChargeDisplay() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ActivePickupSlot.AddCharge() end
+function ActivePickupSlot.addCharge() end
 
 return ActivePickupSlot

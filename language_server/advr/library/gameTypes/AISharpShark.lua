@@ -9,10 +9,10 @@ AISharpShark = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AISharpShark.DoAttack() end
+function AISharpShark.doAttack() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AISharpShark.OnAttackFinish() end
+function AISharpShark.onAttackFinish() end
 
 return AISharpShark

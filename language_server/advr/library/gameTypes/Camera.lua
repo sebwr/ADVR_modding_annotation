@@ -51,138 +51,138 @@ Camera = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Camera.Reset() end
+function Camera.reset() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Camera.ResetTransparencySortSettings() end
+function Camera.resetTransparencySortSettings() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Camera.ResetAspect() end
+function Camera.resetAspect() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Camera.ResetCullingMatrix() end
+function Camera.resetCullingMatrix() end
 
 --- [WIP] - No method annotation provided
 --- @param shader Shader [WIP] - Add description for parameter
 --- @param replacementTag string [WIP] - Add description for parameter
 --- @return void
-function Camera.SetReplacementShader(shader,replacementTag) end
+function Camera.setReplacementShader(shader,replacementTag) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Camera.ResetReplacementShader() end
+function Camera.resetReplacementShader() end
 
 --- [WIP] - No method annotation provided
 --- @return number
-function Camera.GetGateFittedFieldOfView() end
+function Camera.getGateFittedFieldOfView() end
 
 --- [WIP] - No method annotation provided
 --- @return Vector2
-function Camera.GetGateFittedLensShift() end
+function Camera.getGateFittedLensShift() end
 
 --- [WIP] - No method annotation provided
 --- @param colorBuffer RenderBuffer [WIP] - Add description for parameter
 --- @param depthBuffer RenderBuffer [WIP] - Add description for parameter
 --- @return void
-function Camera.SetTargetBuffers(colorBuffer,depthBuffer) end
+function Camera.setTargetBuffers(colorBuffer,depthBuffer) end
 
 --- [WIP] - No method annotation provided
 --- @param colorBuffer RenderBuffer[] [WIP] - Add description for parameter
 --- @param depthBuffer RenderBuffer [WIP] - Add description for parameter
 --- @return void
-function Camera.SetTargetBuffers(colorBuffer,depthBuffer) end
+function Camera.setTargetBuffers(colorBuffer,depthBuffer) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Camera.ResetWorldToCameraMatrix() end
+function Camera.resetWorldToCameraMatrix() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Camera.ResetProjectionMatrix() end
+function Camera.resetProjectionMatrix() end
 
 --- [WIP] - No method annotation provided
 --- @param clipPlane Vector4 [WIP] - Add description for parameter
 --- @return Matrix4x4
-function Camera.CalculateObliqueMatrix(clipPlane) end
+function Camera.calculateObliqueMatrix(clipPlane) end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @param eye MonoOrStereoscopicEye [WIP] - Add description for parameter
 --- @return Vector3
-function Camera.WorldToScreenPoint(position,eye) end
+function Camera.worldToScreenPoint(position,eye) end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @param eye MonoOrStereoscopicEye [WIP] - Add description for parameter
 --- @return Vector3
-function Camera.WorldToViewportPoint(position,eye) end
+function Camera.worldToViewportPoint(position,eye) end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @param eye MonoOrStereoscopicEye [WIP] - Add description for parameter
 --- @return Vector3
-function Camera.ViewportToWorldPoint(position,eye) end
+function Camera.viewportToWorldPoint(position,eye) end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @param eye MonoOrStereoscopicEye [WIP] - Add description for parameter
 --- @return Vector3
-function Camera.ScreenToWorldPoint(position,eye) end
+function Camera.screenToWorldPoint(position,eye) end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @return Vector3
-function Camera.WorldToScreenPoint(position) end
+function Camera.worldToScreenPoint(position) end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @return Vector3
-function Camera.WorldToViewportPoint(position) end
+function Camera.worldToViewportPoint(position) end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @return Vector3
-function Camera.ViewportToWorldPoint(position) end
+function Camera.viewportToWorldPoint(position) end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @return Vector3
-function Camera.ScreenToWorldPoint(position) end
+function Camera.screenToWorldPoint(position) end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @return Vector3
-function Camera.ScreenToViewportPoint(position) end
+function Camera.screenToViewportPoint(position) end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @return Vector3
-function Camera.ViewportToScreenPoint(position) end
+function Camera.viewportToScreenPoint(position) end
 
 --- [WIP] - No method annotation provided
 --- @param pos Vector3 [WIP] - Add description for parameter
 --- @param eye MonoOrStereoscopicEye [WIP] - Add description for parameter
 --- @return Ray
-function Camera.ViewportPointToRay(pos,eye) end
+function Camera.viewportPointToRay(pos,eye) end
 
 --- [WIP] - No method annotation provided
 --- @param pos Vector3 [WIP] - Add description for parameter
 --- @return Ray
-function Camera.ViewportPointToRay(pos) end
+function Camera.viewportPointToRay(pos) end
 
 --- [WIP] - No method annotation provided
 --- @param pos Vector3 [WIP] - Add description for parameter
 --- @param eye MonoOrStereoscopicEye [WIP] - Add description for parameter
 --- @return Ray
-function Camera.ScreenPointToRay(pos,eye) end
+function Camera.screenPointToRay(pos,eye) end
 
 --- [WIP] - No method annotation provided
 --- @param pos Vector3 [WIP] - Add description for parameter
 --- @return Ray
-function Camera.ScreenPointToRay(pos) end
+function Camera.screenPointToRay(pos) end
 
 --- [WIP] - No method annotation provided
 --- @param viewport Rect [WIP] - Add description for parameter
@@ -190,179 +190,179 @@ function Camera.ScreenPointToRay(pos) end
 --- @param eye MonoOrStereoscopicEye [WIP] - Add description for parameter
 --- @param outCorners Vector3[] [WIP] - Add description for parameter
 --- @return void
-function Camera.CalculateFrustumCorners(viewport,z,eye,outCorners) end
+function Camera.calculateFrustumCorners(viewport,z,eye,outCorners) end
 
 --- [WIP] - No method annotation provided
 --- @param eye StereoscopicEye [WIP] - Add description for parameter
 --- @return Matrix4x4
-function Camera.GetStereoNonJitteredProjectionMatrix(eye) end
+function Camera.getStereoNonJitteredProjectionMatrix(eye) end
 
 --- [WIP] - No method annotation provided
 --- @param eye StereoscopicEye [WIP] - Add description for parameter
 --- @return Matrix4x4
-function Camera.GetStereoViewMatrix(eye) end
+function Camera.getStereoViewMatrix(eye) end
 
 --- [WIP] - No method annotation provided
 --- @param eye StereoscopicEye [WIP] - Add description for parameter
 --- @return void
-function Camera.CopyStereoDeviceProjectionMatrixToNonJittered(eye) end
+function Camera.copyStereoDeviceProjectionMatrixToNonJittered(eye) end
 
 --- [WIP] - No method annotation provided
 --- @param eye StereoscopicEye [WIP] - Add description for parameter
 --- @return Matrix4x4
-function Camera.GetStereoProjectionMatrix(eye) end
+function Camera.getStereoProjectionMatrix(eye) end
 
 --- [WIP] - No method annotation provided
 --- @param eye StereoscopicEye [WIP] - Add description for parameter
 --- @param matrix Matrix4x4 [WIP] - Add description for parameter
 --- @return void
-function Camera.SetStereoProjectionMatrix(eye,matrix) end
+function Camera.setStereoProjectionMatrix(eye,matrix) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Camera.ResetStereoProjectionMatrices() end
+function Camera.resetStereoProjectionMatrices() end
 
 --- [WIP] - No method annotation provided
 --- @param eye StereoscopicEye [WIP] - Add description for parameter
 --- @param matrix Matrix4x4 [WIP] - Add description for parameter
 --- @return void
-function Camera.SetStereoViewMatrix(eye,matrix) end
+function Camera.setStereoViewMatrix(eye,matrix) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Camera.ResetStereoViewMatrices() end
+function Camera.resetStereoViewMatrices() end
 
 --- [WIP] - No method annotation provided
 --- @param cubemap Cubemap [WIP] - Add description for parameter
 --- @param faceMask integer [WIP] - Add description for parameter
 --- @return boolean
-function Camera.RenderToCubemap(cubemap,faceMask) end
+function Camera.renderToCubemap(cubemap,faceMask) end
 
 --- [WIP] - No method annotation provided
 --- @param cubemap Cubemap [WIP] - Add description for parameter
 --- @return boolean
-function Camera.RenderToCubemap(cubemap) end
+function Camera.renderToCubemap(cubemap) end
 
 --- [WIP] - No method annotation provided
 --- @param cubemap RenderTexture [WIP] - Add description for parameter
 --- @param faceMask integer [WIP] - Add description for parameter
 --- @return boolean
-function Camera.RenderToCubemap(cubemap,faceMask) end
+function Camera.renderToCubemap(cubemap,faceMask) end
 
 --- [WIP] - No method annotation provided
 --- @param cubemap RenderTexture [WIP] - Add description for parameter
 --- @return boolean
-function Camera.RenderToCubemap(cubemap) end
+function Camera.renderToCubemap(cubemap) end
 
 --- [WIP] - No method annotation provided
 --- @param cubemap RenderTexture [WIP] - Add description for parameter
 --- @param faceMask integer [WIP] - Add description for parameter
 --- @param stereoEye MonoOrStereoscopicEye [WIP] - Add description for parameter
 --- @return boolean
-function Camera.RenderToCubemap(cubemap,faceMask,stereoEye) end
+function Camera.renderToCubemap(cubemap,faceMask,stereoEye) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Camera.Render() end
+function Camera.render() end
 
 --- [WIP] - No method annotation provided
 --- @param shader Shader [WIP] - Add description for parameter
 --- @param replacementTag string [WIP] - Add description for parameter
 --- @return void
-function Camera.RenderWithShader(shader,replacementTag) end
+function Camera.renderWithShader(shader,replacementTag) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Camera.RenderDontRestore() end
+function Camera.renderDontRestore() end
 
 --- [WIP] - No method annotation provided
 --- @param renderRequests List<UnityEngine.Camera+RenderRequest> [WIP] - Add description for parameter
 --- @return void
-function Camera.SubmitRenderRequests(renderRequests) end
+function Camera.submitRenderRequests(renderRequests) end
 
 --- [WIP] - No method annotation provided
 --- @param other Camera [WIP] - Add description for parameter
 --- @return void
-function Camera.CopyFrom(other) end
+function Camera.copyFrom(other) end
 
 --- [WIP] - No method annotation provided
 --- @param evt CameraEvent [WIP] - Add description for parameter
 --- @return void
-function Camera.RemoveCommandBuffers(evt) end
+function Camera.removeCommandBuffers(evt) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Camera.RemoveAllCommandBuffers() end
+function Camera.removeAllCommandBuffers() end
 
 --- [WIP] - No method annotation provided
 --- @param evt CameraEvent [WIP] - Add description for parameter
 --- @param buffer CommandBuffer [WIP] - Add description for parameter
 --- @return void
-function Camera.AddCommandBuffer(evt,buffer) end
+function Camera.addCommandBuffer(evt,buffer) end
 
 --- [WIP] - No method annotation provided
 --- @param evt CameraEvent [WIP] - Add description for parameter
 --- @param buffer CommandBuffer [WIP] - Add description for parameter
 --- @param queueType ComputeQueueType [WIP] - Add description for parameter
 --- @return void
-function Camera.AddCommandBufferAsync(evt,buffer,queueType) end
+function Camera.addCommandBufferAsync(evt,buffer,queueType) end
 
 --- [WIP] - No method annotation provided
 --- @param evt CameraEvent [WIP] - Add description for parameter
 --- @param buffer CommandBuffer [WIP] - Add description for parameter
 --- @return void
-function Camera.RemoveCommandBuffer(evt,buffer) end
+function Camera.removeCommandBuffer(evt,buffer) end
 
 --- [WIP] - No method annotation provided
 --- @param evt CameraEvent [WIP] - Add description for parameter
 --- @return CommandBuffer[]
-function Camera.GetCommandBuffers(evt) end
+function Camera.getCommandBuffers(evt) end
 
 --- [WIP] - No method annotation provided
 --- @param cullingParameters ScriptableCullingParameters& [WIP] - Add description for parameter
 --- @return boolean
-function Camera.TryGetCullingParameters(cullingParameters) end
+function Camera.tryGetCullingParameters(cullingParameters) end
 
 --- [WIP] - No method annotation provided
 --- @param stereoAware boolean [WIP] - Add description for parameter
 --- @param cullingParameters ScriptableCullingParameters& [WIP] - Add description for parameter
 --- @return boolean
-function Camera.TryGetCullingParameters(stereoAware,cullingParameters) end
+function Camera.tryGetCullingParameters(stereoAware,cullingParameters) end
 
 --- [WIP] - No method annotation provided
 --- @return number
-function Camera.GetScreenWidth() end
+function Camera.getScreenWidth() end
 
 --- [WIP] - No method annotation provided
 --- @return number
-function Camera.GetScreenHeight() end
+function Camera.getScreenHeight() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Camera.DoClear() end
+function Camera.doClear() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Camera.ResetFieldOfView() end
+function Camera.resetFieldOfView() end
 
 --- [WIP] - No method annotation provided
 --- @param leftMatrix Matrix4x4 [WIP] - Add description for parameter
 --- @param rightMatrix Matrix4x4 [WIP] - Add description for parameter
 --- @return void
-function Camera.SetStereoViewMatrices(leftMatrix,rightMatrix) end
+function Camera.setStereoViewMatrices(leftMatrix,rightMatrix) end
 
 --- [WIP] - No method annotation provided
 --- @param leftMatrix Matrix4x4 [WIP] - Add description for parameter
 --- @param rightMatrix Matrix4x4 [WIP] - Add description for parameter
 --- @return void
-function Camera.SetStereoProjectionMatrices(leftMatrix,rightMatrix) end
+function Camera.setStereoProjectionMatrices(leftMatrix,rightMatrix) end
 
 --- [WIP] - No method annotation provided
 --- @return Matrix4x4[]
-function Camera.GetStereoViewMatrices() end
+function Camera.getStereoViewMatrices() end
 
 --- [WIP] - No method annotation provided
 --- @return Matrix4x4[]
-function Camera.GetStereoProjectionMatrices() end
+function Camera.getStereoProjectionMatrices() end
 
 return Camera

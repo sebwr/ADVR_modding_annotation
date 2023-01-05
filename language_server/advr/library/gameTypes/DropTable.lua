@@ -10,6 +10,6 @@ DropTable = {}
 --- [WIP] - No method annotation provided
 --- @param seed integer [WIP] - Add description for parameter
 --- @return ItemBase
-function DropTable.GetDrop(seed) end
+function DropTable.getDrop(seed) end
 
 return DropTable

@@ -9,19 +9,19 @@ ModLoader = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ModLoader.Initialize() end
+function ModLoader.initialize() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ModLoader.LoadBaseModFiles() end
+function ModLoader.loadBaseModFiles() end
 
 --- [WIP] - No method annotation provided
 --- @return Mod[]
-function ModLoader.GetAllMods() end
+function ModLoader.getAllMods() end
 
 --- [WIP] - No method annotation provided
 --- @param themeFolder string [WIP] - Add description for parameter
 --- @return string[]
-function ModLoader.GetModRoomFiles(themeFolder) end
+function ModLoader.getModRoomFiles(themeFolder) end
 
 return ModLoader

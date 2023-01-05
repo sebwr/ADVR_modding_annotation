@@ -20,10 +20,10 @@ HomeBaseStoryHandler = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function HomeBaseStoryHandler.Initialize() end
+function HomeBaseStoryHandler.initialize() end
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function HomeBaseStoryHandler.IsStoryEventHappening() end
+function HomeBaseStoryHandler.isStoryEventHappening() end
 
 return HomeBaseStoryHandler

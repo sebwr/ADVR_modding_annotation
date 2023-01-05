@@ -20,11 +20,11 @@ Lock = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Lock.OnUseStart() end
+function Lock.onUseStart() end
 
 --- [WIP] - No method annotation provided
 --- @param left boolean [WIP] - Add description for parameter
 --- @return void
-function Lock.OnGripStart(left) end
+function Lock.onGripStart(left) end
 
 return Lock

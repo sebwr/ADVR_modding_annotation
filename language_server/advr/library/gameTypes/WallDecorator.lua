@@ -10,6 +10,6 @@ WallDecorator = {}
 --- @param wge WorldGeneratorEvolved [WIP] - Add description for parameter
 --- @param _wallList List<ValueTuple<UnityEngine.Transform, System.Int32>> [WIP] - Add description for parameter
 --- @return IEnumerator
-function WallDecorator.Decorate(wge,_wallList) end
+function WallDecorator.decorate(wge,_wallList) end
 
 return WallDecorator

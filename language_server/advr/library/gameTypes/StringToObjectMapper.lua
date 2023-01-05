@@ -11,65 +11,65 @@ StringToObjectMapper = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function StringToObjectMapper.FindId() end
+function StringToObjectMapper.findId() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function StringToObjectMapper.RefreshPrefabLib() end
+function StringToObjectMapper.refreshPrefabLib() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function StringToObjectMapper.AddToMappings() end
+function StringToObjectMapper.addToMappings() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function StringToObjectMapper.AddToMappingsBuilding1() end
+function StringToObjectMapper.addToMappingsBuilding1() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function StringToObjectMapper.AddToMappingsBuilding2() end
+function StringToObjectMapper.addToMappingsBuilding2() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function StringToObjectMapper.AddToMappingsBuilding3() end
+function StringToObjectMapper.addToMappingsBuilding3() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function StringToObjectMapper.AddToMappingsBuilding4() end
+function StringToObjectMapper.addToMappingsBuilding4() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function StringToObjectMapper.AddToMappingsBuilding5() end
+function StringToObjectMapper.addToMappingsBuilding5() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function StringToObjectMapper.AddToMappingsBuilding6() end
+function StringToObjectMapper.addToMappingsBuilding6() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function StringToObjectMapper.FindEnemyHP() end
+function StringToObjectMapper.findEnemyHP() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function StringToObjectMapper.FindMissing() end
+function StringToObjectMapper.findMissing() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function StringToObjectMapper.PrintContents() end
+function StringToObjectMapper.printContents() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function StringToObjectMapper.Sort() end
+function StringToObjectMapper.sort() end
 
 --- [WIP] - No method annotation provided
 --- @param _objectString string [WIP] - Add description for parameter
 --- @return GameObject
-function StringToObjectMapper.GetObject(_objectString) end
+function StringToObjectMapper.getObject(_objectString) end
 
 --- [WIP] - No method annotation provided
 --- @param g GameObject [WIP] - Add description for parameter
 --- @param s string [WIP] - Add description for parameter
 --- @return void
-function StringToObjectMapper.AddObject(g,s) end
+function StringToObjectMapper.addObject(g,s) end
 
 return StringToObjectMapper

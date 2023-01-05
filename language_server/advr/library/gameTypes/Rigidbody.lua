@@ -32,58 +32,58 @@ Rigidbody = {}
 --- [WIP] - No method annotation provided
 --- @param density number [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.SetDensity(density) end
+function Rigidbody.setDensity(density) end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.MovePosition(position) end
+function Rigidbody.movePosition(position) end
 
 --- [WIP] - No method annotation provided
 --- @param rot Quaternion [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.MoveRotation(rot) end
+function Rigidbody.moveRotation(rot) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Rigidbody.Sleep() end
+function Rigidbody.sleep() end
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function Rigidbody.IsSleeping() end
+function Rigidbody.isSleeping() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Rigidbody.WakeUp() end
+function Rigidbody.wakeUp() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Rigidbody.ResetCenterOfMass() end
+function Rigidbody.resetCenterOfMass() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Rigidbody.ResetInertiaTensor() end
+function Rigidbody.resetInertiaTensor() end
 
 --- [WIP] - No method annotation provided
 --- @param relativePoint Vector3 [WIP] - Add description for parameter
 --- @return Vector3
-function Rigidbody.GetRelativePointVelocity(relativePoint) end
+function Rigidbody.getRelativePointVelocity(relativePoint) end
 
 --- [WIP] - No method annotation provided
 --- @param worldPoint Vector3 [WIP] - Add description for parameter
 --- @return Vector3
-function Rigidbody.GetPointVelocity(worldPoint) end
+function Rigidbody.getPointVelocity(worldPoint) end
 
 --- [WIP] - No method annotation provided
 --- @param force Vector3 [WIP] - Add description for parameter
 --- @param mode ForceMode [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.AddForce(force,mode) end
+function Rigidbody.addForce(force,mode) end
 
 --- [WIP] - No method annotation provided
 --- @param force Vector3 [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.AddForce(force) end
+function Rigidbody.addForce(force) end
 
 --- [WIP] - No method annotation provided
 --- @param x number [WIP] - Add description for parameter
@@ -91,25 +91,25 @@ function Rigidbody.AddForce(force) end
 --- @param z number [WIP] - Add description for parameter
 --- @param mode ForceMode [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.AddForce(x,y,z,mode) end
+function Rigidbody.addForce(x,y,z,mode) end
 
 --- [WIP] - No method annotation provided
 --- @param x number [WIP] - Add description for parameter
 --- @param y number [WIP] - Add description for parameter
 --- @param z number [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.AddForce(x,y,z) end
+function Rigidbody.addForce(x,y,z) end
 
 --- [WIP] - No method annotation provided
 --- @param force Vector3 [WIP] - Add description for parameter
 --- @param mode ForceMode [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.AddRelativeForce(force,mode) end
+function Rigidbody.addRelativeForce(force,mode) end
 
 --- [WIP] - No method annotation provided
 --- @param force Vector3 [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.AddRelativeForce(force) end
+function Rigidbody.addRelativeForce(force) end
 
 --- [WIP] - No method annotation provided
 --- @param x number [WIP] - Add description for parameter
@@ -117,25 +117,25 @@ function Rigidbody.AddRelativeForce(force) end
 --- @param z number [WIP] - Add description for parameter
 --- @param mode ForceMode [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.AddRelativeForce(x,y,z,mode) end
+function Rigidbody.addRelativeForce(x,y,z,mode) end
 
 --- [WIP] - No method annotation provided
 --- @param x number [WIP] - Add description for parameter
 --- @param y number [WIP] - Add description for parameter
 --- @param z number [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.AddRelativeForce(x,y,z) end
+function Rigidbody.addRelativeForce(x,y,z) end
 
 --- [WIP] - No method annotation provided
 --- @param torque Vector3 [WIP] - Add description for parameter
 --- @param mode ForceMode [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.AddTorque(torque,mode) end
+function Rigidbody.addTorque(torque,mode) end
 
 --- [WIP] - No method annotation provided
 --- @param torque Vector3 [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.AddTorque(torque) end
+function Rigidbody.addTorque(torque) end
 
 --- [WIP] - No method annotation provided
 --- @param x number [WIP] - Add description for parameter
@@ -143,25 +143,25 @@ function Rigidbody.AddTorque(torque) end
 --- @param z number [WIP] - Add description for parameter
 --- @param mode ForceMode [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.AddTorque(x,y,z,mode) end
+function Rigidbody.addTorque(x,y,z,mode) end
 
 --- [WIP] - No method annotation provided
 --- @param x number [WIP] - Add description for parameter
 --- @param y number [WIP] - Add description for parameter
 --- @param z number [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.AddTorque(x,y,z) end
+function Rigidbody.addTorque(x,y,z) end
 
 --- [WIP] - No method annotation provided
 --- @param torque Vector3 [WIP] - Add description for parameter
 --- @param mode ForceMode [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.AddRelativeTorque(torque,mode) end
+function Rigidbody.addRelativeTorque(torque,mode) end
 
 --- [WIP] - No method annotation provided
 --- @param torque Vector3 [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.AddRelativeTorque(torque) end
+function Rigidbody.addRelativeTorque(torque) end
 
 --- [WIP] - No method annotation provided
 --- @param x number [WIP] - Add description for parameter
@@ -169,27 +169,27 @@ function Rigidbody.AddRelativeTorque(torque) end
 --- @param z number [WIP] - Add description for parameter
 --- @param mode ForceMode [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.AddRelativeTorque(x,y,z,mode) end
+function Rigidbody.addRelativeTorque(x,y,z,mode) end
 
 --- [WIP] - No method annotation provided
 --- @param x number [WIP] - Add description for parameter
 --- @param y number [WIP] - Add description for parameter
 --- @param z number [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.AddRelativeTorque(x,y,z) end
+function Rigidbody.addRelativeTorque(x,y,z) end
 
 --- [WIP] - No method annotation provided
 --- @param force Vector3 [WIP] - Add description for parameter
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @param mode ForceMode [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.AddForceAtPosition(force,position,mode) end
+function Rigidbody.addForceAtPosition(force,position,mode) end
 
 --- [WIP] - No method annotation provided
 --- @param force Vector3 [WIP] - Add description for parameter
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.AddForceAtPosition(force,position) end
+function Rigidbody.addForceAtPosition(force,position) end
 
 --- [WIP] - No method annotation provided
 --- @param explosionForce number [WIP] - Add description for parameter
@@ -198,7 +198,7 @@ function Rigidbody.AddForceAtPosition(force,position) end
 --- @param upwardsModifier number [WIP] - Add description for parameter
 --- @param mode ForceMode [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.AddExplosionForce(explosionForce,explosionPosition,explosionRadius,upwardsModifier,mode) end
+function Rigidbody.addExplosionForce(explosionForce,explosionPosition,explosionRadius,upwardsModifier,mode) end
 
 --- [WIP] - No method annotation provided
 --- @param explosionForce number [WIP] - Add description for parameter
@@ -206,19 +206,19 @@ function Rigidbody.AddExplosionForce(explosionForce,explosionPosition,explosionR
 --- @param explosionRadius number [WIP] - Add description for parameter
 --- @param upwardsModifier number [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.AddExplosionForce(explosionForce,explosionPosition,explosionRadius,upwardsModifier) end
+function Rigidbody.addExplosionForce(explosionForce,explosionPosition,explosionRadius,upwardsModifier) end
 
 --- [WIP] - No method annotation provided
 --- @param explosionForce number [WIP] - Add description for parameter
 --- @param explosionPosition Vector3 [WIP] - Add description for parameter
 --- @param explosionRadius number [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.AddExplosionForce(explosionForce,explosionPosition,explosionRadius) end
+function Rigidbody.addExplosionForce(explosionForce,explosionPosition,explosionRadius) end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @return Vector3
-function Rigidbody.ClosestPointOnBounds(position) end
+function Rigidbody.closestPointOnBounds(position) end
 
 --- [WIP] - No method annotation provided
 --- @param direction Vector3 [WIP] - Add description for parameter
@@ -226,42 +226,42 @@ function Rigidbody.ClosestPointOnBounds(position) end
 --- @param maxDistance number [WIP] - Add description for parameter
 --- @param queryTriggerInteraction QueryTriggerInteraction [WIP] - Add description for parameter
 --- @return boolean
-function Rigidbody.SweepTest(direction,hitInfo,maxDistance,queryTriggerInteraction) end
+function Rigidbody.sweepTest(direction,hitInfo,maxDistance,queryTriggerInteraction) end
 
 --- [WIP] - No method annotation provided
 --- @param direction Vector3 [WIP] - Add description for parameter
 --- @param hitInfo RaycastHit& [WIP] - Add description for parameter
 --- @param maxDistance number [WIP] - Add description for parameter
 --- @return boolean
-function Rigidbody.SweepTest(direction,hitInfo,maxDistance) end
+function Rigidbody.sweepTest(direction,hitInfo,maxDistance) end
 
 --- [WIP] - No method annotation provided
 --- @param direction Vector3 [WIP] - Add description for parameter
 --- @param hitInfo RaycastHit& [WIP] - Add description for parameter
 --- @return boolean
-function Rigidbody.SweepTest(direction,hitInfo) end
+function Rigidbody.sweepTest(direction,hitInfo) end
 
 --- [WIP] - No method annotation provided
 --- @param direction Vector3 [WIP] - Add description for parameter
 --- @param maxDistance number [WIP] - Add description for parameter
 --- @param queryTriggerInteraction QueryTriggerInteraction [WIP] - Add description for parameter
 --- @return RaycastHit[]
-function Rigidbody.SweepTestAll(direction,maxDistance,queryTriggerInteraction) end
+function Rigidbody.sweepTestAll(direction,maxDistance,queryTriggerInteraction) end
 
 --- [WIP] - No method annotation provided
 --- @param direction Vector3 [WIP] - Add description for parameter
 --- @param maxDistance number [WIP] - Add description for parameter
 --- @return RaycastHit[]
-function Rigidbody.SweepTestAll(direction,maxDistance) end
+function Rigidbody.sweepTestAll(direction,maxDistance) end
 
 --- [WIP] - No method annotation provided
 --- @param direction Vector3 [WIP] - Add description for parameter
 --- @return RaycastHit[]
-function Rigidbody.SweepTestAll(direction) end
+function Rigidbody.sweepTestAll(direction) end
 
 --- [WIP] - No method annotation provided
 --- @param a number [WIP] - Add description for parameter
 --- @return void
-function Rigidbody.SetMaxAngularVelocity(a) end
+function Rigidbody.setMaxAngularVelocity(a) end
 
 return Rigidbody

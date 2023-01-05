@@ -9,16 +9,16 @@ ProgressHandler = {}
 
 --- [WIP] - No method annotation provided
 --- @return IEnumerator
-function ProgressHandler.ReadProgressesFromDisk() end
+function ProgressHandler.readProgressesFromDisk() end
 
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @return ProgressDiskRepresentation
-function ProgressHandler.GetProgressById(id) end
+function ProgressHandler.getProgressById(id) end
 
 --- [WIP] - No method annotation provided
 --- @param npcID string [WIP] - Add description for parameter
 --- @return ProgressDiskRepresentation[]
-function ProgressHandler.GetProgressesByNPC(npcID) end
+function ProgressHandler.getProgressesByNPC(npcID) end
 
 return ProgressHandler

@@ -23,78 +23,78 @@ TrailRenderer = {}
 --- @param index integer [WIP] - Add description for parameter
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @return void
-function TrailRenderer.SetPosition(index,position) end
+function TrailRenderer.setPosition(index,position) end
 
 --- [WIP] - No method annotation provided
 --- @param index integer [WIP] - Add description for parameter
 --- @return Vector3
-function TrailRenderer.GetPosition(index) end
+function TrailRenderer.getPosition(index) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function TrailRenderer.Clear() end
+function TrailRenderer.clear() end
 
 --- [WIP] - No method annotation provided
 --- @param mesh Mesh [WIP] - Add description for parameter
 --- @param useTransform boolean [WIP] - Add description for parameter
 --- @return void
-function TrailRenderer.BakeMesh(mesh,useTransform) end
+function TrailRenderer.bakeMesh(mesh,useTransform) end
 
 --- [WIP] - No method annotation provided
 --- @param mesh Mesh [WIP] - Add description for parameter
 --- @param camera Camera [WIP] - Add description for parameter
 --- @param useTransform boolean [WIP] - Add description for parameter
 --- @return void
-function TrailRenderer.BakeMesh(mesh,camera,useTransform) end
+function TrailRenderer.bakeMesh(mesh,camera,useTransform) end
 
 --- [WIP] - No method annotation provided
 --- @param positions Vector3[] [WIP] - Add description for parameter
 --- @return integer
-function TrailRenderer.GetPositions(positions) end
+function TrailRenderer.getPositions(positions) end
 
 --- [WIP] - No method annotation provided
 --- @param positions Vector3[] [WIP] - Add description for parameter
 --- @return void
-function TrailRenderer.SetPositions(positions) end
+function TrailRenderer.setPositions(positions) end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @return void
-function TrailRenderer.AddPosition(position) end
+function TrailRenderer.addPosition(position) end
 
 --- [WIP] - No method annotation provided
 --- @param positions Vector3[] [WIP] - Add description for parameter
 --- @return void
-function TrailRenderer.AddPositions(positions) end
+function TrailRenderer.addPositions(positions) end
 
 --- [WIP] - No method annotation provided
 --- @param positions NativeArray<UnityEngine.Vector3> [WIP] - Add description for parameter
 --- @return void
-function TrailRenderer.SetPositions(positions) end
+function TrailRenderer.setPositions(positions) end
 
 --- [WIP] - No method annotation provided
 --- @param positions NativeSlice<UnityEngine.Vector3> [WIP] - Add description for parameter
 --- @return void
-function TrailRenderer.SetPositions(positions) end
+function TrailRenderer.setPositions(positions) end
 
 --- [WIP] - No method annotation provided
 --- @param positions NativeArray<UnityEngine.Vector3> [WIP] - Add description for parameter
 --- @return integer
-function TrailRenderer.GetPositions(positions) end
+function TrailRenderer.getPositions(positions) end
 
 --- [WIP] - No method annotation provided
 --- @param positions NativeSlice<UnityEngine.Vector3> [WIP] - Add description for parameter
 --- @return integer
-function TrailRenderer.GetPositions(positions) end
+function TrailRenderer.getPositions(positions) end
 
 --- [WIP] - No method annotation provided
 --- @param positions NativeArray<UnityEngine.Vector3> [WIP] - Add description for parameter
 --- @return void
-function TrailRenderer.AddPositions(positions) end
+function TrailRenderer.addPositions(positions) end
 
 --- [WIP] - No method annotation provided
 --- @param positions NativeSlice<UnityEngine.Vector3> [WIP] - Add description for parameter
 --- @return void
-function TrailRenderer.AddPositions(positions) end
+function TrailRenderer.addPositions(positions) end
 
 return TrailRenderer

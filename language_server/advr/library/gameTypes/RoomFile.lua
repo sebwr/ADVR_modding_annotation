@@ -30,90 +30,90 @@ RoomFile = {}
 
 --- [WIP] - No method annotation provided
 --- @return RoomFile
-function RoomFile.DeepCopy() end
+function RoomFile.deepCopy() end
 
 --- [WIP] - No method annotation provided
 --- @return string
-function RoomFile.GetShortenedFileName() end
+function RoomFile.getShortenedFileName() end
 
 --- [WIP] - No method annotation provided
 --- @param _obj ExtraObjectsInRoom [WIP] - Add description for parameter
 --- @return integer
-function RoomFile.GetGroupOfExtraObject(_obj) end
+function RoomFile.getGroupOfExtraObject(_obj) end
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function RoomFile.GetGenerationStep() end
+function RoomFile.getGenerationStep() end
 
 --- [WIP] - No method annotation provided
 --- @return number
-function RoomFile.GetRoomYPos() end
+function RoomFile.getRoomYPos() end
 
 --- [WIP] - No method annotation provided
 --- @return number
-function RoomFile.GetRoomYBase() end
+function RoomFile.getRoomYBase() end
 
 --- [WIP] - No method annotation provided
 --- @return number
-function RoomFile.GetRoomDifficulty() end
+function RoomFile.getRoomDifficulty() end
 
 --- [WIP] - No method annotation provided
 --- @param dir DOORDIRECTION [WIP] - Add description for parameter
 --- @param randomOrder boolean [WIP] - Add description for parameter
 --- @return Vector2Int[]
-function RoomFile.GetDoorsAtDirection(dir,randomOrder) end
+function RoomFile.getDoorsAtDirection(dir,randomOrder) end
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function RoomFile.GetAmountOfDoors() end
+function RoomFile.getAmountOfDoors() end
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function RoomFile.GetConsistentHashCode() end
+function RoomFile.getConsistentHashCode() end
 
 --- [WIP] - No method annotation provided
 --- @return ValueTuple<System.Boolean, System.Boolean, System.Boolean, System.Boolean>
-function RoomFile.GetDoorDirections() end
+function RoomFile.getDoorDirections() end
 
 --- [WIP] - No method annotation provided
 --- @param rand Random [WIP] - Add description for parameter
 --- @return void
-function RoomFile.RollTiles(rand) end
+function RoomFile.rollTiles(rand) end
 
 --- [WIP] - No method annotation provided
 --- @param amount integer [WIP] - Add description for parameter
 --- @return void
-function RoomFile.RotateRoom(amount) end
+function RoomFile.rotateRoom(amount) end
 
 --- [WIP] - No method annotation provided
 --- @return Vector2Int
-function RoomFile.GetRoomDims() end
+function RoomFile.getRoomDims() end
 
 --- [WIP] - No method annotation provided
 --- @param x integer [WIP] - Add description for parameter
 --- @param y integer [WIP] - Add description for parameter
 --- @return TileInRoom
-function RoomFile.GetTileAt(x,y) end
+function RoomFile.getTileAt(x,y) end
 
 --- [WIP] - No method annotation provided
 --- @return Vector3
-function RoomFile.GetWorldPosBase() end
+function RoomFile.getWorldPosBase() end
 
 --- [WIP] - No method annotation provided
 --- @param _rand Random [WIP] - Add description for parameter
 --- @return void
-function RoomFile.Initialize(_rand) end
+function RoomFile.initialize(_rand) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function RoomFile.ClearEmptyTiles() end
+function RoomFile.clearEmptyTiles() end
 
 --- [WIP] - No method annotation provided
 --- @return List<RoomCreator+RoomFile>
-function RoomFile.GetAllSuccessors() end
+function RoomFile.getAllSuccessors() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function RoomFile.FixOriginAndRotation() end
+function RoomFile.fixOriginAndRotation() end
 
 return RoomFile

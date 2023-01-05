@@ -19,20 +19,20 @@ Collision = {}
 --- [WIP] - No method annotation provided
 --- @param index integer [WIP] - Add description for parameter
 --- @return ContactPoint
-function Collision.GetContact(index) end
+function Collision.getContact(index) end
 
 --- [WIP] - No method annotation provided
 --- @param contacts ContactPoint[] [WIP] - Add description for parameter
 --- @return integer
-function Collision.GetContacts(contacts) end
+function Collision.getContacts(contacts) end
 
 --- [WIP] - No method annotation provided
 --- @param contacts List<UnityEngine.ContactPoint> [WIP] - Add description for parameter
 --- @return integer
-function Collision.GetContacts(contacts) end
+function Collision.getContacts(contacts) end
 
 --- [WIP] - No method annotation provided
 --- @return IEnumerator
-function Collision.GetEnumerator() end
+function Collision.getEnumerator() end
 
 return Collision

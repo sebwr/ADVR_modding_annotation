@@ -42,14 +42,14 @@ AICompanionWisp = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AICompanionWisp.Start() end
+function AICompanionWisp.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AICompanionWisp.Update() end
+function AICompanionWisp.update() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AICompanionWisp.OnSeePlayer() end
+function AICompanionWisp.onSeePlayer() end
 
 return AICompanionWisp

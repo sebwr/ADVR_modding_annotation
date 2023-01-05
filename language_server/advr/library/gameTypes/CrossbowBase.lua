@@ -30,19 +30,19 @@ CrossbowBase = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function CrossbowBase.OnEnable() end
+function CrossbowBase.onEnable() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function CrossbowBase.Start() end
+function CrossbowBase.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function CrossbowBase.UnequipWeapon() end
+function CrossbowBase.unequipWeapon() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function CrossbowBase.OnCrossbowLoaded() end
+function CrossbowBase.onCrossbowLoaded() end
 
 --- [WIP] - No method annotation provided
 --- @param region0 Color [WIP] - Add description for parameter
@@ -54,24 +54,24 @@ function CrossbowBase.OnCrossbowLoaded() end
 --- @param region6 Color [WIP] - Add description for parameter
 --- @param history boolean [WIP] - Add description for parameter
 --- @return void
-function CrossbowBase.UpdateWeaponColors(region0,region1,region2,region3,region4,region5,region6,history) end
+function CrossbowBase.updateWeaponColors(region0,region1,region2,region3,region4,region5,region6,history) end
 
 --- [WIP] - No method annotation provided
 --- @param collision Collision [WIP] - Add description for parameter
 --- @return void
-function CrossbowBase.OnCollisionEnter(collision) end
+function CrossbowBase.onCollisionEnter(collision) end
 
 --- [WIP] - No method annotation provided
 --- @param c Color [WIP] - Add description for parameter
 --- @param intensity number [WIP] - Add description for parameter
 --- @param weight number [WIP] - Add description for parameter
 --- @return void
-function CrossbowBase.SetTrailEmission(c,intensity,weight) end
+function CrossbowBase.setTrailEmission(c,intensity,weight) end
 
 --- [WIP] - No method annotation provided
 --- @param c Color [WIP] - Add description for parameter
 --- @param weight number [WIP] - Add description for parameter
 --- @return void
-function CrossbowBase.SetTrailColor(c,weight) end
+function CrossbowBase.setTrailColor(c,weight) end
 
 return CrossbowBase

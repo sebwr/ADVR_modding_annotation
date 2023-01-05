@@ -13,35 +13,35 @@ ItemHightlightInfo = {}
 --- [WIP] - No method annotation provided
 --- @param itemBase ItemBase [WIP] - Add description for parameter
 --- @return boolean
-function ItemHightlightInfo.ContainsTouchedItem(itemBase) end
+function ItemHightlightInfo.containsTouchedItem(itemBase) end
 
 --- [WIP] - No method annotation provided
 --- @param hand PlayerHand [WIP] - Add description for parameter
 --- @return void
-function ItemHightlightInfo.Initialize(hand) end
+function ItemHightlightInfo.initialize(hand) end
 
 --- [WIP] - No method annotation provided
 --- @param skipAnimation boolean [WIP] - Add description for parameter
 --- @return void
-function ItemHightlightInfo.Show(skipAnimation) end
+function ItemHightlightInfo.show(skipAnimation) end
 
 --- [WIP] - No method annotation provided
 --- @param skipAnimation boolean [WIP] - Add description for parameter
 --- @return void
-function ItemHightlightInfo.Hide(skipAnimation) end
+function ItemHightlightInfo.hide(skipAnimation) end
 
 --- [WIP] - No method annotation provided
 --- @param item ItemBase [WIP] - Add description for parameter
 --- @return void
-function ItemHightlightInfo.RegisterItemName(item) end
+function ItemHightlightInfo.registerItemName(item) end
 
 --- [WIP] - No method annotation provided
 --- @param item ItemBase [WIP] - Add description for parameter
 --- @return void
-function ItemHightlightInfo.UnregisterItemName(item) end
+function ItemHightlightInfo.unregisterItemName(item) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ItemHightlightInfo.ResetInfo() end
+function ItemHightlightInfo.resetInfo() end
 
 return ItemHightlightInfo

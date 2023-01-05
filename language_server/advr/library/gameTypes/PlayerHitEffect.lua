@@ -12,31 +12,31 @@ PlayerHitEffect = {}
 --- [WIP] - No method annotation provided
 --- @param type ATTACKTYPE [WIP] - Add description for parameter
 --- @return void
-function PlayerHitEffect.DoHitEffect(type) end
+function PlayerHitEffect.doHitEffect(type) end
 
 --- [WIP] - No method annotation provided
 --- @param col Color [WIP] - Add description for parameter
 --- @return void
-function PlayerHitEffect.EnableActiveEffect(col) end
+function PlayerHitEffect.enableActiveEffect(col) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function PlayerHitEffect.DisableActiveEffect() end
+function PlayerHitEffect.disableActiveEffect() end
 
 --- [WIP] - No method annotation provided
 --- @param fadeout boolean [WIP] - Add description for parameter
 --- @param speed number [WIP] - Add description for parameter
 --- @return void
-function PlayerHitEffect.FadeScreen(fadeout,speed) end
+function PlayerHitEffect.fadeScreen(fadeout,speed) end
 
 --- [WIP] - No method annotation provided
 --- @param _enable boolean [WIP] - Add description for parameter
 --- @return void
-function PlayerHitEffect.SetBlack(_enable) end
+function PlayerHitEffect.setBlack(_enable) end
 
 --- [WIP] - No method annotation provided
 --- @param _val boolean [WIP] - Add description for parameter
 --- @return void
-function PlayerHitEffect.SetRed(_val) end
+function PlayerHitEffect.setRed(_val) end
 
 return PlayerHitEffect

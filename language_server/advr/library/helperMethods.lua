@@ -11,59 +11,59 @@ helperMethods = {}
 --- @param filterVariant string [WIP] - Add description for parameter
 --- @param filterName string [WIP] - Add description for parameter
 --- @return void
-function helperMethods.RemoveRoomFilesFromGenerator(generatorFloor,filterType,filterVariant,filterName) end
+function helperMethods.removeRoomFilesFromGenerator(generatorFloor,filterType,filterVariant,filterName) end
 
 --- [WIP] - No method annotation provided
 --- @param generatorFloor CURRENT_FLOOR [WIP] - Add description for parameter
 --- @param wallInfo WallInfo [WIP] - Add description for parameter
 --- @return void
-function helperMethods.AddWallDecoratorEntryFor(generatorFloor,wallInfo) end
+function helperMethods.addWallDecoratorEntryFor(generatorFloor,wallInfo) end
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function helperMethods.IsInFirstDungeon() end
+function helperMethods.isInFirstDungeon() end
 
 --- [WIP] - No method annotation provided
 --- @param objectToCheck Object [WIP] - Add description for parameter
 --- @param type string [WIP] - Add description for parameter
 --- @return boolean
-function helperMethods.IsInstanceOfType(objectToCheck,type) end
+function helperMethods.isInstanceOfType(objectToCheck,type) end
 
 --- [WIP] - No method annotation provided
 --- @param generatorFloor CURRENT_FLOOR [WIP] - Add description for parameter
 --- @return WorldGeneratorEvolved
-function helperMethods.GetWorldGeneratorForFloor(generatorFloor) end
+function helperMethods.getWorldGeneratorForFloor(generatorFloor) end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @return number
-function helperMethods.RandomFromPosition(position) end
+function helperMethods.randomFromPosition(position) end
 
 --- [WIP] - No method annotation provided
 --- @param g GameObject [WIP] - Add description for parameter
 --- @param key string [WIP] - Add description for parameter
 --- @param data Object [WIP] - Add description for parameter
 --- @return void
-function helperMethods.AttachCustomData(g,key,data) end
+function helperMethods.attachCustomData(g,key,data) end
 
 --- [WIP] - No method annotation provided
 --- @param g GameObject [WIP] - Add description for parameter
 --- @param key string [WIP] - Add description for parameter
 --- @return Object
-function helperMethods.GetCustomData(g,key) end
+function helperMethods.getCustomData(g,key) end
 
 --- [WIP] - No method annotation provided
 --- @param key string [WIP] - Add description for parameter
 --- @param statID integer [WIP] - Add description for parameter
 --- @param statMultiplier integer [WIP] - Add description for parameter
 --- @return string
-function helperMethods.ChangePlayerStatSlightlyByNumber(key,statID,statMultiplier) end
+function helperMethods.changePlayerStatSlightlyByNumber(key,statID,statMultiplier) end
 
 --- [WIP] - No method annotation provided
 --- @param _array Object[] [WIP] - Add description for parameter
 --- @param _obj Object [WIP] - Add description for parameter
 --- @return Object[]
-function helperMethods.AddToArray(_array,_obj) end
+function helperMethods.addToArray(_array,_obj) end
 
 --- [WIP] - No method annotation provided
 --- @param c0 Color [WIP] - Add description for parameter
@@ -74,7 +74,7 @@ function helperMethods.AddToArray(_array,_obj) end
 --- @param c5 Color [WIP] - Add description for parameter
 --- @param c6 Color [WIP] - Add description for parameter
 --- @return void
-function helperMethods.UpdateWeaponColorsPrimary(c0,c1,c2,c3,c4,c5,c6) end
+function helperMethods.updateWeaponColorsPrimary(c0,c1,c2,c3,c4,c5,c6) end
 
 --- [WIP] - No method annotation provided
 --- @param c0 Color [WIP] - Add description for parameter
@@ -85,7 +85,7 @@ function helperMethods.UpdateWeaponColorsPrimary(c0,c1,c2,c3,c4,c5,c6) end
 --- @param c5 Color [WIP] - Add description for parameter
 --- @param c6 Color [WIP] - Add description for parameter
 --- @return void
-function helperMethods.UpdateWeaponColorsSecondary(c0,c1,c2,c3,c4,c5,c6) end
+function helperMethods.updateWeaponColorsSecondary(c0,c1,c2,c3,c4,c5,c6) end
 
 --- [WIP] - No method annotation provided
 --- @param c0 Color [WIP] - Add description for parameter
@@ -96,7 +96,7 @@ function helperMethods.UpdateWeaponColorsSecondary(c0,c1,c2,c3,c4,c5,c6) end
 --- @param c5 Color [WIP] - Add description for parameter
 --- @param c6 Color [WIP] - Add description for parameter
 --- @return void
-function helperMethods.UpdateWeaponColorsAll(c0,c1,c2,c3,c4,c5,c6) end
+function helperMethods.updateWeaponColorsAll(c0,c1,c2,c3,c4,c5,c6) end
 
 --- [WIP] - No method annotation provided
 --- @param c0 Color [WIP] - Add description for parameter
@@ -107,7 +107,7 @@ function helperMethods.UpdateWeaponColorsAll(c0,c1,c2,c3,c4,c5,c6) end
 --- @param c5 Color [WIP] - Add description for parameter
 --- @param c6 Color [WIP] - Add description for parameter
 --- @return void
-function helperMethods.UpdateWeaponColorsMelee(c0,c1,c2,c3,c4,c5,c6) end
+function helperMethods.updateWeaponColorsMelee(c0,c1,c2,c3,c4,c5,c6) end
 
 --- [WIP] - No method annotation provided
 --- @param c0 Color [WIP] - Add description for parameter
@@ -118,178 +118,178 @@ function helperMethods.UpdateWeaponColorsMelee(c0,c1,c2,c3,c4,c5,c6) end
 --- @param c5 Color [WIP] - Add description for parameter
 --- @param c6 Color [WIP] - Add description for parameter
 --- @return void
-function helperMethods.UpdateWeaponColorsRanged(c0,c1,c2,c3,c4,c5,c6) end
+function helperMethods.updateWeaponColorsRanged(c0,c1,c2,c3,c4,c5,c6) end
 
 --- [WIP] - No method annotation provided
 --- @param c0 Color [WIP] - Add description for parameter
 --- @return void
-function helperMethods.SetTrailColorPrimary(c0) end
+function helperMethods.setTrailColorPrimary(c0) end
 
 --- [WIP] - No method annotation provided
 --- @param c0 Color [WIP] - Add description for parameter
 --- @return void
-function helperMethods.SetTrailColorSecondary(c0) end
+function helperMethods.setTrailColorSecondary(c0) end
 
 --- [WIP] - No method annotation provided
 --- @param c0 Color [WIP] - Add description for parameter
 --- @return void
-function helperMethods.SetTrailColorAll(c0) end
+function helperMethods.setTrailColorAll(c0) end
 
 --- [WIP] - No method annotation provided
 --- @param c0 Color [WIP] - Add description for parameter
 --- @return void
-function helperMethods.SetTrailColorMelee(c0) end
+function helperMethods.setTrailColorMelee(c0) end
 
 --- [WIP] - No method annotation provided
 --- @param c0 Color [WIP] - Add description for parameter
 --- @return void
-function helperMethods.SetTrailColorRanged(c0) end
-
---- [WIP] - No method annotation provided
---- @param c0 Color [WIP] - Add description for parameter
---- @param emission number [WIP] - Add description for parameter
---- @return void
-function helperMethods.SetTrailEmissionPrimary(c0,emission) end
+function helperMethods.setTrailColorRanged(c0) end
 
 --- [WIP] - No method annotation provided
 --- @param c0 Color [WIP] - Add description for parameter
 --- @param emission number [WIP] - Add description for parameter
 --- @return void
-function helperMethods.SetTrailEmissionSecondary(c0,emission) end
+function helperMethods.setTrailEmissionPrimary(c0,emission) end
 
 --- [WIP] - No method annotation provided
 --- @param c0 Color [WIP] - Add description for parameter
 --- @param emission number [WIP] - Add description for parameter
 --- @return void
-function helperMethods.SetTrailEmissionAll(c0,emission) end
+function helperMethods.setTrailEmissionSecondary(c0,emission) end
 
 --- [WIP] - No method annotation provided
 --- @param c0 Color [WIP] - Add description for parameter
 --- @param emission number [WIP] - Add description for parameter
 --- @return void
-function helperMethods.SetTrailEmissionMelee(c0,emission) end
+function helperMethods.setTrailEmissionAll(c0,emission) end
 
 --- [WIP] - No method annotation provided
 --- @param c0 Color [WIP] - Add description for parameter
 --- @param emission number [WIP] - Add description for parameter
 --- @return void
-function helperMethods.SetTrailEmissionRanged(c0,emission) end
+function helperMethods.setTrailEmissionMelee(c0,emission) end
+
+--- [WIP] - No method annotation provided
+--- @param c0 Color [WIP] - Add description for parameter
+--- @param emission number [WIP] - Add description for parameter
+--- @return void
+function helperMethods.setTrailEmissionRanged(c0,emission) end
 
 --- [WIP] - No method annotation provided
 --- @param key string [WIP] - Add description for parameter
 --- @param statMultipliers integer[] [WIP] - Add description for parameter
 --- @return string[]
-function helperMethods.ChangeRandomPlayerStatsSlightlyUnique(key,statMultipliers) end
+function helperMethods.changeRandomPlayerStatsSlightlyUnique(key,statMultipliers) end
 
 --- [WIP] - No method annotation provided
 --- @param key string [WIP] - Add description for parameter
 --- @param statMultiplier integer [WIP] - Add description for parameter
 --- @return string
-function helperMethods.ChangeRandomPlayerStatSlightly(key,statMultiplier) end
+function helperMethods.changeRandomPlayerStatSlightly(key,statMultiplier) end
 
 --- [WIP] - No method annotation provided
 --- @param minChance number [WIP] - Add description for parameter
 --- @param maxChance number [WIP] - Add description for parameter
 --- @return boolean
-function helperMethods.IsValidWithLuck(minChance,maxChance) end
+function helperMethods.isValidWithLuck(minChance,maxChance) end
 
 --- [WIP] - No method annotation provided
 --- @param minChance number [WIP] - Add description for parameter
 --- @param maxChance number [WIP] - Add description for parameter
 --- @param defaultValue number [WIP] - Add description for parameter
 --- @return boolean
-function helperMethods.IsValidWithLuck(minChance,maxChance,defaultValue) end
+function helperMethods.isValidWithLuck(minChance,maxChance,defaultValue) end
 
 --- [WIP] - No method annotation provided
 --- @return PlayerStat
-function helperMethods.GetMeleeDamageStat() end
+function helperMethods.getMeleeDamageStat() end
 
 --- [WIP] - No method annotation provided
 --- @return PlayerStat
-function helperMethods.GetRangedDamageStat() end
+function helperMethods.getRangedDamageStat() end
 
 --- [WIP] - No method annotation provided
 --- @return PlayerStat
-function helperMethods.GetMeleeCritStat() end
+function helperMethods.getMeleeCritStat() end
 
 --- [WIP] - No method annotation provided
 --- @return PlayerStat
-function helperMethods.GetRangedCritStat() end
+function helperMethods.getRangedCritStat() end
 
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @param add number [WIP] - Add description for parameter
 --- @param multiplier number [WIP] - Add description for parameter
 --- @return void
-function helperMethods.RegisterMeleeDamageAddMult(id,add,multiplier) end
+function helperMethods.registerMeleeDamageAddMult(id,add,multiplier) end
 
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @param add number [WIP] - Add description for parameter
 --- @param multiplier number [WIP] - Add description for parameter
 --- @return void
-function helperMethods.RegisterMeleeCritAddMult(id,add,multiplier) end
+function helperMethods.registerMeleeCritAddMult(id,add,multiplier) end
 
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @param add number [WIP] - Add description for parameter
 --- @param multiplier number [WIP] - Add description for parameter
 --- @return void
-function helperMethods.RegisterRangedDamageAddMult(id,add,multiplier) end
+function helperMethods.registerRangedDamageAddMult(id,add,multiplier) end
 
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @param add number [WIP] - Add description for parameter
 --- @param multiplier number [WIP] - Add description for parameter
 --- @return void
-function helperMethods.RegisterRangedCritAddMult(id,add,multiplier) end
+function helperMethods.registerRangedCritAddMult(id,add,multiplier) end
 
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @param addend number [WIP] - Add description for parameter
 --- @return void
-function helperMethods.RegisterMeleeDamageAddend(id,addend) end
+function helperMethods.registerMeleeDamageAddend(id,addend) end
 
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @param addend number [WIP] - Add description for parameter
 --- @return void
-function helperMethods.RegisterMeleeCritAddend(id,addend) end
+function helperMethods.registerMeleeCritAddend(id,addend) end
 
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @param multiplier number [WIP] - Add description for parameter
 --- @return void
-function helperMethods.RegisterMeleeDamageMultiplier(id,multiplier) end
+function helperMethods.registerMeleeDamageMultiplier(id,multiplier) end
 
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @param multiplier number [WIP] - Add description for parameter
 --- @return void
-function helperMethods.RegisterMeleeCritMultiplier(id,multiplier) end
+function helperMethods.registerMeleeCritMultiplier(id,multiplier) end
 
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @param addend number [WIP] - Add description for parameter
 --- @return void
-function helperMethods.RegisterRangedDamageAddend(id,addend) end
+function helperMethods.registerRangedDamageAddend(id,addend) end
 
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @param addend number [WIP] - Add description for parameter
 --- @return void
-function helperMethods.RegisterRangedCritAddend(id,addend) end
+function helperMethods.registerRangedCritAddend(id,addend) end
 
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @param multiplier number [WIP] - Add description for parameter
 --- @return void
-function helperMethods.RegisterRangedDamageMultiplier(id,multiplier) end
+function helperMethods.registerRangedDamageMultiplier(id,multiplier) end
 
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @param multiplier number [WIP] - Add description for parameter
 --- @return void
-function helperMethods.RegisterRangedCritMultiplier(id,multiplier) end
+function helperMethods.registerRangedCritMultiplier(id,multiplier) end
 
 return helperMethods

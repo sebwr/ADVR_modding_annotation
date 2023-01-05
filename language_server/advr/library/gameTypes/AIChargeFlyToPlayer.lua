@@ -31,24 +31,24 @@ AIChargeFlyToPlayer = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIChargeFlyToPlayer.Start() end
+function AIChargeFlyToPlayer.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIChargeFlyToPlayer.OnLoosePlayer() end
+function AIChargeFlyToPlayer.onLoosePlayer() end
 
 --- [WIP] - No method annotation provided
 --- @param infos HitEventInfos [WIP] - Add description for parameter
 --- @param dmg integer [WIP] - Add description for parameter
 --- @return void
-function AIChargeFlyToPlayer.OnHit(infos,dmg) end
+function AIChargeFlyToPlayer.onHit(infos,dmg) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIChargeFlyToPlayer.OnSeePlayer() end
+function AIChargeFlyToPlayer.onSeePlayer() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIChargeFlyToPlayer.Update() end
+function AIChargeFlyToPlayer.update() end
 
 return AIChargeFlyToPlayer

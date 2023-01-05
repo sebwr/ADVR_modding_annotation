@@ -39,24 +39,24 @@ BulletBase = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function BulletBase.Start() end
+function BulletBase.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function BulletBase.Update() end
+function BulletBase.update() end
 
 --- [WIP] - No method annotation provided
 --- @param r Rigidbody [WIP] - Add description for parameter
 --- @return void
-function BulletBase.OnCollisionOrTrigger(r) end
+function BulletBase.onCollisionOrTrigger(r) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function BulletBase.InvertVelocity() end
+function BulletBase.invertVelocity() end
 
 --- [WIP] - No method annotation provided
 --- @param source GameObject [WIP] - Add description for parameter
 --- @return void
-function BulletBase.OnDeath(source) end
+function BulletBase.onDeath(source) end
 
 return BulletBase

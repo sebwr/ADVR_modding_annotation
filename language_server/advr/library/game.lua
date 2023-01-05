@@ -155,99 +155,99 @@ function game.remove_ObjectSpawned(value) end
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function game.GetGameVersion() end
+function game.getGameVersion() end
 
 --- [WIP] - No method annotation provided
 --- @return string
-function game.GetGameVersionString() end
+function game.getGameVersionString() end
 
 --- [WIP] - No method annotation provided
 --- @return string
-function game.GetSaveFileNameExperimentalIncluded() end
+function game.getSaveFileNameExperimentalIncluded() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function game.EndRunFadeout() end
+function game.endRunFadeout() end
 
 --- [WIP] - No method annotation provided
 --- @param itemBase ItemBase [WIP] - Add description for parameter
 --- @return integer
-function game.GetHandCountForItem(itemBase) end
+function game.getHandCountForItem(itemBase) end
 
 --- [WIP] - No method annotation provided
 --- @param removeSave boolean [WIP] - Add description for parameter
 --- @return void
-function game.EndRun(removeSave) end
+function game.endRun(removeSave) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function game.GenerateModdingDocumentation() end
+function game.generateModdingDocumentation() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function game.GenerateLuaLanguageServerConfig() end
+function game.generateLuaLanguageServerConfig() end
 
 --- [WIP] - No method annotation provided
 --- @param _s string [WIP] - Add description for parameter
 --- @return void
-function game.OnControllerSet(_s) end
+function game.onControllerSet(_s) end
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function game.IsVanillaRun() end
+function game.isVanillaRun() end
 
 --- [WIP] - No method annotation provided
 --- @param val number [WIP] - Add description for parameter
 --- @return void
-function game.ChangePlayerMoveSpeed(val) end
+function game.changePlayerMoveSpeed(val) end
 
 --- TODO @Eric
 --- @param text string The text which is shown
 --- @param duration number How long the text is shown
 --- @param popupSpeed number How fast the popup is opened
 --- @return void
-function game.ShowMessageInWorld(text,duration,popupSpeed) end
+function game.showMessageInWorld(text,duration,popupSpeed) end
 
 --- [WIP] - No method annotation provided
 --- @param g GameObject [WIP] - Add description for parameter
 --- @return void
-function game.Delete(g) end
+function game.delete(g) end
 
 --- [WIP] - No method annotation provided
 --- @param tag string [WIP] - Add description for parameter
 --- @return GameObject
-function game.GetObjectWithTag(tag) end
+function game.getObjectWithTag(tag) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function game.RefreshHomeBaseUIs() end
+function game.refreshHomeBaseUIs() end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @param precision boolean [WIP] - Add description for parameter
 --- @return void
-function game.TeleportTo(position,precision) end
+function game.teleportTo(position,precision) end
 
 --- [WIP] - No method annotation provided
 --- @param rotation number [WIP] - Add description for parameter
 --- @param fadeSpeed number [WIP] - Add description for parameter
 --- @return void
-function game.FaceInDirectionCameraRigWithFade(rotation,fadeSpeed) end
+function game.faceInDirectionCameraRigWithFade(rotation,fadeSpeed) end
 
 --- [WIP] - No method annotation provided
 --- @param fadeSpeed number [WIP] - Add description for parameter
 --- @return void
-function game.RotateTowardsClosestSnapTurnAngle(fadeSpeed) end
+function game.rotateTowardsClosestSnapTurnAngle(fadeSpeed) end
 
 --- [WIP] - No method annotation provided
 --- @param _rotation number [WIP] - Add description for parameter
 --- @return void
-function game.FaceInDirCameraRig(_rotation) end
+function game.faceInDirCameraRig(_rotation) end
 
 --- [WIP] - No method annotation provided
 --- @param rot number [WIP] - Add description for parameter
 --- @return void
-function game.FaceInDir(rot) end
+function game.faceInDir(rot) end
 
 --- [WIP] - No method annotation provided
 --- @param amount integer [WIP] - Add description for parameter
@@ -261,18 +261,18 @@ function game.FaceInDir(rot) end
 --- @param shootingSound ADSoundEffect [WIP] - Add description for parameter
 --- @param randXDegreeDiff number [WIP] - Add description for parameter
 --- @return GameObject[]
-function game.FireMultiProjectile(amount,degreesDiff,source,forward,projectilePrefab,pos,collsToIgnore,speed,shootingSound,randXDegreeDiff) end
+function game.fireMultiProjectile(amount,degreesDiff,source,forward,projectilePrefab,pos,collsToIgnore,speed,shootingSound,randXDegreeDiff) end
 
 --- [WIP] - No method annotation provided
 --- @param s string [WIP] - Add description for parameter
 --- @return GameObject
-function game.GetObjectMapping(s) end
+function game.getObjectMapping(s) end
 
 --- [WIP] - No method annotation provided
 --- @param _id string [WIP] - Add description for parameter
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @return GameObject
-function game.DropItem(_id,position) end
+function game.dropItem(_id,position) end
 
 --- [WIP] - No method annotation provided
 --- @param table string [WIP] - Add description for parameter
@@ -280,7 +280,7 @@ function game.DropItem(_id,position) end
 --- @param dropOffset Vector3 [WIP] - Add description for parameter
 --- @param hash integer [WIP] - Add description for parameter
 --- @return GameObject[]
-function game.DropItemFromTable(table,position,dropOffset,hash) end
+function game.dropItemFromTable(table,position,dropOffset,hash) end
 
 --- [WIP] - No method annotation provided
 --- @param source Transform [WIP] - Add description for parameter
@@ -292,39 +292,39 @@ function game.DropItemFromTable(table,position,dropOffset,hash) end
 --- @param shootingSound ADSoundEffect [WIP] - Add description for parameter
 --- @param maxDist number [WIP] - Add description for parameter
 --- @return GameObject
-function game.FireProjectile(source,forward,projectilePrefab,pos,collsToIgnore,speed,shootingSound,maxDist) end
+function game.fireProjectile(source,forward,projectilePrefab,pos,collsToIgnore,speed,shootingSound,maxDist) end
 
 --- [WIP] - No method annotation provided
 --- @param obj GameObject [WIP] - Add description for parameter
 --- @param pos Vector3 [WIP] - Add description for parameter
 --- @return GameObject
-function game.SpawnObject(obj,pos) end
+function game.spawnObject(obj,pos) end
 
 --- [WIP] - No method annotation provided
 --- @param obj GameObject [WIP] - Add description for parameter
 --- @param pos Vector3 [WIP] - Add description for parameter
 --- @return GameObject
-function game.SpawnObjectWithoutEvents(obj,pos) end
+function game.spawnObjectWithoutEvents(obj,pos) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param pos Vector3 [WIP] - Add description for parameter
 --- @return GameObject
-function game.SpawnObject(name,pos) end
+function game.spawnObject(name,pos) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param amount integer [WIP] - Add description for parameter
 --- @param pos Vector3 [WIP] - Add description for parameter
 --- @return GameObject[]
-function game.SpawnObjects(name,amount,pos) end
+function game.spawnObjects(name,amount,pos) end
 
 --- [WIP] - No method annotation provided
 --- @param radius number [WIP] - Add description for parameter
 --- @param center Vector3 [WIP] - Add description for parameter
 --- @param onlyVisible boolean [WIP] - Add description for parameter
 --- @return EnemyBase[]
-function game.GetEnemiesInRadius(radius,center,onlyVisible) end
+function game.getEnemiesInRadius(radius,center,onlyVisible) end
 
 --- [WIP] - No method annotation provided
 --- @param radius number [WIP] - Add description for parameter
@@ -332,32 +332,32 @@ function game.GetEnemiesInRadius(radius,center,onlyVisible) end
 --- @param forceMultiplier number [WIP] - Add description for parameter
 --- @param t Transform [WIP] - Add description for parameter
 --- @return void
-function game.CreateExplosion(radius,damage,forceMultiplier,t) end
+function game.createExplosion(radius,damage,forceMultiplier,t) end
 
 --- [WIP] - No method annotation provided
 --- @param g GameObject [WIP] - Add description for parameter
 --- @return void
-function game.CheckObjectForShadows(g) end
+function game.checkObjectForShadows(g) end
 
 --- [WIP] - No method annotation provided
 --- @param prefab GameObject [WIP] - Add description for parameter
 --- @param parent Transform [WIP] - Add description for parameter
 --- @param instantiateInWorldSpace boolean [WIP] - Add description for parameter
 --- @return GameObject
-function game.QueueInstantiate(prefab,parent,instantiateInWorldSpace) end
+function game.queueInstantiate(prefab,parent,instantiateInWorldSpace) end
 
 --- [WIP] - No method annotation provided
 --- @param prefab GameObject [WIP] - Add description for parameter
 --- @param parent Transform [WIP] - Add description for parameter
 --- @return GameObject
-function game.QueueInstantiate(prefab,parent) end
+function game.queueInstantiate(prefab,parent) end
 
 --- [WIP] - No method annotation provided
 --- @param prefab GameObject [WIP] - Add description for parameter
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @param rotation Quaternion [WIP] - Add description for parameter
 --- @return GameObject
-function game.QueueInstantiate(prefab,position,rotation) end
+function game.queueInstantiate(prefab,position,rotation) end
 
 --- [WIP] - No method annotation provided
 --- @param prefab GameObject [WIP] - Add description for parameter
@@ -365,41 +365,41 @@ function game.QueueInstantiate(prefab,position,rotation) end
 --- @param rotation Quaternion [WIP] - Add description for parameter
 --- @param parent Transform [WIP] - Add description for parameter
 --- @return GameObject
-function game.QueueInstantiate(prefab,position,rotation,parent) end
+function game.queueInstantiate(prefab,position,rotation,parent) end
 
 --- [WIP] - No method annotation provided
 --- @param radius number [WIP] - Add description for parameter
 --- @param center Vector3 [WIP] - Add description for parameter
 --- @param onlyVisible boolean [WIP] - Add description for parameter
 --- @return LivingBase[]
-function game.GetLivingInRadius(radius,center,onlyVisible) end
+function game.getLivingInRadius(radius,center,onlyVisible) end
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function game.IsInMenu() end
+function game.isInMenu() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function game.OnPausedResumePress() end
+function game.onPausedResumePress() end
 
 --- [WIP] - No method annotation provided
 --- @param _type string [WIP] - Add description for parameter
 --- @return Object[]
-function game.FindObjectsOfType(_type) end
+function game.findObjectsOfType(_type) end
 
 --- [WIP] - No method annotation provided
 --- @param _type string [WIP] - Add description for parameter
 --- @return Object
-function game.FindObjectOfType(_type) end
+function game.findObjectOfType(_type) end
 
 --- [WIP] - No method annotation provided
 --- @param v boolean [WIP] - Add description for parameter
 --- @return void
-function game.ToggleShadowsForObjectsInScene(v) end
+function game.toggleShadowsForObjectsInScene(v) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function game.DebugTestStaticBatch() end
+function game.debugTestStaticBatch() end
 
 --- [WIP] - No method annotation provided
 --- @param dmg string [WIP] - Add description for parameter
@@ -408,21 +408,21 @@ function game.DebugTestStaticBatch() end
 --- @param critical boolean [WIP] - Add description for parameter
 --- @param timeToStay number [WIP] - Add description for parameter
 --- @return void
-function game.SpawnHit(dmg,pos,attacktype,critical,timeToStay) end
+function game.spawnHit(dmg,pos,attacktype,critical,timeToStay) end
 
 --- [WIP] - No method annotation provided
 --- @param strength number [WIP] - Add description for parameter
 --- @param duration number [WIP] - Add description for parameter
 --- @param pulseInterval number [WIP] - Add description for parameter
 --- @return void
-function game.DoHapticPulseWithMainUIHand(strength,duration,pulseInterval) end
+function game.doHapticPulseWithMainUIHand(strength,duration,pulseInterval) end
 
 --- [WIP] - No method annotation provided
 --- @param strength number [WIP] - Add description for parameter
 --- @param duration number [WIP] - Add description for parameter
 --- @param pulseInterval number [WIP] - Add description for parameter
 --- @return void
-function game.DoHapticPulseWithMainHand(strength,duration,pulseInterval) end
+function game.doHapticPulseWithMainHand(strength,duration,pulseInterval) end
 
 --- [WIP] - No method annotation provided
 --- @param handType HandType [WIP] - Add description for parameter
@@ -430,19 +430,19 @@ function game.DoHapticPulseWithMainHand(strength,duration,pulseInterval) end
 --- @param duration number [WIP] - Add description for parameter
 --- @param pulseInterval number [WIP] - Add description for parameter
 --- @return void
-function game.DoHapticPulse(handType,strength,duration,pulseInterval) end
+function game.doHapticPulse(handType,strength,duration,pulseInterval) end
 
 --- [WIP] - No method annotation provided
 --- @param item ItemBase [WIP] - Add description for parameter
 --- @param left boolean [WIP] - Add description for parameter
 --- @return void
-function game.RegisterToHighlightInfo(item,left) end
+function game.registerToHighlightInfo(item,left) end
 
 --- [WIP] - No method annotation provided
 --- @param item ItemBase [WIP] - Add description for parameter
 --- @param left boolean [WIP] - Add description for parameter
 --- @return void
-function game.UnregisterFromHighlightInfo(item,left) end
+function game.unregisterFromHighlightInfo(item,left) end
 
 --- [WIP] - No method annotation provided
 --- @param reset boolean [WIP] - Add description for parameter
@@ -450,48 +450,48 @@ function game.UnregisterFromHighlightInfo(item,left) end
 --- @param seed integer [WIP] - Add description for parameter
 --- @param _yRotationLastFloor number [WIP] - Add description for parameter
 --- @return void
-function game.GenerateNewDungeon(reset,offset,seed,_yRotationLastFloor) end
+function game.generateNewDungeon(reset,offset,seed,_yRotationLastFloor) end
 
 --- [WIP] - No method annotation provided
 --- @return WeaponComboDiskRepresentation
-function game.GetPlayerWeaponCombo() end
+function game.getPlayerWeaponCombo() end
 
 --- [WIP] - No method annotation provided
 --- @param _e EnemyBase [WIP] - Add description for parameter
 --- @return void
-function game.RegisterEnemy(_e) end
+function game.registerEnemy(_e) end
 
 --- [WIP] - No method annotation provided
 --- @param _e EnemyBase [WIP] - Add description for parameter
 --- @return void
-function game.UnregisterEnemy(_e) end
+function game.unregisterEnemy(_e) end
 
 --- [WIP] - No method annotation provided
 --- @param _l LivingBase [WIP] - Add description for parameter
 --- @return void
-function game.RegisterLiving(_l) end
+function game.registerLiving(_l) end
 
 --- [WIP] - No method annotation provided
 --- @param _l LivingBase [WIP] - Add description for parameter
 --- @return void
-function game.UnregisterLiving(_l) end
+function game.unregisterLiving(_l) end
 
 --- [WIP] - No method annotation provided
 --- @param scale number [WIP] - Add description for parameter
 --- @return void
-function game.SetFogDistance(scale) end
+function game.setFogDistance(scale) end
 
 --- [WIP] - No method annotation provided
 --- @return number
-function game.GetFogDistance() end
+function game.getFogDistance() end
 
 --- [WIP] - No method annotation provided
 --- @param c Color [WIP] - Add description for parameter
 --- @return void
-function game.SetAmbientLight(c) end
+function game.setAmbientLight(c) end
 
 --- [WIP] - No method annotation provided
 --- @return Color
-function game.GetAmbientLight() end
+function game.getAmbientLight() end
 
 return game

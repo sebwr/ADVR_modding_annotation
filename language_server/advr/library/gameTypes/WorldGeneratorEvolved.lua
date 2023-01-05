@@ -64,47 +64,47 @@ function WorldGeneratorEvolved.remove_DungeonCompleted(value) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function WorldGeneratorEvolved.ReadBuildingTilesFromDisk() end
+function WorldGeneratorEvolved.readBuildingTilesFromDisk() end
 
 --- [WIP] - No method annotation provided
 --- @param _file RoomFile [WIP] - Add description for parameter
 --- @param forceSeed integer [WIP] - Add description for parameter
 --- @return void
-function WorldGeneratorEvolved.ForceSpawnRoom(_file,forceSeed) end
+function WorldGeneratorEvolved.forceSpawnRoom(_file,forceSeed) end
 
 --- [WIP] - No method annotation provided
 --- @param x integer [WIP] - Add description for parameter
 --- @param y integer [WIP] - Add description for parameter
 --- @return ValueTuple<RoomCreator+RoomFile+TileInRoom, RoomCreator+RoomFile>
-function WorldGeneratorEvolved.TG(x,y) end
+function WorldGeneratorEvolved.tG(x,y) end
 
 --- [WIP] - No method annotation provided
 --- @param _pos Vector2Int [WIP] - Add description for parameter
 --- @return ValueTuple<RoomCreator+RoomFile+TileInRoom, RoomCreator+RoomFile>
-function WorldGeneratorEvolved.TG(_pos) end
+function WorldGeneratorEvolved.tG(_pos) end
 
 --- [WIP] - No method annotation provided
 --- @param forceSeed integer [WIP] - Add description for parameter
 --- @param offset Vector3 [WIP] - Add description for parameter
 --- @param _yRotationLastFloor number [WIP] - Add description for parameter
 --- @return IEnumerator
-function WorldGeneratorEvolved.WorldGenerationRoutine(forceSeed,offset,_yRotationLastFloor) end
+function WorldGeneratorEvolved.worldGenerationRoutine(forceSeed,offset,_yRotationLastFloor) end
 
 --- [WIP] - No method annotation provided
 --- @return HashSet<RoomCreator+RoomFile>
-function WorldGeneratorEvolved.GetAllRoomsInWorld() end
+function WorldGeneratorEvolved.getAllRoomsInWorld() end
 
 --- [WIP] - No method annotation provided
 --- @param start Vector2Int [WIP] - Add description for parameter
 --- @param end Vector2Int [WIP] - Add description for parameter
 --- @param searchSize integer [WIP] - Add description for parameter
 --- @return Vector2Int[]
-function WorldGeneratorEvolved.PathfindFromTo(start,end,searchSize) end
+function WorldGeneratorEvolved.pathfindFromTo(start,end,searchSize) end
 
 --- [WIP] - No method annotation provided
 --- @param _currentRoom RoomFile [WIP] - Add description for parameter
 --- @return List<RoomCreator+RoomFile>
-function WorldGeneratorEvolved.GetClusterEnds(_currentRoom) end
+function WorldGeneratorEvolved.getClusterEnds(_currentRoom) end
 
 --- [WIP] - No method annotation provided
 --- @param clusterId integer [WIP] - Add description for parameter
@@ -112,7 +112,7 @@ function WorldGeneratorEvolved.GetClusterEnds(_currentRoom) end
 --- @param _deepness integer [WIP] - Add description for parameter
 --- @param _specialRooms SpecialRoomsForDeepness [WIP] - Add description for parameter
 --- @return List<RoomCreator+RoomFile>
-function WorldGeneratorEvolved.GenerateCluster(clusterId,_fromRoom,_deepness,_specialRooms) end
+function WorldGeneratorEvolved.generateCluster(clusterId,_fromRoom,_deepness,_specialRooms) end
 
 --- [WIP] - No method annotation provided
 --- @param _fromRoom RoomFile [WIP] - Add description for parameter
@@ -124,7 +124,7 @@ function WorldGeneratorEvolved.GenerateCluster(clusterId,_fromRoom,_deepness,_sp
 --- @param _clusterId integer [WIP] - Add description for parameter
 --- @param randRotations boolean [WIP] - Add description for parameter
 --- @return RoomFile
-function WorldGeneratorEvolved.TryPlaceRoomAt(_fromRoom,_roomType,_roomVariant,_deepness,_minDoors,_spawnWallSpace,_clusterId,randRotations) end
+function WorldGeneratorEvolved.tryPlaceRoomAt(_fromRoom,_roomType,_roomVariant,_deepness,_minDoors,_spawnWallSpace,_clusterId,randRotations) end
 
 --- [WIP] - No method annotation provided
 --- @param _fromRoom RoomFile [WIP] - Add description for parameter
@@ -137,89 +137,89 @@ function WorldGeneratorEvolved.TryPlaceRoomAt(_fromRoom,_roomType,_roomVariant,_
 --- @param _clusterId integer [WIP] - Add description for parameter
 --- @param randRotations boolean [WIP] - Add description for parameter
 --- @return RoomFile
-function WorldGeneratorEvolved.PlaceRoomAt(_fromRoom,_doorDirection,_roomType,_variant,_deepness,minDoors,spawnWallSpace,_clusterId,randRotations) end
+function WorldGeneratorEvolved.placeRoomAt(_fromRoom,_doorDirection,_roomType,_variant,_deepness,minDoors,spawnWallSpace,_clusterId,randRotations) end
 
 --- [WIP] - No method annotation provided
 --- @param _attachRoom RoomFile [WIP] - Add description for parameter
 --- @param _goalPos Vector2Int [WIP] - Add description for parameter
 --- @return IEnumerator
-function WorldGeneratorEvolved.SpawnWallSpaces(_attachRoom,_goalPos) end
+function WorldGeneratorEvolved.spawnWallSpaces(_attachRoom,_goalPos) end
 
 --- [WIP] - No method annotation provided
 --- @param forceSeed integer [WIP] - Add description for parameter
 --- @return void
-function WorldGeneratorEvolved.ForceSpawn(forceSeed) end
+function WorldGeneratorEvolved.forceSpawn(forceSeed) end
 
 --- [WIP] - No method annotation provided
 --- @param _r RoomFile [WIP] - Add description for parameter
 --- @param _baseDeepness integer [WIP] - Add description for parameter
 --- @return integer
-function WorldGeneratorEvolved.GetRoomClusterSize(_r,_baseDeepness) end
+function WorldGeneratorEvolved.getRoomClusterSize(_r,_baseDeepness) end
 
 --- [WIP] - No method annotation provided
 --- @param _r RoomFile [WIP] - Add description for parameter
 --- @return RoomFile
-function WorldGeneratorEvolved.GetPredecessorRoot(_r) end
+function WorldGeneratorEvolved.getPredecessorRoot(_r) end
 
 --- [WIP] - No method annotation provided
 --- @param forceSeed integer [WIP] - Add description for parameter
 --- @param offset Vector3 [WIP] - Add description for parameter
 --- @param _yRotationLastFloor number [WIP] - Add description for parameter
 --- @return void
-function WorldGeneratorEvolved.GenerateWorld(forceSeed,offset,_yRotationLastFloor) end
+function WorldGeneratorEvolved.generateWorld(forceSeed,offset,_yRotationLastFloor) end
 
 --- [WIP] - No method annotation provided
 --- @param g GameObject [WIP] - Add description for parameter
 --- @return void
-function WorldGeneratorEvolved.UpdateMat(g) end
+function WorldGeneratorEvolved.updateMat(g) end
 
 --- [WIP] - No method annotation provided
 --- @param g GameObject [WIP] - Add description for parameter
 --- @return void
-function WorldGeneratorEvolved.UpdateParticleMat(g) end
+function WorldGeneratorEvolved.updateParticleMat(g) end
 
 --- [WIP] - No method annotation provided
 --- @param _g GameObject [WIP] - Add description for parameter
 --- @return void
-function WorldGeneratorEvolved.TryQueueForStaticBatching(_g) end
+function WorldGeneratorEvolved.tryQueueForStaticBatching(_g) end
 
 --- [WIP] - No method annotation provided
 --- @return IEnumerator
-function WorldGeneratorEvolved.GenerateWorldObjects() end
+function WorldGeneratorEvolved.generateWorldObjects() end
 
 --- [WIP] - No method annotation provided
 --- @param pos Vector2Int [WIP] - Add description for parameter
 --- @return TileInRoom
-function WorldGeneratorEvolved.TileAt(pos) end
+function WorldGeneratorEvolved.tileAt(pos) end
 
 --- [WIP] - No method annotation provided
 --- @param x integer [WIP] - Add description for parameter
 --- @param y integer [WIP] - Add description for parameter
 --- @return TileInRoom
-function WorldGeneratorEvolved.TileAt(x,y) end
+function WorldGeneratorEvolved.tileAt(x,y) end
 
 --- [WIP] - No method annotation provided
 --- @param x integer [WIP] - Add description for parameter
 --- @param y integer [WIP] - Add description for parameter
 --- @return string
-function WorldGeneratorEvolved.TileAtId(x,y) end
+function WorldGeneratorEvolved.tileAtId(x,y) end
 
 --- [WIP] - No method annotation provided
 --- @param x integer [WIP] - Add description for parameter
 --- @param y integer [WIP] - Add description for parameter
 --- @return RoomFile
-function WorldGeneratorEvolved.RoomAt(x,y) end
+function WorldGeneratorEvolved.roomAt(x,y) end
 
 --- [WIP] - No method annotation provided
 --- @param x integer [WIP] - Add description for parameter
 --- @param y integer [WIP] - Add description for parameter
 --- @return TileInRoom[]
-function WorldGeneratorEvolved.GetNeighboringTiles(x,y) end
+function WorldGeneratorEvolved.getNeighboringTiles(x,y) end
 
 --- [WIP] - No method annotation provided
 --- @param pos Vector2Int [WIP] - Add description for parameter
 --- @return ValueTuple`2[]
-function WorldGeneratorEvolved.GetNeighboringTiles(pos) end
+function WorldGeneratorEvolved.getNeighboringTiles(pos) end
 
 --- [WIP] - No method annotation provided
 --- @param x integer [WIP] - Add description for parameter
@@ -227,64 +227,64 @@ function WorldGeneratorEvolved.GetNeighboringTiles(pos) end
 --- @param corners boolean [WIP] - Add description for parameter
 --- @param tiles string[] [WIP] - Add description for parameter
 --- @return integer
-function WorldGeneratorEvolved.GetAmountOfNeighbouringTiles(x,y,corners,tiles) end
+function WorldGeneratorEvolved.getAmountOfNeighbouringTiles(x,y,corners,tiles) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function WorldGeneratorEvolved.CompleteDungeon() end
+function WorldGeneratorEvolved.completeDungeon() end
 
 --- [WIP] - No method annotation provided
 --- @param s string [WIP] - Add description for parameter
 --- @return boolean
-function WorldGeneratorEvolved.IsEmptyOrBlocked(s) end
+function WorldGeneratorEvolved.isEmptyOrBlocked(s) end
 
 --- [WIP] - No method annotation provided
 --- @param _t TileInRoom [WIP] - Add description for parameter
 --- @return boolean
-function WorldGeneratorEvolved.IsEmptyOrBlocked(_t) end
+function WorldGeneratorEvolved.isEmptyOrBlocked(_t) end
 
 --- [WIP] - No method annotation provided
 --- @param x integer [WIP] - Add description for parameter
 --- @param y integer [WIP] - Add description for parameter
 --- @return boolean
-function WorldGeneratorEvolved.IsEmptyOrBlocked(x,y) end
+function WorldGeneratorEvolved.isEmptyOrBlocked(x,y) end
 
 --- [WIP] - No method annotation provided
 --- @return Dictionary<UnityEngine.Vector2Int, ValueTuple<RoomCreator+RoomFile+TileInRoom, RoomCreator+RoomFile>>
-function WorldGeneratorEvolved.GetWorld() end
+function WorldGeneratorEvolved.getWorld() end
 
 --- [WIP] - No method annotation provided
 --- @param pos Vector3 [WIP] - Add description for parameter
 --- @return TileInRoom
-function WorldGeneratorEvolved.GetTileAtRealPos(pos) end
+function WorldGeneratorEvolved.getTileAtRealPos(pos) end
 
 --- [WIP] - No method annotation provided
 --- @param pos Vector3 [WIP] - Add description for parameter
 --- @param includeEmpty boolean [WIP] - Add description for parameter
 --- @return RoomFile
-function WorldGeneratorEvolved.GetRoomAtRealPosExtended(pos,includeEmpty) end
+function WorldGeneratorEvolved.getRoomAtRealPosExtended(pos,includeEmpty) end
 
 --- [WIP] - No method annotation provided
 --- @param pos Vector3 [WIP] - Add description for parameter
 --- @return ValueTuple<RoomCreator+RoomFile+TileInRoom, RoomCreator+RoomFile>
-function WorldGeneratorEvolved.GetTGAtRealPos(pos) end
+function WorldGeneratorEvolved.getTGAtRealPos(pos) end
 
 --- [WIP] - No method annotation provided
 --- @param pos Vector3 [WIP] - Add description for parameter
 --- @param includeEmpty boolean [WIP] - Add description for parameter
 --- @return RoomFile
-function WorldGeneratorEvolved.GetRoomAtRealPos(pos,includeEmpty) end
+function WorldGeneratorEvolved.getRoomAtRealPos(pos,includeEmpty) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function WorldGeneratorEvolved.InitValues() end
+function WorldGeneratorEvolved.initValues() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function WorldGeneratorEvolved.ReadRoomsFromDisk() end
+function WorldGeneratorEvolved.readRoomsFromDisk() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function WorldGeneratorEvolved.OnDrawGizmos() end
+function WorldGeneratorEvolved.onDrawGizmos() end
 
 return WorldGeneratorEvolved

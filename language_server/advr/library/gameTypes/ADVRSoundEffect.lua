@@ -23,11 +23,11 @@ ADVRSoundEffect = {}
 --- @param pitchMultiplier number [WIP] - Add description for parameter
 --- @param followObject Transform [WIP] - Add description for parameter
 --- @return void
-function ADVRSoundEffect.PlaySoundAt(position,volume,pitchMultiplier,followObject) end
+function ADVRSoundEffect.playSoundAt(position,volume,pitchMultiplier,followObject) end
 
 --- [WIP] - No method annotation provided
 --- @param volume number [WIP] - Add description for parameter
 --- @return void
-function ADVRSoundEffect.PlaySound(volume) end
+function ADVRSoundEffect.playSound(volume) end
 
 return ADVRSoundEffect

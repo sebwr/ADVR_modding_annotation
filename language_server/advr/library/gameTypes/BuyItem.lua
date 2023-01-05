@@ -10,11 +10,11 @@ BuyItem = {}
 --- [WIP] - No method annotation provided
 --- @param v integer [WIP] - Add description for parameter
 --- @return void
-function BuyItem.SetHashOffset(v) end
+function BuyItem.setHashOffset(v) end
 
 --- [WIP] - No method annotation provided
 --- @param g GameObject [WIP] - Add description for parameter
 --- @return void
-function BuyItem.SpawnItem(g) end
+function BuyItem.spawnItem(g) end
 
 return BuyItem

@@ -36,37 +36,37 @@ AIFlyToPlayer = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIFlyToPlayer.OnEnable() end
+function AIFlyToPlayer.onEnable() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIFlyToPlayer.RefreshTargetPos() end
+function AIFlyToPlayer.refreshTargetPos() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIFlyToPlayer.OnLoosePlayer() end
+function AIFlyToPlayer.onLoosePlayer() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIFlyToPlayer.OnSeePlayer() end
+function AIFlyToPlayer.onSeePlayer() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIFlyToPlayer.OnHitPlayer() end
+function AIFlyToPlayer.onHitPlayer() end
 
 --- [WIP] - No method annotation provided
 --- @param infos HitEventInfos [WIP] - Add description for parameter
 --- @param dmg integer [WIP] - Add description for parameter
 --- @return void
-function AIFlyToPlayer.OnHit(infos,dmg) end
+function AIFlyToPlayer.onHit(infos,dmg) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIFlyToPlayer.Update() end
+function AIFlyToPlayer.update() end
 
 --- [WIP] - No method annotation provided
 --- @param run integer [WIP] - Add description for parameter
 --- @return Vector3
-function AIFlyToPlayer.GetNewTargetPos(run) end
+function AIFlyToPlayer.getNewTargetPos(run) end
 
 return AIFlyToPlayer

@@ -11,6 +11,6 @@ PlayerStatsUI = {}
 
 --- [WIP] - No method annotation provided
 --- @return IEnumerator
-function PlayerStatsUI.PrintTwitchChat() end
+function PlayerStatsUI.printTwitchChat() end
 
 return PlayerStatsUI

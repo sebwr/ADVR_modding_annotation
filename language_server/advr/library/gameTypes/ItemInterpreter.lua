@@ -14,21 +14,21 @@ ItemInterpreter = {}
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @return PickupDiskRepresentation
-function ItemInterpreter.GetItemById(id) end
+function ItemInterpreter.getItemById(id) end
 
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @return integer
-function ItemInterpreter.PickupFoundInRun(id) end
+function ItemInterpreter.pickupFoundInRun(id) end
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function ItemInterpreter.TotalPickupsFoundInRun() end
+function ItemInterpreter.totalPickupsFoundInRun() end
 
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @return PickupDiskRepresentation
-function ItemInterpreter.GetPickupById(id) end
+function ItemInterpreter.getPickupById(id) end
 
 --- [WIP] - No method annotation provided
 --- @param seed integer [WIP] - Add description for parameter
@@ -36,20 +36,20 @@ function ItemInterpreter.GetPickupById(id) end
 --- @param forceTier integer [WIP] - Add description for parameter
 --- @param _try integer [WIP] - Add description for parameter
 --- @return PickupDiskRepresentation
-function ItemInterpreter.GetRandomPickup(seed,pool,forceTier,_try) end
+function ItemInterpreter.getRandomPickup(seed,pool,forceTier,_try) end
 
 --- [WIP] - No method annotation provided
 --- @param _pdr PickupDiskRepresentation [WIP] - Add description for parameter
 --- @return integer
-function ItemInterpreter.GetUpgradeAmount(_pdr) end
+function ItemInterpreter.getUpgradeAmount(_pdr) end
 
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @return GameObject
-function ItemInterpreter.GetObjectFromMapping(id) end
+function ItemInterpreter.getObjectFromMapping(id) end
 
 --- [WIP] - No method annotation provided
 --- @return IEnumerator
-function ItemInterpreter.ReadItemsFromDisk() end
+function ItemInterpreter.readItemsFromDisk() end
 
 return ItemInterpreter

@@ -7,6 +7,6 @@ CollapsedWallStartOfDungeon = {}
 --- [WIP] - No method annotation provided
 --- @param playSound boolean [WIP] - Add description for parameter
 --- @return void
-function CollapsedWallStartOfDungeon.EnableCollapsedWall(playSound) end
+function CollapsedWallStartOfDungeon.enableCollapsedWall(playSound) end
 
 return CollapsedWallStartOfDungeon

@@ -8,10 +8,10 @@ AchievementInterpreter = {}
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @return AchievementDiskRepresentation
-function AchievementInterpreter.GetAchievementById(id) end
+function AchievementInterpreter.getAchievementById(id) end
 
 --- [WIP] - No method annotation provided
 --- @return IEnumerator
-function AchievementInterpreter.ReadAchievementsFromDisk() end
+function AchievementInterpreter.readAchievementsFromDisk() end
 
 return AchievementInterpreter

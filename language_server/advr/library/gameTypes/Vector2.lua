@@ -16,48 +16,48 @@ Vector2 = {}
 --- @param newX number [WIP] - Add description for parameter
 --- @param newY number [WIP] - Add description for parameter
 --- @return void
-function Vector2.Set(newX,newY) end
+function Vector2.set(newX,newY) end
 
 --- [WIP] - No method annotation provided
 --- @param scale Vector2 [WIP] - Add description for parameter
 --- @return void
-function Vector2.Scale(scale) end
+function Vector2.scale(scale) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Vector2.Normalize() end
+function Vector2.normalize() end
 
 --- [WIP] - No method annotation provided
 --- @return string
-function Vector2.ToString() end
+function Vector2.toString() end
 
 --- [WIP] - No method annotation provided
 --- @param format string [WIP] - Add description for parameter
 --- @return string
-function Vector2.ToString(format) end
+function Vector2.toString(format) end
 
 --- [WIP] - No method annotation provided
 --- @param format string [WIP] - Add description for parameter
 --- @param formatProvider IFormatProvider [WIP] - Add description for parameter
 --- @return string
-function Vector2.ToString(format,formatProvider) end
+function Vector2.toString(format,formatProvider) end
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function Vector2.GetHashCode() end
+function Vector2.getHashCode() end
 
 --- [WIP] - No method annotation provided
 --- @param other Object [WIP] - Add description for parameter
 --- @return boolean
-function Vector2.Equals(other) end
+function Vector2.equals(other) end
 
 --- [WIP] - No method annotation provided
 --- @param other Vector2 [WIP] - Add description for parameter
 --- @return boolean
-function Vector2.Equals(other) end
+function Vector2.equals(other) end
 
 --- [WIP] - No method annotation provided
 --- @return number
-function Vector2.SqrMagnitude() end
+function Vector2.sqrMagnitude() end
 
 return Vector2

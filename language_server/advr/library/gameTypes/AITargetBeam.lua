@@ -27,10 +27,10 @@ AITargetBeam = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AITargetBeam.OnLoosePlayer() end
+function AITargetBeam.onLoosePlayer() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AITargetBeam.OnSeePlayer() end
+function AITargetBeam.onSeePlayer() end
 
 return AITargetBeam

@@ -8,17 +8,17 @@ LuaEventHandler = {}
 --- [WIP] - No method annotation provided
 --- @param r GenericRepresentation [WIP] - Add description for parameter
 --- @return void
-function LuaEventHandler.RegisterEventHandler(r) end
+function LuaEventHandler.registerEventHandler(r) end
 
 --- [WIP] - No method annotation provided
 --- @param type string [WIP] - Add description for parameter
 --- @param methodName string [WIP] - Add description for parameter
 --- @return void
-function LuaEventHandler.AddListener(type,methodName) end
+function LuaEventHandler.addListener(type,methodName) end
 
 --- [WIP] - No method annotation provided
 --- @param type string [WIP] - Add description for parameter
 --- @return void
-function LuaEventHandler.RemoveListener(type) end
+function LuaEventHandler.removeListener(type) end
 
 return LuaEventHandler

@@ -39,18 +39,18 @@ AIRandDirectionBud = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIRandDirectionBud.Update() end
+function AIRandDirectionBud.update() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIRandDirectionBud.Start() end
+function AIRandDirectionBud.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIRandDirectionBud.OnLoosePlayer() end
+function AIRandDirectionBud.onLoosePlayer() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIRandDirectionBud.OnSeePlayer() end
+function AIRandDirectionBud.onSeePlayer() end
 
 return AIRandDirectionBud

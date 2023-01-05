@@ -38,31 +38,31 @@ Light = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Light.Reset() end
+function Light.reset() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Light.SetLightDirty() end
+function Light.setLightDirty() end
 
 --- [WIP] - No method annotation provided
 --- @param evt LightEvent [WIP] - Add description for parameter
 --- @param buffer CommandBuffer [WIP] - Add description for parameter
 --- @return void
-function Light.AddCommandBuffer(evt,buffer) end
+function Light.addCommandBuffer(evt,buffer) end
 
 --- [WIP] - No method annotation provided
 --- @param evt LightEvent [WIP] - Add description for parameter
 --- @param buffer CommandBuffer [WIP] - Add description for parameter
 --- @param shadowPassMask ShadowMapPass [WIP] - Add description for parameter
 --- @return void
-function Light.AddCommandBuffer(evt,buffer,shadowPassMask) end
+function Light.addCommandBuffer(evt,buffer,shadowPassMask) end
 
 --- [WIP] - No method annotation provided
 --- @param evt LightEvent [WIP] - Add description for parameter
 --- @param buffer CommandBuffer [WIP] - Add description for parameter
 --- @param queueType ComputeQueueType [WIP] - Add description for parameter
 --- @return void
-function Light.AddCommandBufferAsync(evt,buffer,queueType) end
+function Light.addCommandBufferAsync(evt,buffer,queueType) end
 
 --- [WIP] - No method annotation provided
 --- @param evt LightEvent [WIP] - Add description for parameter
@@ -70,26 +70,26 @@ function Light.AddCommandBufferAsync(evt,buffer,queueType) end
 --- @param shadowPassMask ShadowMapPass [WIP] - Add description for parameter
 --- @param queueType ComputeQueueType [WIP] - Add description for parameter
 --- @return void
-function Light.AddCommandBufferAsync(evt,buffer,shadowPassMask,queueType) end
+function Light.addCommandBufferAsync(evt,buffer,shadowPassMask,queueType) end
 
 --- [WIP] - No method annotation provided
 --- @param evt LightEvent [WIP] - Add description for parameter
 --- @param buffer CommandBuffer [WIP] - Add description for parameter
 --- @return void
-function Light.RemoveCommandBuffer(evt,buffer) end
+function Light.removeCommandBuffer(evt,buffer) end
 
 --- [WIP] - No method annotation provided
 --- @param evt LightEvent [WIP] - Add description for parameter
 --- @return void
-function Light.RemoveCommandBuffers(evt) end
+function Light.removeCommandBuffers(evt) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Light.RemoveAllCommandBuffers() end
+function Light.removeAllCommandBuffers() end
 
 --- [WIP] - No method annotation provided
 --- @param evt LightEvent [WIP] - Add description for parameter
 --- @return CommandBuffer[]
-function Light.GetCommandBuffers(evt) end
+function Light.getCommandBuffers(evt) end
 
 return Light

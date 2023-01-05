@@ -13,18 +13,18 @@ RotateWhenIdle = {}
 --- @param _pos Vector3 [WIP] - Add description for parameter
 --- @param _delay number [WIP] - Add description for parameter
 --- @return IEnumerator
-function RotateWhenIdle.UpdatePositionRoutine(_pos,_delay) end
+function RotateWhenIdle.updatePositionRoutine(_pos,_delay) end
 
 --- [WIP] - No method annotation provided
 --- @param _pos Vector3 [WIP] - Add description for parameter
 --- @param _delay number [WIP] - Add description for parameter
 --- @return void
-function RotateWhenIdle.UpdatePosition(_pos,_delay) end
+function RotateWhenIdle.updatePosition(_pos,_delay) end
 
 --- [WIP] - No method annotation provided
 --- @param dist number [WIP] - Add description for parameter
 --- @param delay number [WIP] - Add description for parameter
 --- @return void
-function RotateWhenIdle.SetDistanceOverGround(dist,delay) end
+function RotateWhenIdle.setDistanceOverGround(dist,delay) end
 
 return RotateWhenIdle

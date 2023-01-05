@@ -15,20 +15,20 @@ CrossbowPullbackMechanism = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function CrossbowPullbackMechanism.Start() end
+function CrossbowPullbackMechanism.start() end
 
 --- [WIP] - No method annotation provided
 --- @param obj CallbackContext [WIP] - Add description for parameter
 --- @return void
-function CrossbowPullbackMechanism.OnUseStartLeft(obj) end
+function CrossbowPullbackMechanism.onUseStartLeft(obj) end
 
 --- [WIP] - No method annotation provided
 --- @param obj CallbackContext [WIP] - Add description for parameter
 --- @return void
-function CrossbowPullbackMechanism.OnUseStartRight(obj) end
+function CrossbowPullbackMechanism.onUseStartRight(obj) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function CrossbowPullbackMechanism.OnUseEnd() end
+function CrossbowPullbackMechanism.onUseEnd() end
 
 return CrossbowPullbackMechanism

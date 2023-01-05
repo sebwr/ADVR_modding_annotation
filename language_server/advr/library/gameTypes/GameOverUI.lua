@@ -17,10 +17,10 @@ GameOverUI = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function GameOverUI.Start() end
+function GameOverUI.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function GameOverUI.EndRun() end
+function GameOverUI.endRun() end
 
 return GameOverUI

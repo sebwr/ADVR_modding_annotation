@@ -46,10 +46,10 @@ AISkeletonTheMine = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AISkeletonTheMine.Start() end
+function AISkeletonTheMine.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AISkeletonTheMine.OnSeePlayer() end
+function AISkeletonTheMine.onSeePlayer() end
 
 return AISkeletonTheMine

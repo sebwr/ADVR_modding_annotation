@@ -41,6 +41,6 @@ AISkeletonChampion = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AISkeletonChampion.Update() end
+function AISkeletonChampion.update() end
 
 return AISkeletonChampion

@@ -31,17 +31,17 @@ Chest = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Chest.Start() end
+function Chest.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Chest.OpenChest() end
+function Chest.openChest() end
 
 --- [WIP] - No method annotation provided
 --- @param source GameObject [WIP] - Add description for parameter
 --- @param dmg integer [WIP] - Add description for parameter
 --- @param type ATTACKTYPE [WIP] - Add description for parameter
 --- @return void
-function Chest.OnHitEvent(source,dmg,type) end
+function Chest.onHitEvent(source,dmg,type) end
 
 return Chest

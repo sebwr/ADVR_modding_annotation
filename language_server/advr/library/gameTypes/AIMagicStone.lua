@@ -26,18 +26,18 @@ AIMagicStone = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIMagicStone.Start() end
+function AIMagicStone.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIMagicStone.OnLoosePlayer() end
+function AIMagicStone.onLoosePlayer() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIMagicStone.OnSeePlayer() end
+function AIMagicStone.onSeePlayer() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIMagicStone.Update() end
+function AIMagicStone.update() end
 
 return AIMagicStone

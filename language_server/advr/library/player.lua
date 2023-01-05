@@ -89,59 +89,59 @@ function player.remove_RoomEntered(value) end
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function player.CalculateInsightGainedForRun() end
+function player.calculateInsightGainedForRun() end
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function player.GetMeleeDamageWithPickupModifiers() end
+function player.getMeleeDamageWithPickupModifiers() end
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function player.GetRangedDamageWithPickupModifiers() end
+function player.getRangedDamageWithPickupModifiers() end
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function player.GetPrimaryDamageWithPickupModifiers() end
+function player.getPrimaryDamageWithPickupModifiers() end
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function player.GetSecondaryDamageWithPickupModifiers() end
+function player.getSecondaryDamageWithPickupModifiers() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function player.Start() end
+function player.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function player.CheckEnterRoom() end
+function player.checkEnterRoom() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function player.SavePlayerStatsForRun() end
+function player.savePlayerStatsForRun() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function player.LoadPlayerStatsFromSavedRun() end
+function player.loadPlayerStatsFromSavedRun() end
 
 --- [WIP] - No method annotation provided
 --- @param onlyVisited boolean [WIP] - Add description for parameter
 --- @return void
-function player.TeleportToNearestSolidTile(onlyVisited) end
+function player.teleportToNearestSolidTile(onlyVisited) end
 
 --- [WIP] - No method annotation provided
 --- @return Vector3
-function player.GetCenterInWorld() end
+function player.getCenterInWorld() end
 
 --- [WIP] - No method annotation provided
 --- @param _flying boolean [WIP] - Add description for parameter
 --- @return void
-function player.SetFlying(_flying) end
+function player.setFlying(_flying) end
 
 --- [WIP] - No method annotation provided
 --- @param damage integer [WIP] - Add description for parameter
 --- @param scaleWithNGPlus boolean [WIP] - Add description for parameter
 --- @return void
-function player.DamagePlayer(damage,scaleWithNGPlus) end
+function player.damagePlayer(damage,scaleWithNGPlus) end
 
 --- [WIP] - No method annotation provided
 --- @param _source GameObject [WIP] - Add description for parameter
@@ -150,21 +150,21 @@ function player.DamagePlayer(damage,scaleWithNGPlus) end
 --- @param _hitPos Vector3 [WIP] - Add description for parameter
 --- @param _critical boolean [WIP] - Add description for parameter
 --- @return number
-function player.DoHit(_source,_damage,_attackType,_hitPos,_critical) end
+function player.doHit(_source,_damage,_attackType,_hitPos,_critical) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function player.PlayBulletTimeSoundEffect() end
+function player.playBulletTimeSoundEffect() end
 
 --- [WIP] - No method annotation provided
 --- @param _time number [WIP] - Add description for parameter
 --- @param _scale number [WIP] - Add description for parameter
 --- @return void
-function player.ActivateBulletTime(_time,_scale) end
+function player.activateBulletTime(_time,_scale) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function player.Update() end
+function player.update() end
 
 --- [WIP] - No method annotation provided
 --- @param _source GameObject [WIP] - Add description for parameter
@@ -172,31 +172,31 @@ function player.Update() end
 --- @param _attacktype ATTACKTYPE [WIP] - Add description for parameter
 --- @param _hitPos Vector3 [WIP] - Add description for parameter
 --- @return boolean
-function player.IsHitValid(_source,_damage,_attacktype,_hitPos) end
+function player.isHitValid(_source,_damage,_attacktype,_hitPos) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function player.ResetPlayerStats() end
+function player.resetPlayerStats() end
 
 --- [WIP] - No method annotation provided
 --- @param source GameObject [WIP] - Add description for parameter
 --- @return void
-function player.OnDeath(source) end
+function player.onDeath(source) end
 
 --- [WIP] - No method annotation provided
 --- @param goalScale number [WIP] - Add description for parameter
 --- @param time number [WIP] - Add description for parameter
 --- @return void
-function player.ScaleTo(goalScale,time) end
+function player.scaleTo(goalScale,time) end
 
 --- [WIP] - No method annotation provided
 --- @return number
-function player.GetPlayerScale() end
+function player.getPlayerScale() end
 
 --- [WIP] - No method annotation provided
 --- @param dmg number [WIP] - Add description for parameter
 --- @param type ATTACKTYPE [WIP] - Add description for parameter
 --- @return void
-function player.DoEffectHit(dmg,type) end
+function player.doEffectHit(dmg,type) end
 
 return player

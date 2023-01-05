@@ -28,260 +28,260 @@ gameObject = {}
 
 --- [WIP] - No method annotation provided
 --- @return T
-function gameObject.GetComponent() end
+function gameObject.getComponent() end
 
 --- [WIP] - No method annotation provided
 --- @param type Type [WIP] - Add description for parameter
 --- @return Component
-function gameObject.GetComponent(type) end
+function gameObject.getComponent(type) end
 
 --- [WIP] - No method annotation provided
 --- @param type string [WIP] - Add description for parameter
 --- @return Component
-function gameObject.GetComponent(type) end
+function gameObject.getComponent(type) end
 
 --- [WIP] - No method annotation provided
 --- @param type Type [WIP] - Add description for parameter
 --- @param includeInactive boolean [WIP] - Add description for parameter
 --- @return Component
-function gameObject.GetComponentInChildren(type,includeInactive) end
+function gameObject.getComponentInChildren(type,includeInactive) end
 
 --- [WIP] - No method annotation provided
 --- @param type Type [WIP] - Add description for parameter
 --- @return Component
-function gameObject.GetComponentInChildren(type) end
+function gameObject.getComponentInChildren(type) end
 
 --- [WIP] - No method annotation provided
 --- @return T
-function gameObject.GetComponentInChildren() end
+function gameObject.getComponentInChildren() end
 
 --- [WIP] - No method annotation provided
 --- @param includeInactive boolean [WIP] - Add description for parameter
 --- @return T
-function gameObject.GetComponentInChildren(includeInactive) end
+function gameObject.getComponentInChildren(includeInactive) end
 
 --- [WIP] - No method annotation provided
 --- @param type Type [WIP] - Add description for parameter
 --- @param includeInactive boolean [WIP] - Add description for parameter
 --- @return Component
-function gameObject.GetComponentInParent(type,includeInactive) end
+function gameObject.getComponentInParent(type,includeInactive) end
 
 --- [WIP] - No method annotation provided
 --- @param type Type [WIP] - Add description for parameter
 --- @return Component
-function gameObject.GetComponentInParent(type) end
+function gameObject.getComponentInParent(type) end
 
 --- [WIP] - No method annotation provided
 --- @return T
-function gameObject.GetComponentInParent() end
+function gameObject.getComponentInParent() end
 
 --- [WIP] - No method annotation provided
 --- @param includeInactive boolean [WIP] - Add description for parameter
 --- @return T
-function gameObject.GetComponentInParent(includeInactive) end
+function gameObject.getComponentInParent(includeInactive) end
 
 --- [WIP] - No method annotation provided
 --- @param type Type [WIP] - Add description for parameter
 --- @return Component[]
-function gameObject.GetComponents(type) end
+function gameObject.getComponents(type) end
 
 --- [WIP] - No method annotation provided
 --- @return T[]
-function gameObject.GetComponents() end
+function gameObject.getComponents() end
 
 --- [WIP] - No method annotation provided
 --- @param type Type [WIP] - Add description for parameter
 --- @param results List<UnityEngine.Component> [WIP] - Add description for parameter
 --- @return void
-function gameObject.GetComponents(type,results) end
+function gameObject.getComponents(type,results) end
 
 --- [WIP] - No method annotation provided
 --- @param results List<> [WIP] - Add description for parameter
 --- @return void
-function gameObject.GetComponents(results) end
+function gameObject.getComponents(results) end
 
 --- [WIP] - No method annotation provided
 --- @param type Type [WIP] - Add description for parameter
 --- @return Component[]
-function gameObject.GetComponentsInChildren(type) end
-
---- [WIP] - No method annotation provided
---- @param type Type [WIP] - Add description for parameter
---- @param includeInactive boolean [WIP] - Add description for parameter
---- @return Component[]
-function gameObject.GetComponentsInChildren(type,includeInactive) end
-
---- [WIP] - No method annotation provided
---- @param includeInactive boolean [WIP] - Add description for parameter
---- @return T[]
-function gameObject.GetComponentsInChildren(includeInactive) end
-
---- [WIP] - No method annotation provided
---- @param includeInactive boolean [WIP] - Add description for parameter
---- @param results List<> [WIP] - Add description for parameter
---- @return void
-function gameObject.GetComponentsInChildren(includeInactive,results) end
-
---- [WIP] - No method annotation provided
---- @return T[]
-function gameObject.GetComponentsInChildren() end
-
---- [WIP] - No method annotation provided
---- @param results List<> [WIP] - Add description for parameter
---- @return void
-function gameObject.GetComponentsInChildren(results) end
-
---- [WIP] - No method annotation provided
---- @param type Type [WIP] - Add description for parameter
---- @return Component[]
-function gameObject.GetComponentsInParent(type) end
+function gameObject.getComponentsInChildren(type) end
 
 --- [WIP] - No method annotation provided
 --- @param type Type [WIP] - Add description for parameter
 --- @param includeInactive boolean [WIP] - Add description for parameter
 --- @return Component[]
-function gameObject.GetComponentsInParent(type,includeInactive) end
+function gameObject.getComponentsInChildren(type,includeInactive) end
+
+--- [WIP] - No method annotation provided
+--- @param includeInactive boolean [WIP] - Add description for parameter
+--- @return T[]
+function gameObject.getComponentsInChildren(includeInactive) end
 
 --- [WIP] - No method annotation provided
 --- @param includeInactive boolean [WIP] - Add description for parameter
 --- @param results List<> [WIP] - Add description for parameter
 --- @return void
-function gameObject.GetComponentsInParent(includeInactive,results) end
+function gameObject.getComponentsInChildren(includeInactive,results) end
+
+--- [WIP] - No method annotation provided
+--- @return T[]
+function gameObject.getComponentsInChildren() end
+
+--- [WIP] - No method annotation provided
+--- @param results List<> [WIP] - Add description for parameter
+--- @return void
+function gameObject.getComponentsInChildren(results) end
+
+--- [WIP] - No method annotation provided
+--- @param type Type [WIP] - Add description for parameter
+--- @return Component[]
+function gameObject.getComponentsInParent(type) end
+
+--- [WIP] - No method annotation provided
+--- @param type Type [WIP] - Add description for parameter
+--- @param includeInactive boolean [WIP] - Add description for parameter
+--- @return Component[]
+function gameObject.getComponentsInParent(type,includeInactive) end
+
+--- [WIP] - No method annotation provided
+--- @param includeInactive boolean [WIP] - Add description for parameter
+--- @param results List<> [WIP] - Add description for parameter
+--- @return void
+function gameObject.getComponentsInParent(includeInactive,results) end
 
 --- [WIP] - No method annotation provided
 --- @param includeInactive boolean [WIP] - Add description for parameter
 --- @return T[]
-function gameObject.GetComponentsInParent(includeInactive) end
+function gameObject.getComponentsInParent(includeInactive) end
 
 --- [WIP] - No method annotation provided
 --- @return T[]
-function gameObject.GetComponentsInParent() end
+function gameObject.getComponentsInParent() end
 
 --- [WIP] - No method annotation provided
 --- @param component T& [WIP] - Add description for parameter
 --- @return boolean
-function gameObject.TryGetComponent(component) end
+function gameObject.tryGetComponent(component) end
 
 --- [WIP] - No method annotation provided
 --- @param type Type [WIP] - Add description for parameter
 --- @param component Component& [WIP] - Add description for parameter
 --- @return boolean
-function gameObject.TryGetComponent(type,component) end
+function gameObject.tryGetComponent(type,component) end
 
 --- [WIP] - No method annotation provided
 --- @param methodName string [WIP] - Add description for parameter
 --- @param options SendMessageOptions [WIP] - Add description for parameter
 --- @return void
-function gameObject.SendMessageUpwards(methodName,options) end
+function gameObject.sendMessageUpwards(methodName,options) end
 
 --- [WIP] - No method annotation provided
 --- @param methodName string [WIP] - Add description for parameter
 --- @param options SendMessageOptions [WIP] - Add description for parameter
 --- @return void
-function gameObject.SendMessage(methodName,options) end
+function gameObject.sendMessage(methodName,options) end
 
 --- [WIP] - No method annotation provided
 --- @param methodName string [WIP] - Add description for parameter
 --- @param options SendMessageOptions [WIP] - Add description for parameter
 --- @return void
-function gameObject.BroadcastMessage(methodName,options) end
+function gameObject.broadcastMessage(methodName,options) end
 
 --- [WIP] - No method annotation provided
 --- @param componentType Type [WIP] - Add description for parameter
 --- @return Component
-function gameObject.AddComponent(componentType) end
+function gameObject.addComponent(componentType) end
 
 --- [WIP] - No method annotation provided
 --- @return T
-function gameObject.AddComponent() end
+function gameObject.addComponent() end
 
 --- [WIP] - No method annotation provided
 --- @param value boolean [WIP] - Add description for parameter
 --- @return void
-function gameObject.SetActive(value) end
+function gameObject.setActive(value) end
 
 --- [WIP] - No method annotation provided
 --- @param state boolean [WIP] - Add description for parameter
 --- @return void
-function gameObject.SetActiveRecursively(state) end
+function gameObject.setActiveRecursively(state) end
 
 --- [WIP] - No method annotation provided
 --- @param tag string [WIP] - Add description for parameter
 --- @return boolean
-function gameObject.CompareTag(tag) end
+function gameObject.compareTag(tag) end
 
 --- [WIP] - No method annotation provided
 --- @param methodName string [WIP] - Add description for parameter
 --- @param value Object [WIP] - Add description for parameter
 --- @param options SendMessageOptions [WIP] - Add description for parameter
 --- @return void
-function gameObject.SendMessageUpwards(methodName,value,options) end
+function gameObject.sendMessageUpwards(methodName,value,options) end
 
 --- [WIP] - No method annotation provided
 --- @param methodName string [WIP] - Add description for parameter
 --- @param value Object [WIP] - Add description for parameter
 --- @return void
-function gameObject.SendMessageUpwards(methodName,value) end
+function gameObject.sendMessageUpwards(methodName,value) end
 
 --- [WIP] - No method annotation provided
 --- @param methodName string [WIP] - Add description for parameter
 --- @return void
-function gameObject.SendMessageUpwards(methodName) end
+function gameObject.sendMessageUpwards(methodName) end
 
 --- [WIP] - No method annotation provided
 --- @param methodName string [WIP] - Add description for parameter
 --- @param value Object [WIP] - Add description for parameter
 --- @param options SendMessageOptions [WIP] - Add description for parameter
 --- @return void
-function gameObject.SendMessage(methodName,value,options) end
+function gameObject.sendMessage(methodName,value,options) end
 
 --- [WIP] - No method annotation provided
 --- @param methodName string [WIP] - Add description for parameter
 --- @param value Object [WIP] - Add description for parameter
 --- @return void
-function gameObject.SendMessage(methodName,value) end
+function gameObject.sendMessage(methodName,value) end
 
 --- [WIP] - No method annotation provided
 --- @param methodName string [WIP] - Add description for parameter
 --- @return void
-function gameObject.SendMessage(methodName) end
+function gameObject.sendMessage(methodName) end
 
 --- [WIP] - No method annotation provided
 --- @param methodName string [WIP] - Add description for parameter
 --- @param parameter Object [WIP] - Add description for parameter
 --- @param options SendMessageOptions [WIP] - Add description for parameter
 --- @return void
-function gameObject.BroadcastMessage(methodName,parameter,options) end
+function gameObject.broadcastMessage(methodName,parameter,options) end
 
 --- [WIP] - No method annotation provided
 --- @param methodName string [WIP] - Add description for parameter
 --- @param parameter Object [WIP] - Add description for parameter
 --- @return void
-function gameObject.BroadcastMessage(methodName,parameter) end
+function gameObject.broadcastMessage(methodName,parameter) end
 
 --- [WIP] - No method annotation provided
 --- @param methodName string [WIP] - Add description for parameter
 --- @return void
-function gameObject.BroadcastMessage(methodName) end
+function gameObject.broadcastMessage(methodName) end
 
 --- [WIP] - No method annotation provided
 --- @param clip Object [WIP] - Add description for parameter
 --- @param time number [WIP] - Add description for parameter
 --- @return void
-function gameObject.SampleAnimation(clip,time) end
+function gameObject.sampleAnimation(clip,time) end
 
 --- [WIP] - No method annotation provided
 --- @param className string [WIP] - Add description for parameter
 --- @return Component
-function gameObject.AddComponent(className) end
+function gameObject.addComponent(className) end
 
 --- [WIP] - No method annotation provided
 --- @param animation Object [WIP] - Add description for parameter
 --- @return void
-function gameObject.PlayAnimation(animation) end
+function gameObject.playAnimation(animation) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function gameObject.StopAnimation() end
+function gameObject.stopAnimation() end
 
 return gameObject

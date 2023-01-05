@@ -30,59 +30,59 @@ Inventory = {}
 --- [WIP] - No method annotation provided
 --- @param repre WeaponComboDiskRepresentation [WIP] - Add description for parameter
 --- @return void
-function Inventory.ApplyWeaponCombo(repre) end
+function Inventory.applyWeaponCombo(repre) end
 
 --- [WIP] - No method annotation provided
 --- @param hand PlayerHand [WIP] - Add description for parameter
 --- @return void
-function Inventory.ToggleEquipPrimaryWeapon(hand) end
+function Inventory.toggleEquipPrimaryWeapon(hand) end
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function Inventory.IsInventoryOpen() end
+function Inventory.isInventoryOpen() end
 
 --- [WIP] - No method annotation provided
 --- @param s Sprite [WIP] - Add description for parameter
 --- @param upgrade PickupDiskRepresentation [WIP] - Add description for parameter
 --- @return void
-function Inventory.AddPickupImgToInv(s,upgrade) end
+function Inventory.addPickupImgToInv(s,upgrade) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Inventory.OpenMainMenu() end
+function Inventory.openMainMenu() end
 
 --- [WIP] - No method annotation provided
 --- @param left boolean [WIP] - Add description for parameter
 --- @return void
-function Inventory.SetPrimaryWeaponHand(left) end
+function Inventory.setPrimaryWeaponHand(left) end
 
 --- [WIP] - No method annotation provided
 --- @param g GameObject [WIP] - Add description for parameter
 --- @return Slot
-function Inventory.GetSlotWithItem(g) end
+function Inventory.getSlotWithItem(g) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Inventory.ClearInventory() end
+function Inventory.clearInventory() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Inventory.RefreshDetailInfos() end
+function Inventory.refreshDetailInfos() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Inventory.Close() end
+function Inventory.close() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Inventory.OpenStatScreen() end
+function Inventory.openStatScreen() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Inventory.EndRun() end
+function Inventory.endRun() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Inventory.ToggleSettings() end
+function Inventory.toggleSettings() end
 
 return Inventory

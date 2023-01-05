@@ -28,19 +28,19 @@ TileInRoom = {}
 
 --- [WIP] - No method annotation provided
 --- @return TileInRoom
-function TileInRoom.DeepCopy() end
+function TileInRoom.deepCopy() end
 
 --- [WIP] - No method annotation provided
 --- @return number
-function TileInRoom.GetGroundOffset() end
+function TileInRoom.getGroundOffset() end
 
 --- [WIP] - No method annotation provided
 --- @return number
-function TileInRoom.GetCeilOffset() end
+function TileInRoom.getCeilOffset() end
 
 --- [WIP] - No method annotation provided
 --- @param rand Random [WIP] - Add description for parameter
 --- @return void
-function TileInRoom.RollTile(rand) end
+function TileInRoom.rollTile(rand) end
 
 return TileInRoom

@@ -68,24 +68,24 @@ function AIJumpToEnemy.remove_LandEvent(value) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIJumpToEnemy.Update() end
+function AIJumpToEnemy.update() end
 
 --- [WIP] - No method annotation provided
 --- @param goalPoint Vector3 [WIP] - Add description for parameter
 --- @return void
-function AIJumpToEnemy.MoveRoutine(goalPoint) end
+function AIJumpToEnemy.moveRoutine(goalPoint) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIJumpToEnemy.OnEnemyJump() end
+function AIJumpToEnemy.onEnemyJump() end
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function AIJumpToEnemy.ShouldRotateTowardsTarget() end
+function AIJumpToEnemy.shouldRotateTowardsTarget() end
 
 --- [WIP] - No method annotation provided
 --- @param seesPlayer boolean [WIP] - Add description for parameter
 --- @return void
-function AIJumpToEnemy.OnNoPath(seesPlayer) end
+function AIJumpToEnemy.onNoPath(seesPlayer) end
 
 return AIJumpToEnemy

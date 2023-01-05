@@ -25,6 +25,6 @@ function DamageArea.remove_OnDealDamage(value) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function DamageArea.ClearArea() end
+function DamageArea.clearArea() end
 
 return DamageArea

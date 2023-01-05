@@ -8,12 +8,12 @@ WallPlacer = {}
 --- [WIP] - No method annotation provided
 --- @param e string [WIP] - Add description for parameter
 --- @return PlaceEntry
-function WallPlacer.GetPlaceEntry(e) end
+function WallPlacer.getPlaceEntry(e) end
 
 --- [WIP] - No method annotation provided
 --- @param wge WorldGeneratorEvolved [WIP] - Add description for parameter
 --- @param _walls List<ValueTuple<UnityEngine.Transform, System.Int32>> [WIP] - Add description for parameter
 --- @return IEnumerator
-function WallPlacer.Place(wge,_walls) end
+function WallPlacer.place(wge,_walls) end
 
 return WallPlacer

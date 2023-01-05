@@ -9,6 +9,6 @@ AchievementUI = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AchievementUI.RefreshAchievements() end
+function AchievementUI.refreshAchievements() end
 
 return AchievementUI

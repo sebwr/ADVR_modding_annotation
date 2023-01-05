@@ -8,66 +8,66 @@ TextMeshProUGUI = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function TextMeshProUGUI.CalculateLayoutInputHorizontal() end
+function TextMeshProUGUI.calculateLayoutInputHorizontal() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function TextMeshProUGUI.CalculateLayoutInputVertical() end
+function TextMeshProUGUI.calculateLayoutInputVertical() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function TextMeshProUGUI.SetVerticesDirty() end
+function TextMeshProUGUI.setVerticesDirty() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function TextMeshProUGUI.SetLayoutDirty() end
+function TextMeshProUGUI.setLayoutDirty() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function TextMeshProUGUI.SetMaterialDirty() end
+function TextMeshProUGUI.setMaterialDirty() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function TextMeshProUGUI.SetAllDirty() end
+function TextMeshProUGUI.setAllDirty() end
 
 --- [WIP] - No method annotation provided
 --- @param update CanvasUpdate [WIP] - Add description for parameter
 --- @return void
-function TextMeshProUGUI.Rebuild(update) end
+function TextMeshProUGUI.rebuild(update) end
 
 --- [WIP] - No method annotation provided
 --- @param baseMaterial Material [WIP] - Add description for parameter
 --- @return Material
-function TextMeshProUGUI.GetModifiedMaterial(baseMaterial) end
+function TextMeshProUGUI.getModifiedMaterial(baseMaterial) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function TextMeshProUGUI.RecalculateClipping() end
+function TextMeshProUGUI.recalculateClipping() end
 
 --- [WIP] - No method annotation provided
 --- @param clipRect Rect [WIP] - Add description for parameter
 --- @param validRect boolean [WIP] - Add description for parameter
 --- @return void
-function TextMeshProUGUI.Cull(clipRect,validRect) end
+function TextMeshProUGUI.cull(clipRect,validRect) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function TextMeshProUGUI.UpdateMeshPadding() end
+function TextMeshProUGUI.updateMeshPadding() end
 
 --- [WIP] - No method annotation provided
 --- @param ignoreActiveState boolean [WIP] - Add description for parameter
 --- @param forceTextReparsing boolean [WIP] - Add description for parameter
 --- @return void
-function TextMeshProUGUI.ForceMeshUpdate(ignoreActiveState,forceTextReparsing) end
+function TextMeshProUGUI.forceMeshUpdate(ignoreActiveState,forceTextReparsing) end
 
 --- [WIP] - No method annotation provided
 --- @param text string [WIP] - Add description for parameter
 --- @return TMP_TextInfo
-function TextMeshProUGUI.GetTextInfo(text) end
+function TextMeshProUGUI.getTextInfo(text) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function TextMeshProUGUI.ClearMesh() end
+function TextMeshProUGUI.clearMesh() end
 
 --- [WIP] - No method annotation provided
 --- @param value Action<TMPro.TMP_TextInfo> [WIP] - Add description for parameter
@@ -83,23 +83,23 @@ function TextMeshProUGUI.remove_OnPreRenderText(value) end
 --- @param mesh Mesh [WIP] - Add description for parameter
 --- @param index integer [WIP] - Add description for parameter
 --- @return void
-function TextMeshProUGUI.UpdateGeometry(mesh,index) end
+function TextMeshProUGUI.updateGeometry(mesh,index) end
 
 --- [WIP] - No method annotation provided
 --- @param flags TMP_VertexDataUpdateFlags [WIP] - Add description for parameter
 --- @return void
-function TextMeshProUGUI.UpdateVertexData(flags) end
+function TextMeshProUGUI.updateVertexData(flags) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function TextMeshProUGUI.UpdateVertexData() end
+function TextMeshProUGUI.updateVertexData() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function TextMeshProUGUI.UpdateFontAsset() end
+function TextMeshProUGUI.updateFontAsset() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function TextMeshProUGUI.ComputeMarginSize() end
+function TextMeshProUGUI.computeMarginSize() end
 
 return TextMeshProUGUI

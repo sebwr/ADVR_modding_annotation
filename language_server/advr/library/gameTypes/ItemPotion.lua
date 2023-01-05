@@ -28,25 +28,25 @@ ItemPotion = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ItemPotion.Start() end
+function ItemPotion.start() end
 
 --- [WIP] - No method annotation provided
 --- @param hash integer [WIP] - Add description for parameter
 --- @return void
-function ItemPotion.OverrideHash(hash) end
+function ItemPotion.overrideHash(hash) end
 
 --- [WIP] - No method annotation provided
 --- @param c Color [WIP] - Add description for parameter
 --- @return void
-function ItemPotion.ColorPotion(c) end
+function ItemPotion.colorPotion(c) end
 
 --- [WIP] - No method annotation provided
 --- @param slot Slot [WIP] - Add description for parameter
 --- @return void
-function ItemPotion.OnPutInSlot(slot) end
+function ItemPotion.onPutInSlot(slot) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ItemPotion.OnTakeFromSlot() end
+function ItemPotion.onTakeFromSlot() end
 
 return ItemPotion

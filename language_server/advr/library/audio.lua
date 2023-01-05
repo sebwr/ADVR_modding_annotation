@@ -35,12 +35,12 @@ audio = {}
 --- @param spatialize boolean [WIP] - Add description for parameter
 --- @param range integer [WIP] - Add description for parameter
 --- @return ADVRSoundEffect
-function audio.CreateNewSoundEffect(id,sounds,volume,spatialize,range) end
+function audio.createNewSoundEffect(id,sounds,volume,spatialize,range) end
 
 --- [WIP] - No method annotation provided
 --- @param floor CURRENT_FLOOR [WIP] - Add description for parameter
 --- @return DungeonMusicInfo
-function audio.GetDungeonMusicInfoForFloor(floor) end
+function audio.getDungeonMusicInfoForFloor(floor) end
 
 --- [WIP] - No method annotation provided
 --- @param soundID string [WIP] - Add description for parameter
@@ -49,12 +49,12 @@ function audio.GetDungeonMusicInfoForFloor(floor) end
 --- @param pitchMultiplier number [WIP] - Add description for parameter
 --- @param followObject Transform [WIP] - Add description for parameter
 --- @return void
-function audio.PlaySoundAt(soundID,position,volume,pitchMultiplier,followObject) end
+function audio.playSoundAt(soundID,position,volume,pitchMultiplier,followObject) end
 
 --- [WIP] - No method annotation provided
 --- @param soundID string [WIP] - Add description for parameter
 --- @return boolean
-function audio.DoesSoundExist(soundID) end
+function audio.doesSoundExist(soundID) end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
@@ -71,7 +71,7 @@ function audio.DoesSoundExist(soundID) end
 --- @param spread integer [WIP] - Add description for parameter
 --- @param followObject Transform [WIP] - Add description for parameter
 --- @return void
-function audio.PlayRandomOneShotAt(position,volume,minPitch,maxPitch,clips,priority,distance,mono,spatialize,goalMixer,checkOcclusion,spread,followObject) end
+function audio.playRandomOneShotAt(position,volume,minPitch,maxPitch,clips,priority,distance,mono,spatialize,goalMixer,checkOcclusion,spread,followObject) end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
@@ -88,20 +88,20 @@ function audio.PlayRandomOneShotAt(position,volume,minPitch,maxPitch,clips,prior
 --- @param spread integer [WIP] - Add description for parameter
 --- @param followObject Transform [WIP] - Add description for parameter
 --- @return void
-function audio.PlayCombinedOneShotAt(position,volume,minPitch,maxPitch,clips,priority,distance,mono,spatialize,goalMixer,checkOcclusion,spread,followObject) end
+function audio.playCombinedOneShotAt(position,volume,minPitch,maxPitch,clips,priority,distance,mono,spatialize,goalMixer,checkOcclusion,spread,followObject) end
 
 --- [WIP] - No method annotation provided
 --- @param clip AudioClip [WIP] - Add description for parameter
 --- @param loop boolean [WIP] - Add description for parameter
 --- @return void
-function audio.CrossFadeMusicToInstant(clip,loop) end
+function audio.crossFadeMusicToInstant(clip,loop) end
 
 --- [WIP] - No method annotation provided
 --- @param clip AudioClip [WIP] - Add description for parameter
 --- @param speed number [WIP] - Add description for parameter
 --- @param loop boolean [WIP] - Add description for parameter
 --- @return void
-function audio.CrossFadeMusicTo(clip,speed,loop) end
+function audio.crossFadeMusicTo(clip,speed,loop) end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
@@ -118,15 +118,15 @@ function audio.CrossFadeMusicTo(clip,speed,loop) end
 --- @param spread integer [WIP] - Add description for parameter
 --- @param followObject Transform [WIP] - Add description for parameter
 --- @return void
-function audio.PlayOneShotAt(position,volume,minPitch,maxPitch,clip,priority,distance,mono,spatialize,goalMixer,checkOcclusion,spread,followObject) end
+function audio.playOneShotAt(position,volume,minPitch,maxPitch,clip,priority,distance,mono,spatialize,goalMixer,checkOcclusion,spread,followObject) end
 
 --- [WIP] - No method annotation provided
 --- @param floor CURRENT_FLOOR [WIP] - Add description for parameter
 --- @return void
-function audio.UpdateMusic(floor) end
+function audio.updateMusic(floor) end
 
 --- [WIP] - No method annotation provided
 --- @return AudioClip
-function audio.GetCurrentFloorMusic() end
+function audio.getCurrentFloorMusic() end
 
 return audio

@@ -11,6 +11,6 @@ SpecialEventEntry = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function SpecialEventEntry.Complete() end
+function SpecialEventEntry.complete() end
 
 return SpecialEventEntry

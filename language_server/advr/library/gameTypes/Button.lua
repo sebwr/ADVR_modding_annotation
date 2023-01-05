@@ -7,11 +7,11 @@ Button = {}
 --- [WIP] - No method annotation provided
 --- @param eventData PointerEventData [WIP] - Add description for parameter
 --- @return void
-function Button.OnPointerClick(eventData) end
+function Button.onPointerClick(eventData) end
 
 --- [WIP] - No method annotation provided
 --- @param eventData BaseEventData [WIP] - Add description for parameter
 --- @return void
-function Button.OnSubmit(eventData) end
+function Button.onSubmit(eventData) end
 
 return Button

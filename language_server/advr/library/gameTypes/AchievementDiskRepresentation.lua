@@ -14,6 +14,6 @@ AchievementDiskRepresentation = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AchievementDiskRepresentation.Unlock() end
+function AchievementDiskRepresentation.unlock() end
 
 return AchievementDiskRepresentation

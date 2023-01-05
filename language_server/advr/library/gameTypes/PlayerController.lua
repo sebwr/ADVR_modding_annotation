@@ -38,84 +38,84 @@ PlayerController = {}
 --- [WIP] - No method annotation provided
 --- @param length number [WIP] - Add description for parameter
 --- @return void
-function PlayerController.SetUIPointerLength(length) end
+function PlayerController.setUIPointerLength(length) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function PlayerController.RefreshPointerHand() end
+function PlayerController.refreshPointerHand() end
 
 --- [WIP] - No method annotation provided
 --- @param handType HandType [WIP] - Add description for parameter
 --- @param bypassPointerEnabled boolean [WIP] - Add description for parameter
 --- @return void
-function PlayerController.SetPointerHand(handType,bypassPointerEnabled) end
+function PlayerController.setPointerHand(handType,bypassPointerEnabled) end
 
 --- [WIP] - No method annotation provided
 --- @param newSpeed number [WIP] - Add description for parameter
 --- @return void
-function PlayerController.SetSlidingMovementSpeed(newSpeed) end
+function PlayerController.setSlidingMovementSpeed(newSpeed) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function PlayerController.RefreshInput() end
+function PlayerController.refreshInput() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function PlayerController.EnableInput() end
+function PlayerController.enableInput() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function PlayerController.DisableInput() end
+function PlayerController.disableInput() end
 
 --- [WIP] - No method annotation provided
 --- @return CharacterController
-function PlayerController.GetCharacterController() end
+function PlayerController.getCharacterController() end
 
 --- [WIP] - No method annotation provided
 --- @return Vector2
-function PlayerController.GetRightJoystickValue() end
+function PlayerController.getRightJoystickValue() end
 
 --- [WIP] - No method annotation provided
 --- @return Vector2
-function PlayerController.GetLeftJoystickValue() end
+function PlayerController.getLeftJoystickValue() end
 
 --- [WIP] - No method annotation provided
 --- @return Vector3
-function PlayerController.GetCurrentMoveDirection() end
+function PlayerController.getCurrentMoveDirection() end
 
 --- [WIP] - No method annotation provided
 --- @param newVelocity Vector3 [WIP] - Add description for parameter
 --- @return void
-function PlayerController.SetSecondaryVelocity(newVelocity) end
+function PlayerController.setSecondaryVelocity(newVelocity) end
 
 --- [WIP] - No method annotation provided
 --- @param climbingPoint Vector3 [WIP] - Add description for parameter
 --- @param handType HandType [WIP] - Add description for parameter
 --- @return void
-function PlayerController.StartClimbing(climbingPoint,handType) end
+function PlayerController.startClimbing(climbingPoint,handType) end
 
 --- [WIP] - No method annotation provided
 --- @return Vector3
-function PlayerController.GetSecondaryVelocity() end
+function PlayerController.getSecondaryVelocity() end
 
 --- [WIP] - No method annotation provided
 --- @param additionalVelocity Vector3 [WIP] - Add description for parameter
 --- @return void
-function PlayerController.AddImpactVelocity(additionalVelocity) end
+function PlayerController.addImpactVelocity(additionalVelocity) end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @param skipOffset boolean [WIP] - Add description for parameter
 --- @return void
-function PlayerController.TeleportPlayerToLocation(position,skipOffset) end
+function PlayerController.teleportPlayerToLocation(position,skipOffset) end
 
 --- [WIP] - No method annotation provided
 --- @param hand HandType [WIP] - Add description for parameter
 --- @return Vector3
-function PlayerController.GetHandPosition(hand) end
+function PlayerController.getHandPosition(hand) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function PlayerController.SetMovementModeBasedOnSettings() end
+function PlayerController.setMovementModeBasedOnSettings() end
 
 return PlayerController

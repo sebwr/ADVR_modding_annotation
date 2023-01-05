@@ -21,76 +21,76 @@ LineRenderer = {}
 --- @param start number [WIP] - Add description for parameter
 --- @param end number [WIP] - Add description for parameter
 --- @return void
-function LineRenderer.SetWidth(start,end) end
+function LineRenderer.setWidth(start,end) end
 
 --- [WIP] - No method annotation provided
 --- @param start Color [WIP] - Add description for parameter
 --- @param end Color [WIP] - Add description for parameter
 --- @return void
-function LineRenderer.SetColors(start,end) end
+function LineRenderer.setColors(start,end) end
 
 --- [WIP] - No method annotation provided
 --- @param count integer [WIP] - Add description for parameter
 --- @return void
-function LineRenderer.SetVertexCount(count) end
+function LineRenderer.setVertexCount(count) end
 
 --- [WIP] - No method annotation provided
 --- @param index integer [WIP] - Add description for parameter
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @return void
-function LineRenderer.SetPosition(index,position) end
+function LineRenderer.setPosition(index,position) end
 
 --- [WIP] - No method annotation provided
 --- @param index integer [WIP] - Add description for parameter
 --- @return Vector3
-function LineRenderer.GetPosition(index) end
+function LineRenderer.getPosition(index) end
 
 --- [WIP] - No method annotation provided
 --- @param tolerance number [WIP] - Add description for parameter
 --- @return void
-function LineRenderer.Simplify(tolerance) end
+function LineRenderer.simplify(tolerance) end
 
 --- [WIP] - No method annotation provided
 --- @param mesh Mesh [WIP] - Add description for parameter
 --- @param useTransform boolean [WIP] - Add description for parameter
 --- @return void
-function LineRenderer.BakeMesh(mesh,useTransform) end
+function LineRenderer.bakeMesh(mesh,useTransform) end
 
 --- [WIP] - No method annotation provided
 --- @param mesh Mesh [WIP] - Add description for parameter
 --- @param camera Camera [WIP] - Add description for parameter
 --- @param useTransform boolean [WIP] - Add description for parameter
 --- @return void
-function LineRenderer.BakeMesh(mesh,camera,useTransform) end
+function LineRenderer.bakeMesh(mesh,camera,useTransform) end
 
 --- [WIP] - No method annotation provided
 --- @param positions Vector3[] [WIP] - Add description for parameter
 --- @return integer
-function LineRenderer.GetPositions(positions) end
+function LineRenderer.getPositions(positions) end
 
 --- [WIP] - No method annotation provided
 --- @param positions Vector3[] [WIP] - Add description for parameter
 --- @return void
-function LineRenderer.SetPositions(positions) end
+function LineRenderer.setPositions(positions) end
 
 --- [WIP] - No method annotation provided
 --- @param positions NativeArray<UnityEngine.Vector3> [WIP] - Add description for parameter
 --- @return void
-function LineRenderer.SetPositions(positions) end
+function LineRenderer.setPositions(positions) end
 
 --- [WIP] - No method annotation provided
 --- @param positions NativeSlice<UnityEngine.Vector3> [WIP] - Add description for parameter
 --- @return void
-function LineRenderer.SetPositions(positions) end
+function LineRenderer.setPositions(positions) end
 
 --- [WIP] - No method annotation provided
 --- @param positions NativeArray<UnityEngine.Vector3> [WIP] - Add description for parameter
 --- @return integer
-function LineRenderer.GetPositions(positions) end
+function LineRenderer.getPositions(positions) end
 
 --- [WIP] - No method annotation provided
 --- @param positions NativeSlice<UnityEngine.Vector3> [WIP] - Add description for parameter
 --- @return integer
-function LineRenderer.GetPositions(positions) end
+function LineRenderer.getPositions(positions) end
 
 return LineRenderer

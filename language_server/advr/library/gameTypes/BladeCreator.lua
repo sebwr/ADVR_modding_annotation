@@ -22,20 +22,20 @@ BladeCreator = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function BladeCreator.Start() end
+function BladeCreator.start() end
 
 --- [WIP] - No method annotation provided
 --- @param s Sprite [WIP] - Add description for parameter
 --- @return void
-function BladeCreator.UpdateWeaponTexture(s) end
+function BladeCreator.updateWeaponTexture(s) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function BladeCreator.CreateItemMesh() end
+function BladeCreator.createItemMesh() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function BladeCreator.ReapplyColorHistory() end
+function BladeCreator.reapplyColorHistory() end
 
 --- [WIP] - No method annotation provided
 --- @param region integer [WIP] - Add description for parameter
@@ -45,6 +45,6 @@ function BladeCreator.ReapplyColorHistory() end
 --- @param update boolean [WIP] - Add description for parameter
 --- @param putInHistory boolean [WIP] - Add description for parameter
 --- @return void
-function BladeCreator.UpdateWeaponColors(region,fillRatePerc,color,randomizeColor,update,putInHistory) end
+function BladeCreator.updateWeaponColors(region,fillRatePerc,color,randomizeColor,update,putInHistory) end
 
 return BladeCreator

@@ -14,14 +14,14 @@ ItemCreator = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ItemCreator.Start() end
+function ItemCreator.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ItemCreator.CreateItemMesh() end
+function ItemCreator.createItemMesh() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ItemCreator.UpdateItemMesh() end
+function ItemCreator.updateItemMesh() end
 
 return ItemCreator

@@ -12,15 +12,15 @@ ExtraObjectsInRoom = {}
 
 --- [WIP] - No method annotation provided
 --- @return ExtraObjectsInRoom
-function ExtraObjectsInRoom.ShallowCopy() end
+function ExtraObjectsInRoom.shallowCopy() end
 
 --- [WIP] - No method annotation provided
 --- @param _e ExtraObjectsInRoom [WIP] - Add description for parameter
 --- @return boolean
-function ExtraObjectsInRoom.Equals(_e) end
+function ExtraObjectsInRoom.equals(_e) end
 
 --- [WIP] - No method annotation provided
 --- @return string
-function ExtraObjectsInRoom.ToString() end
+function ExtraObjectsInRoom.toString() end
 
 return ExtraObjectsInRoom

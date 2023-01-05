@@ -11,15 +11,15 @@ PotionInterpreter = {}
 --- @param seed integer [WIP] - Add description for parameter
 --- @param _try integer [WIP] - Add description for parameter
 --- @return PotionDiskRepresentation
-function PotionInterpreter.GetRandomPotion(pool,seed,_try) end
+function PotionInterpreter.getRandomPotion(pool,seed,_try) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return PotionDiskRepresentation
-function PotionInterpreter.GetPotionByName(name) end
+function PotionInterpreter.getPotionByName(name) end
 
 --- [WIP] - No method annotation provided
 --- @return IEnumerator
-function PotionInterpreter.ReadPotionsFromDisk() end
+function PotionInterpreter.readPotionsFromDisk() end
 
 return PotionInterpreter

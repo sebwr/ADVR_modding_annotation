@@ -51,34 +51,34 @@ HumanBase = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function HumanBase.Start() end
+function HumanBase.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function HumanBase.PlayStepSound() end
+function HumanBase.playStepSound() end
 
 --- [WIP] - No method annotation provided
 --- @param source GameObject [WIP] - Add description for parameter
 --- @return void
-function HumanBase.OnDeath(source) end
+function HumanBase.onDeath(source) end
 
 --- [WIP] - No method annotation provided
 --- @param source GameObject [WIP] - Add description for parameter
 --- @param timeTillDestroy number [WIP] - Add description for parameter
 --- @return void
-function HumanBase.OnDeath(source,timeTillDestroy) end
+function HumanBase.onDeath(source,timeTillDestroy) end
 
 --- [WIP] - No method annotation provided
 --- @param b integer [WIP] - Add description for parameter
 --- @return void
-function HumanBase.CanDealDamage(b) end
+function HumanBase.canDealDamage(b) end
 
 --- [WIP] - No method annotation provided
 --- @param source GameObject [WIP] - Add description for parameter
 --- @param dmg integer [WIP] - Add description for parameter
 --- @param type ATTACKTYPE [WIP] - Add description for parameter
 --- @return void
-function HumanBase.OnHitEvent(source,dmg,type) end
+function HumanBase.onHitEvent(source,dmg,type) end
 
 --- [WIP] - No method annotation provided
 --- @param _source GameObject [WIP] - Add description for parameter
@@ -87,16 +87,16 @@ function HumanBase.OnHitEvent(source,dmg,type) end
 --- @param _hitPos Vector3 [WIP] - Add description for parameter
 --- @param _critical boolean [WIP] - Add description for parameter
 --- @return number
-function HumanBase.DoHit(_source,_damage,_attackType,_hitPos,_critical) end
+function HumanBase.doHit(_source,_damage,_attackType,_hitPos,_critical) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function HumanBase.OnStandUp() end
+function HumanBase.onStandUp() end
 
 --- [WIP] - No method annotation provided
 --- @param _infos HitEventInfos [WIP] - Add description for parameter
 --- @return void
-function HumanBase.HandleHitAnimation(_infos) end
+function HumanBase.handleHitAnimation(_infos) end
 
 --- [WIP] - No method annotation provided
 --- @param _hitPart GameObject [WIP] - Add description for parameter
@@ -104,10 +104,10 @@ function HumanBase.HandleHitAnimation(_infos) end
 --- @param _dmg number [WIP] - Add description for parameter
 --- @param _hitPos Vector3 [WIP] - Add description for parameter
 --- @return void
-function HumanBase.CheckForSweep(_hitPart,_swordVelocity,_dmg,_hitPos) end
+function HumanBase.checkForSweep(_hitPart,_swordVelocity,_dmg,_hitPos) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function HumanBase.Update() end
+function HumanBase.update() end
 
 return HumanBase

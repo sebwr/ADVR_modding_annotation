@@ -14,6 +14,6 @@ JournalPage = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function JournalPage.CollectPage() end
+function JournalPage.collectPage() end
 
 return JournalPage

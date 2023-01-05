@@ -14,26 +14,26 @@ ProgressDiskRepresentation = {}
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function ProgressDiskRepresentation.IsBought() end
+function ProgressDiskRepresentation.isBought() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ProgressDiskRepresentation.OnBuy() end
+function ProgressDiskRepresentation.onBuy() end
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function ProgressDiskRepresentation.IsUnlocked() end
+function ProgressDiskRepresentation.isUnlocked() end
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function ProgressDiskRepresentation.HasSuccessor() end
+function ProgressDiskRepresentation.hasSuccessor() end
 
 --- [WIP] - No method annotation provided
 --- @return ProgressDiskRepresentation
-function ProgressDiskRepresentation.GetPredecessor() end
+function ProgressDiskRepresentation.getPredecessor() end
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function ProgressDiskRepresentation.GetOrderInCategory() end
+function ProgressDiskRepresentation.getOrderInCategory() end
 
 return ProgressDiskRepresentation

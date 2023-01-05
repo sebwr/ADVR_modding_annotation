@@ -12,10 +12,10 @@ AIDashAttack = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIDashAttack.GoInDashAnim() end
+function AIDashAttack.goInDashAnim() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIDashAttack.DoDashAttack() end
+function AIDashAttack.doDashAttack() end
 
 return AIDashAttack

@@ -8,11 +8,11 @@ RoomMapping = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function RoomMapping.GetVariationStatistics() end
+function RoomMapping.getVariationStatistics() end
 
 --- [WIP] - No method annotation provided
 --- @param identifier string [WIP] - Add description for parameter
 --- @return RoomMappingEntry
-function RoomMapping.GetEntry(identifier) end
+function RoomMapping.getEntry(identifier) end
 
 return RoomMapping

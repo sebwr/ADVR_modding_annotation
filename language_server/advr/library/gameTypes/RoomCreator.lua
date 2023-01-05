@@ -8,20 +8,20 @@ RoomCreator = {}
 
 --- [WIP] - No method annotation provided
 --- @return RoomFile
-function RoomCreator.SetupRoomFile() end
+function RoomCreator.setupRoomFile() end
 
 --- [WIP] - No method annotation provided
 --- @param f RoomFile [WIP] - Add description for parameter
 --- @return void
-function RoomCreator.SaveRoomFile(f) end
+function RoomCreator.saveRoomFile(f) end
 
 --- [WIP] - No method annotation provided
 --- @param folderName string [WIP] - Add description for parameter
 --- @return RoomFile[]
-function RoomCreator.ReadAllRoomFilesFromDisk(folderName) end
+function RoomCreator.readAllRoomFilesFromDisk(folderName) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function RoomCreator.CountRoomsInGame() end
+function RoomCreator.countRoomsInGame() end
 
 return RoomCreator

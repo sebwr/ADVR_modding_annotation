@@ -25,89 +25,89 @@ ParticleSystemRenderer = {}
 --- [WIP] - No method annotation provided
 --- @param streams ParticleSystemVertexStreams [WIP] - Add description for parameter
 --- @return void
-function ParticleSystemRenderer.EnableVertexStreams(streams) end
+function ParticleSystemRenderer.enableVertexStreams(streams) end
 
 --- [WIP] - No method annotation provided
 --- @param streams ParticleSystemVertexStreams [WIP] - Add description for parameter
 --- @return void
-function ParticleSystemRenderer.DisableVertexStreams(streams) end
+function ParticleSystemRenderer.disableVertexStreams(streams) end
 
 --- [WIP] - No method annotation provided
 --- @param streams ParticleSystemVertexStreams [WIP] - Add description for parameter
 --- @return boolean
-function ParticleSystemRenderer.AreVertexStreamsEnabled(streams) end
+function ParticleSystemRenderer.areVertexStreamsEnabled(streams) end
 
 --- [WIP] - No method annotation provided
 --- @param streams ParticleSystemVertexStreams [WIP] - Add description for parameter
 --- @return ParticleSystemVertexStreams
-function ParticleSystemRenderer.GetEnabledVertexStreams(streams) end
+function ParticleSystemRenderer.getEnabledVertexStreams(streams) end
 
 --- [WIP] - No method annotation provided
 --- @param meshes Mesh[] [WIP] - Add description for parameter
 --- @return integer
-function ParticleSystemRenderer.GetMeshes(meshes) end
+function ParticleSystemRenderer.getMeshes(meshes) end
 
 --- [WIP] - No method annotation provided
 --- @param meshes Mesh[] [WIP] - Add description for parameter
 --- @param size integer [WIP] - Add description for parameter
 --- @return void
-function ParticleSystemRenderer.SetMeshes(meshes,size) end
+function ParticleSystemRenderer.setMeshes(meshes,size) end
 
 --- [WIP] - No method annotation provided
 --- @param meshes Mesh[] [WIP] - Add description for parameter
 --- @return void
-function ParticleSystemRenderer.SetMeshes(meshes) end
+function ParticleSystemRenderer.setMeshes(meshes) end
 
 --- [WIP] - No method annotation provided
 --- @param weightings number[] [WIP] - Add description for parameter
 --- @return integer
-function ParticleSystemRenderer.GetMeshWeightings(weightings) end
+function ParticleSystemRenderer.getMeshWeightings(weightings) end
 
 --- [WIP] - No method annotation provided
 --- @param weightings number[] [WIP] - Add description for parameter
 --- @param size integer [WIP] - Add description for parameter
 --- @return void
-function ParticleSystemRenderer.SetMeshWeightings(weightings,size) end
+function ParticleSystemRenderer.setMeshWeightings(weightings,size) end
 
 --- [WIP] - No method annotation provided
 --- @param weightings number[] [WIP] - Add description for parameter
 --- @return void
-function ParticleSystemRenderer.SetMeshWeightings(weightings) end
+function ParticleSystemRenderer.setMeshWeightings(weightings) end
 
 --- [WIP] - No method annotation provided
 --- @param mesh Mesh [WIP] - Add description for parameter
 --- @param useTransform boolean [WIP] - Add description for parameter
 --- @return void
-function ParticleSystemRenderer.BakeMesh(mesh,useTransform) end
+function ParticleSystemRenderer.bakeMesh(mesh,useTransform) end
 
 --- [WIP] - No method annotation provided
 --- @param mesh Mesh [WIP] - Add description for parameter
 --- @param camera Camera [WIP] - Add description for parameter
 --- @param useTransform boolean [WIP] - Add description for parameter
 --- @return void
-function ParticleSystemRenderer.BakeMesh(mesh,camera,useTransform) end
+function ParticleSystemRenderer.bakeMesh(mesh,camera,useTransform) end
 
 --- [WIP] - No method annotation provided
 --- @param mesh Mesh [WIP] - Add description for parameter
 --- @param useTransform boolean [WIP] - Add description for parameter
 --- @return void
-function ParticleSystemRenderer.BakeTrailsMesh(mesh,useTransform) end
+function ParticleSystemRenderer.bakeTrailsMesh(mesh,useTransform) end
 
 --- [WIP] - No method annotation provided
 --- @param mesh Mesh [WIP] - Add description for parameter
 --- @param camera Camera [WIP] - Add description for parameter
 --- @param useTransform boolean [WIP] - Add description for parameter
 --- @return void
-function ParticleSystemRenderer.BakeTrailsMesh(mesh,camera,useTransform) end
+function ParticleSystemRenderer.bakeTrailsMesh(mesh,camera,useTransform) end
 
 --- [WIP] - No method annotation provided
 --- @param streams List<UnityEngine.ParticleSystemVertexStream> [WIP] - Add description for parameter
 --- @return void
-function ParticleSystemRenderer.SetActiveVertexStreams(streams) end
+function ParticleSystemRenderer.setActiveVertexStreams(streams) end
 
 --- [WIP] - No method annotation provided
 --- @param streams List<UnityEngine.ParticleSystemVertexStream> [WIP] - Add description for parameter
 --- @return void
-function ParticleSystemRenderer.GetActiveVertexStreams(streams) end
+function ParticleSystemRenderer.getActiveVertexStreams(streams) end
 
 return ParticleSystemRenderer

@@ -6,6 +6,6 @@ DiggingAdventurer = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function DiggingAdventurer.FinishInteraction() end
+function DiggingAdventurer.finishInteraction() end
 
 return DiggingAdventurer

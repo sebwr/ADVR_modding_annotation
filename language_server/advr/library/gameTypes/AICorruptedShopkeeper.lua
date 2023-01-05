@@ -38,18 +38,18 @@ AICorruptedShopkeeper = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AICorruptedShopkeeper.Start() end
+function AICorruptedShopkeeper.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AICorruptedShopkeeper.OnLoosePlayer() end
+function AICorruptedShopkeeper.onLoosePlayer() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AICorruptedShopkeeper.OnSeePlayer() end
+function AICorruptedShopkeeper.onSeePlayer() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AICorruptedShopkeeper.Update() end
+function AICorruptedShopkeeper.update() end
 
 return AICorruptedShopkeeper

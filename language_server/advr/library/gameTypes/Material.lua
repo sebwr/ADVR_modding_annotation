@@ -15,339 +15,339 @@ Material = {}
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @return boolean
-function Material.HasProperty(nameID) end
+function Material.hasProperty(nameID) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return boolean
-function Material.HasProperty(name) end
+function Material.hasProperty(name) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return boolean
-function Material.HasFloat(name) end
+function Material.hasFloat(name) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @return boolean
-function Material.HasFloat(nameID) end
+function Material.hasFloat(nameID) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return boolean
-function Material.HasInt(name) end
+function Material.hasInt(name) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @return boolean
-function Material.HasInt(nameID) end
+function Material.hasInt(nameID) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return boolean
-function Material.HasInteger(name) end
+function Material.hasInteger(name) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @return boolean
-function Material.HasInteger(nameID) end
+function Material.hasInteger(nameID) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return boolean
-function Material.HasTexture(name) end
+function Material.hasTexture(name) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @return boolean
-function Material.HasTexture(nameID) end
+function Material.hasTexture(nameID) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return boolean
-function Material.HasMatrix(name) end
+function Material.hasMatrix(name) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @return boolean
-function Material.HasMatrix(nameID) end
+function Material.hasMatrix(nameID) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return boolean
-function Material.HasVector(name) end
+function Material.hasVector(name) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @return boolean
-function Material.HasVector(nameID) end
+function Material.hasVector(nameID) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return boolean
-function Material.HasColor(name) end
+function Material.hasColor(name) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @return boolean
-function Material.HasColor(nameID) end
+function Material.hasColor(nameID) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return boolean
-function Material.HasBuffer(name) end
+function Material.hasBuffer(name) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @return boolean
-function Material.HasBuffer(nameID) end
+function Material.hasBuffer(nameID) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return boolean
-function Material.HasConstantBuffer(name) end
+function Material.hasConstantBuffer(name) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @return boolean
-function Material.HasConstantBuffer(nameID) end
+function Material.hasConstantBuffer(nameID) end
 
 --- [WIP] - No method annotation provided
 --- @param keyword string [WIP] - Add description for parameter
 --- @return void
-function Material.EnableKeyword(keyword) end
+function Material.enableKeyword(keyword) end
 
 --- [WIP] - No method annotation provided
 --- @param keyword string [WIP] - Add description for parameter
 --- @return void
-function Material.DisableKeyword(keyword) end
+function Material.disableKeyword(keyword) end
 
 --- [WIP] - No method annotation provided
 --- @param keyword string [WIP] - Add description for parameter
 --- @return boolean
-function Material.IsKeywordEnabled(keyword) end
+function Material.isKeywordEnabled(keyword) end
 
 --- [WIP] - No method annotation provided
 --- @param keyword LocalKeyword& [WIP] - Add description for parameter
 --- @return void
-function Material.EnableKeyword(keyword) end
+function Material.enableKeyword(keyword) end
 
 --- [WIP] - No method annotation provided
 --- @param keyword LocalKeyword& [WIP] - Add description for parameter
 --- @return void
-function Material.DisableKeyword(keyword) end
+function Material.disableKeyword(keyword) end
 
 --- [WIP] - No method annotation provided
 --- @param keyword LocalKeyword& [WIP] - Add description for parameter
 --- @param value boolean [WIP] - Add description for parameter
 --- @return void
-function Material.SetKeyword(keyword,value) end
+function Material.setKeyword(keyword,value) end
 
 --- [WIP] - No method annotation provided
 --- @param keyword LocalKeyword& [WIP] - Add description for parameter
 --- @return boolean
-function Material.IsKeywordEnabled(keyword) end
+function Material.isKeywordEnabled(keyword) end
 
 --- [WIP] - No method annotation provided
 --- @param passName string [WIP] - Add description for parameter
 --- @param enabled boolean [WIP] - Add description for parameter
 --- @return void
-function Material.SetShaderPassEnabled(passName,enabled) end
+function Material.setShaderPassEnabled(passName,enabled) end
 
 --- [WIP] - No method annotation provided
 --- @param passName string [WIP] - Add description for parameter
 --- @return boolean
-function Material.GetShaderPassEnabled(passName) end
+function Material.getShaderPassEnabled(passName) end
 
 --- [WIP] - No method annotation provided
 --- @param pass integer [WIP] - Add description for parameter
 --- @return string
-function Material.GetPassName(pass) end
+function Material.getPassName(pass) end
 
 --- [WIP] - No method annotation provided
 --- @param passName string [WIP] - Add description for parameter
 --- @return integer
-function Material.FindPass(passName) end
+function Material.findPass(passName) end
 
 --- [WIP] - No method annotation provided
 --- @param tag string [WIP] - Add description for parameter
 --- @param val string [WIP] - Add description for parameter
 --- @return void
-function Material.SetOverrideTag(tag,val) end
+function Material.setOverrideTag(tag,val) end
 
 --- [WIP] - No method annotation provided
 --- @param tag string [WIP] - Add description for parameter
 --- @param searchFallbacks boolean [WIP] - Add description for parameter
 --- @param defaultValue string [WIP] - Add description for parameter
 --- @return string
-function Material.GetTag(tag,searchFallbacks,defaultValue) end
+function Material.getTag(tag,searchFallbacks,defaultValue) end
 
 --- [WIP] - No method annotation provided
 --- @param tag string [WIP] - Add description for parameter
 --- @param searchFallbacks boolean [WIP] - Add description for parameter
 --- @return string
-function Material.GetTag(tag,searchFallbacks) end
+function Material.getTag(tag,searchFallbacks) end
 
 --- [WIP] - No method annotation provided
 --- @param start Material [WIP] - Add description for parameter
 --- @param end Material [WIP] - Add description for parameter
 --- @param t number [WIP] - Add description for parameter
 --- @return void
-function Material.Lerp(start,end,t) end
+function Material.lerp(start,end,t) end
 
 --- [WIP] - No method annotation provided
 --- @param pass integer [WIP] - Add description for parameter
 --- @return boolean
-function Material.SetPass(pass) end
+function Material.setPass(pass) end
 
 --- [WIP] - No method annotation provided
 --- @param mat Material [WIP] - Add description for parameter
 --- @return void
-function Material.CopyPropertiesFromMaterial(mat) end
+function Material.copyPropertiesFromMaterial(mat) end
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function Material.ComputeCRC() end
+function Material.computeCRC() end
 
 --- [WIP] - No method annotation provided
 --- @return string[]
-function Material.GetTexturePropertyNames() end
+function Material.getTexturePropertyNames() end
 
 --- [WIP] - No method annotation provided
 --- @return integer[]
-function Material.GetTexturePropertyNameIDs() end
+function Material.getTexturePropertyNameIDs() end
 
 --- [WIP] - No method annotation provided
 --- @param outNames List<System.String> [WIP] - Add description for parameter
 --- @return void
-function Material.GetTexturePropertyNames(outNames) end
+function Material.getTexturePropertyNames(outNames) end
 
 --- [WIP] - No method annotation provided
 --- @param outNames List<System.Int32> [WIP] - Add description for parameter
 --- @return void
-function Material.GetTexturePropertyNameIDs(outNames) end
+function Material.getTexturePropertyNameIDs(outNames) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param value integer [WIP] - Add description for parameter
 --- @return void
-function Material.SetInt(name,value) end
+function Material.setInt(name,value) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @param value integer [WIP] - Add description for parameter
 --- @return void
-function Material.SetInt(nameID,value) end
+function Material.setInt(nameID,value) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param value number [WIP] - Add description for parameter
 --- @return void
-function Material.SetFloat(name,value) end
+function Material.setFloat(name,value) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @param value number [WIP] - Add description for parameter
 --- @return void
-function Material.SetFloat(nameID,value) end
+function Material.setFloat(nameID,value) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param value integer [WIP] - Add description for parameter
 --- @return void
-function Material.SetInteger(name,value) end
+function Material.setInteger(name,value) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @param value integer [WIP] - Add description for parameter
 --- @return void
-function Material.SetInteger(nameID,value) end
+function Material.setInteger(nameID,value) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param value Color [WIP] - Add description for parameter
 --- @return void
-function Material.SetColor(name,value) end
+function Material.setColor(name,value) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @param value Color [WIP] - Add description for parameter
 --- @return void
-function Material.SetColor(nameID,value) end
+function Material.setColor(nameID,value) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param value Vector4 [WIP] - Add description for parameter
 --- @return void
-function Material.SetVector(name,value) end
+function Material.setVector(name,value) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @param value Vector4 [WIP] - Add description for parameter
 --- @return void
-function Material.SetVector(nameID,value) end
+function Material.setVector(nameID,value) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param value Matrix4x4 [WIP] - Add description for parameter
 --- @return void
-function Material.SetMatrix(name,value) end
+function Material.setMatrix(name,value) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @param value Matrix4x4 [WIP] - Add description for parameter
 --- @return void
-function Material.SetMatrix(nameID,value) end
+function Material.setMatrix(nameID,value) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param value Texture [WIP] - Add description for parameter
 --- @return void
-function Material.SetTexture(name,value) end
+function Material.setTexture(name,value) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @param value Texture [WIP] - Add description for parameter
 --- @return void
-function Material.SetTexture(nameID,value) end
+function Material.setTexture(nameID,value) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param value RenderTexture [WIP] - Add description for parameter
 --- @param element RenderTextureSubElement [WIP] - Add description for parameter
 --- @return void
-function Material.SetTexture(name,value,element) end
+function Material.setTexture(name,value,element) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @param value RenderTexture [WIP] - Add description for parameter
 --- @param element RenderTextureSubElement [WIP] - Add description for parameter
 --- @return void
-function Material.SetTexture(nameID,value,element) end
+function Material.setTexture(nameID,value,element) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param value ComputeBuffer [WIP] - Add description for parameter
 --- @return void
-function Material.SetBuffer(name,value) end
+function Material.setBuffer(name,value) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @param value ComputeBuffer [WIP] - Add description for parameter
 --- @return void
-function Material.SetBuffer(nameID,value) end
+function Material.setBuffer(nameID,value) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param value GraphicsBuffer [WIP] - Add description for parameter
 --- @return void
-function Material.SetBuffer(name,value) end
+function Material.setBuffer(name,value) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @param value GraphicsBuffer [WIP] - Add description for parameter
 --- @return void
-function Material.SetBuffer(nameID,value) end
+function Material.setBuffer(nameID,value) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
@@ -355,7 +355,7 @@ function Material.SetBuffer(nameID,value) end
 --- @param offset integer [WIP] - Add description for parameter
 --- @param size integer [WIP] - Add description for parameter
 --- @return void
-function Material.SetConstantBuffer(name,value,offset,size) end
+function Material.setConstantBuffer(name,value,offset,size) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
@@ -363,7 +363,7 @@ function Material.SetConstantBuffer(name,value,offset,size) end
 --- @param offset integer [WIP] - Add description for parameter
 --- @param size integer [WIP] - Add description for parameter
 --- @return void
-function Material.SetConstantBuffer(nameID,value,offset,size) end
+function Material.setConstantBuffer(nameID,value,offset,size) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
@@ -371,7 +371,7 @@ function Material.SetConstantBuffer(nameID,value,offset,size) end
 --- @param offset integer [WIP] - Add description for parameter
 --- @param size integer [WIP] - Add description for parameter
 --- @return void
-function Material.SetConstantBuffer(name,value,offset,size) end
+function Material.setConstantBuffer(name,value,offset,size) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
@@ -379,304 +379,304 @@ function Material.SetConstantBuffer(name,value,offset,size) end
 --- @param offset integer [WIP] - Add description for parameter
 --- @param size integer [WIP] - Add description for parameter
 --- @return void
-function Material.SetConstantBuffer(nameID,value,offset,size) end
+function Material.setConstantBuffer(nameID,value,offset,size) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param values List<System.Single> [WIP] - Add description for parameter
 --- @return void
-function Material.SetFloatArray(name,values) end
+function Material.setFloatArray(name,values) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @param values List<System.Single> [WIP] - Add description for parameter
 --- @return void
-function Material.SetFloatArray(nameID,values) end
+function Material.setFloatArray(nameID,values) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param values number[] [WIP] - Add description for parameter
 --- @return void
-function Material.SetFloatArray(name,values) end
+function Material.setFloatArray(name,values) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @param values number[] [WIP] - Add description for parameter
 --- @return void
-function Material.SetFloatArray(nameID,values) end
+function Material.setFloatArray(nameID,values) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param values List<UnityEngine.Color> [WIP] - Add description for parameter
 --- @return void
-function Material.SetColorArray(name,values) end
+function Material.setColorArray(name,values) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @param values List<UnityEngine.Color> [WIP] - Add description for parameter
 --- @return void
-function Material.SetColorArray(nameID,values) end
+function Material.setColorArray(nameID,values) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param values Color[] [WIP] - Add description for parameter
 --- @return void
-function Material.SetColorArray(name,values) end
+function Material.setColorArray(name,values) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @param values Color[] [WIP] - Add description for parameter
 --- @return void
-function Material.SetColorArray(nameID,values) end
+function Material.setColorArray(nameID,values) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param values List<UnityEngine.Vector4> [WIP] - Add description for parameter
 --- @return void
-function Material.SetVectorArray(name,values) end
+function Material.setVectorArray(name,values) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @param values List<UnityEngine.Vector4> [WIP] - Add description for parameter
 --- @return void
-function Material.SetVectorArray(nameID,values) end
+function Material.setVectorArray(nameID,values) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param values Vector4[] [WIP] - Add description for parameter
 --- @return void
-function Material.SetVectorArray(name,values) end
+function Material.setVectorArray(name,values) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @param values Vector4[] [WIP] - Add description for parameter
 --- @return void
-function Material.SetVectorArray(nameID,values) end
+function Material.setVectorArray(nameID,values) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param values List<UnityEngine.Matrix4x4> [WIP] - Add description for parameter
 --- @return void
-function Material.SetMatrixArray(name,values) end
+function Material.setMatrixArray(name,values) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @param values List<UnityEngine.Matrix4x4> [WIP] - Add description for parameter
 --- @return void
-function Material.SetMatrixArray(nameID,values) end
+function Material.setMatrixArray(nameID,values) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param values Matrix4x4[] [WIP] - Add description for parameter
 --- @return void
-function Material.SetMatrixArray(name,values) end
+function Material.setMatrixArray(name,values) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @param values Matrix4x4[] [WIP] - Add description for parameter
 --- @return void
-function Material.SetMatrixArray(nameID,values) end
+function Material.setMatrixArray(nameID,values) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return integer
-function Material.GetInt(name) end
+function Material.getInt(name) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @return integer
-function Material.GetInt(nameID) end
+function Material.getInt(nameID) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return number
-function Material.GetFloat(name) end
+function Material.getFloat(name) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @return number
-function Material.GetFloat(nameID) end
+function Material.getFloat(nameID) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return integer
-function Material.GetInteger(name) end
+function Material.getInteger(name) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @return integer
-function Material.GetInteger(nameID) end
+function Material.getInteger(nameID) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return Color
-function Material.GetColor(name) end
+function Material.getColor(name) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @return Color
-function Material.GetColor(nameID) end
+function Material.getColor(nameID) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return Vector4
-function Material.GetVector(name) end
+function Material.getVector(name) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @return Vector4
-function Material.GetVector(nameID) end
+function Material.getVector(nameID) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return Matrix4x4
-function Material.GetMatrix(name) end
+function Material.getMatrix(name) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @return Matrix4x4
-function Material.GetMatrix(nameID) end
+function Material.getMatrix(nameID) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return Texture
-function Material.GetTexture(name) end
+function Material.getTexture(name) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @return Texture
-function Material.GetTexture(nameID) end
+function Material.getTexture(nameID) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return number[]
-function Material.GetFloatArray(name) end
+function Material.getFloatArray(name) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @return number[]
-function Material.GetFloatArray(nameID) end
+function Material.getFloatArray(nameID) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return Color[]
-function Material.GetColorArray(name) end
+function Material.getColorArray(name) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @return Color[]
-function Material.GetColorArray(nameID) end
+function Material.getColorArray(nameID) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return Vector4[]
-function Material.GetVectorArray(name) end
+function Material.getVectorArray(name) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @return Vector4[]
-function Material.GetVectorArray(nameID) end
+function Material.getVectorArray(nameID) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return Matrix4x4[]
-function Material.GetMatrixArray(name) end
+function Material.getMatrixArray(name) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @return Matrix4x4[]
-function Material.GetMatrixArray(nameID) end
+function Material.getMatrixArray(nameID) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param values List<System.Single> [WIP] - Add description for parameter
 --- @return void
-function Material.GetFloatArray(name,values) end
+function Material.getFloatArray(name,values) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @param values List<System.Single> [WIP] - Add description for parameter
 --- @return void
-function Material.GetFloatArray(nameID,values) end
+function Material.getFloatArray(nameID,values) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param values List<UnityEngine.Color> [WIP] - Add description for parameter
 --- @return void
-function Material.GetColorArray(name,values) end
+function Material.getColorArray(name,values) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @param values List<UnityEngine.Color> [WIP] - Add description for parameter
 --- @return void
-function Material.GetColorArray(nameID,values) end
+function Material.getColorArray(nameID,values) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param values List<UnityEngine.Vector4> [WIP] - Add description for parameter
 --- @return void
-function Material.GetVectorArray(name,values) end
+function Material.getVectorArray(name,values) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @param values List<UnityEngine.Vector4> [WIP] - Add description for parameter
 --- @return void
-function Material.GetVectorArray(nameID,values) end
+function Material.getVectorArray(nameID,values) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param values List<UnityEngine.Matrix4x4> [WIP] - Add description for parameter
 --- @return void
-function Material.GetMatrixArray(name,values) end
+function Material.getMatrixArray(name,values) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @param values List<UnityEngine.Matrix4x4> [WIP] - Add description for parameter
 --- @return void
-function Material.GetMatrixArray(nameID,values) end
+function Material.getMatrixArray(nameID,values) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param value Vector2 [WIP] - Add description for parameter
 --- @return void
-function Material.SetTextureOffset(name,value) end
+function Material.setTextureOffset(name,value) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @param value Vector2 [WIP] - Add description for parameter
 --- @return void
-function Material.SetTextureOffset(nameID,value) end
+function Material.setTextureOffset(nameID,value) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param value Vector2 [WIP] - Add description for parameter
 --- @return void
-function Material.SetTextureScale(name,value) end
+function Material.setTextureScale(name,value) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @param value Vector2 [WIP] - Add description for parameter
 --- @return void
-function Material.SetTextureScale(nameID,value) end
+function Material.setTextureScale(nameID,value) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return Vector2
-function Material.GetTextureOffset(name) end
+function Material.getTextureOffset(name) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @return Vector2
-function Material.GetTextureOffset(nameID) end
+function Material.getTextureOffset(nameID) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return Vector2
-function Material.GetTextureScale(name) end
+function Material.getTextureScale(name) end
 
 --- [WIP] - No method annotation provided
 --- @param nameID integer [WIP] - Add description for parameter
 --- @return Vector2
-function Material.GetTextureScale(nameID) end
+function Material.getTextureScale(nameID) end
 
 return Material

@@ -14,26 +14,26 @@ progress = {}
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function progress.IsBought() end
+function progress.isBought() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function progress.OnBuy() end
+function progress.onBuy() end
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function progress.IsUnlocked() end
+function progress.isUnlocked() end
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function progress.HasSuccessor() end
+function progress.hasSuccessor() end
 
 --- [WIP] - No method annotation provided
 --- @return ProgressDiskRepresentation
-function progress.GetPredecessor() end
+function progress.getPredecessor() end
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function progress.GetOrderInCategory() end
+function progress.getOrderInCategory() end
 
 return progress

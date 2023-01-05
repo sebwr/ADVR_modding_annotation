@@ -37,119 +37,119 @@ ParticleSystem = {}
 --- @param lifetime number [WIP] - Add description for parameter
 --- @param color Color32 [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.Emit(position,velocity,size,lifetime,color) end
+function ParticleSystem.emit(position,velocity,size,lifetime,color) end
 
 --- [WIP] - No method annotation provided
 --- @param particle Particle [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.Emit(particle) end
+function ParticleSystem.emit(particle) end
 
 --- [WIP] - No method annotation provided
 --- @param particles Particle[] [WIP] - Add description for parameter
 --- @param size integer [WIP] - Add description for parameter
 --- @param offset integer [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.SetParticles(particles,size,offset) end
+function ParticleSystem.setParticles(particles,size,offset) end
 
 --- [WIP] - No method annotation provided
 --- @param particles Particle[] [WIP] - Add description for parameter
 --- @param size integer [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.SetParticles(particles,size) end
+function ParticleSystem.setParticles(particles,size) end
 
 --- [WIP] - No method annotation provided
 --- @param particles Particle[] [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.SetParticles(particles) end
+function ParticleSystem.setParticles(particles) end
 
 --- [WIP] - No method annotation provided
 --- @param particles NativeArray<UnityEngine.ParticleSystem+Particle> [WIP] - Add description for parameter
 --- @param size integer [WIP] - Add description for parameter
 --- @param offset integer [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.SetParticles(particles,size,offset) end
+function ParticleSystem.setParticles(particles,size,offset) end
 
 --- [WIP] - No method annotation provided
 --- @param particles NativeArray<UnityEngine.ParticleSystem+Particle> [WIP] - Add description for parameter
 --- @param size integer [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.SetParticles(particles,size) end
+function ParticleSystem.setParticles(particles,size) end
 
 --- [WIP] - No method annotation provided
 --- @param particles NativeArray<UnityEngine.ParticleSystem+Particle> [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.SetParticles(particles) end
+function ParticleSystem.setParticles(particles) end
 
 --- [WIP] - No method annotation provided
 --- @param particles Particle[] [WIP] - Add description for parameter
 --- @param size integer [WIP] - Add description for parameter
 --- @param offset integer [WIP] - Add description for parameter
 --- @return integer
-function ParticleSystem.GetParticles(particles,size,offset) end
+function ParticleSystem.getParticles(particles,size,offset) end
 
 --- [WIP] - No method annotation provided
 --- @param particles Particle[] [WIP] - Add description for parameter
 --- @param size integer [WIP] - Add description for parameter
 --- @return integer
-function ParticleSystem.GetParticles(particles,size) end
+function ParticleSystem.getParticles(particles,size) end
 
 --- [WIP] - No method annotation provided
 --- @param particles Particle[] [WIP] - Add description for parameter
 --- @return integer
-function ParticleSystem.GetParticles(particles) end
+function ParticleSystem.getParticles(particles) end
 
 --- [WIP] - No method annotation provided
 --- @param particles NativeArray<UnityEngine.ParticleSystem+Particle> [WIP] - Add description for parameter
 --- @param size integer [WIP] - Add description for parameter
 --- @param offset integer [WIP] - Add description for parameter
 --- @return integer
-function ParticleSystem.GetParticles(particles,size,offset) end
+function ParticleSystem.getParticles(particles,size,offset) end
 
 --- [WIP] - No method annotation provided
 --- @param particles NativeArray<UnityEngine.ParticleSystem+Particle> [WIP] - Add description for parameter
 --- @param size integer [WIP] - Add description for parameter
 --- @return integer
-function ParticleSystem.GetParticles(particles,size) end
+function ParticleSystem.getParticles(particles,size) end
 
 --- [WIP] - No method annotation provided
 --- @param particles NativeArray<UnityEngine.ParticleSystem+Particle> [WIP] - Add description for parameter
 --- @return integer
-function ParticleSystem.GetParticles(particles) end
+function ParticleSystem.getParticles(particles) end
 
 --- [WIP] - No method annotation provided
 --- @param customData List<UnityEngine.Vector4> [WIP] - Add description for parameter
 --- @param streamIndex ParticleSystemCustomData [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.SetCustomParticleData(customData,streamIndex) end
+function ParticleSystem.setCustomParticleData(customData,streamIndex) end
 
 --- [WIP] - No method annotation provided
 --- @param customData List<UnityEngine.Vector4> [WIP] - Add description for parameter
 --- @param streamIndex ParticleSystemCustomData [WIP] - Add description for parameter
 --- @return integer
-function ParticleSystem.GetCustomParticleData(customData,streamIndex) end
+function ParticleSystem.getCustomParticleData(customData,streamIndex) end
 
 --- [WIP] - No method annotation provided
 --- @return PlaybackState
-function ParticleSystem.GetPlaybackState() end
+function ParticleSystem.getPlaybackState() end
 
 --- [WIP] - No method annotation provided
 --- @param playbackState PlaybackState [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.SetPlaybackState(playbackState) end
+function ParticleSystem.setPlaybackState(playbackState) end
 
 --- [WIP] - No method annotation provided
 --- @return Trails
-function ParticleSystem.GetTrails() end
+function ParticleSystem.getTrails() end
 
 --- [WIP] - No method annotation provided
 --- @param trailData Trails& [WIP] - Add description for parameter
 --- @return integer
-function ParticleSystem.GetTrails(trailData) end
+function ParticleSystem.getTrails(trailData) end
 
 --- [WIP] - No method annotation provided
 --- @param trailData Trails [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.SetTrails(trailData) end
+function ParticleSystem.setTrails(trailData) end
 
 --- [WIP] - No method annotation provided
 --- @param t number [WIP] - Add description for parameter
@@ -157,116 +157,116 @@ function ParticleSystem.SetTrails(trailData) end
 --- @param restart boolean [WIP] - Add description for parameter
 --- @param fixedTimeStep boolean [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.Simulate(t,withChildren,restart,fixedTimeStep) end
+function ParticleSystem.simulate(t,withChildren,restart,fixedTimeStep) end
 
 --- [WIP] - No method annotation provided
 --- @param t number [WIP] - Add description for parameter
 --- @param withChildren boolean [WIP] - Add description for parameter
 --- @param restart boolean [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.Simulate(t,withChildren,restart) end
+function ParticleSystem.simulate(t,withChildren,restart) end
 
 --- [WIP] - No method annotation provided
 --- @param t number [WIP] - Add description for parameter
 --- @param withChildren boolean [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.Simulate(t,withChildren) end
+function ParticleSystem.simulate(t,withChildren) end
 
 --- [WIP] - No method annotation provided
 --- @param t number [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.Simulate(t) end
+function ParticleSystem.simulate(t) end
 
 --- [WIP] - No method annotation provided
 --- @param withChildren boolean [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.Play(withChildren) end
+function ParticleSystem.play(withChildren) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ParticleSystem.Play() end
+function ParticleSystem.play() end
 
 --- [WIP] - No method annotation provided
 --- @param withChildren boolean [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.Pause(withChildren) end
+function ParticleSystem.pause(withChildren) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ParticleSystem.Pause() end
+function ParticleSystem.pause() end
 
 --- [WIP] - No method annotation provided
 --- @param withChildren boolean [WIP] - Add description for parameter
 --- @param stopBehavior ParticleSystemStopBehavior [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.Stop(withChildren,stopBehavior) end
+function ParticleSystem.stop(withChildren,stopBehavior) end
 
 --- [WIP] - No method annotation provided
 --- @param withChildren boolean [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.Stop(withChildren) end
+function ParticleSystem.stop(withChildren) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ParticleSystem.Stop() end
+function ParticleSystem.stop() end
 
 --- [WIP] - No method annotation provided
 --- @param withChildren boolean [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.Clear(withChildren) end
+function ParticleSystem.clear(withChildren) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ParticleSystem.Clear() end
+function ParticleSystem.clear() end
 
 --- [WIP] - No method annotation provided
 --- @param withChildren boolean [WIP] - Add description for parameter
 --- @return boolean
-function ParticleSystem.IsAlive(withChildren) end
+function ParticleSystem.isAlive(withChildren) end
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function ParticleSystem.IsAlive() end
+function ParticleSystem.isAlive() end
 
 --- [WIP] - No method annotation provided
 --- @param count integer [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.Emit(count) end
+function ParticleSystem.emit(count) end
 
 --- [WIP] - No method annotation provided
 --- @param emitParams EmitParams [WIP] - Add description for parameter
 --- @param count integer [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.Emit(emitParams,count) end
+function ParticleSystem.emit(emitParams,count) end
 
 --- [WIP] - No method annotation provided
 --- @param subEmitterIndex integer [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.TriggerSubEmitter(subEmitterIndex) end
+function ParticleSystem.triggerSubEmitter(subEmitterIndex) end
 
 --- [WIP] - No method annotation provided
 --- @param subEmitterIndex integer [WIP] - Add description for parameter
 --- @param particle Particle& [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.TriggerSubEmitter(subEmitterIndex,particle) end
+function ParticleSystem.triggerSubEmitter(subEmitterIndex,particle) end
 
 --- [WIP] - No method annotation provided
 --- @param subEmitterIndex integer [WIP] - Add description for parameter
 --- @param particles List<UnityEngine.ParticleSystem+Particle> [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.TriggerSubEmitter(subEmitterIndex,particles) end
+function ParticleSystem.triggerSubEmitter(subEmitterIndex,particles) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ParticleSystem.AllocateAxisOfRotationAttribute() end
+function ParticleSystem.allocateAxisOfRotationAttribute() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ParticleSystem.AllocateMeshIndexAttribute() end
+function ParticleSystem.allocateMeshIndexAttribute() end
 
 --- [WIP] - No method annotation provided
 --- @param stream ParticleSystemCustomData [WIP] - Add description for parameter
 --- @return void
-function ParticleSystem.AllocateCustomDataAttribute(stream) end
+function ParticleSystem.allocateCustomDataAttribute(stream) end
 
 return ParticleSystem

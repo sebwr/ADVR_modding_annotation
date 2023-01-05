@@ -32,6 +32,6 @@ ThrowableBase = {}
 --- [WIP] - No method annotation provided
 --- @param source GameObject [WIP] - Add description for parameter
 --- @return void
-function ThrowableBase.OnDeath(source) end
+function ThrowableBase.onDeath(source) end
 
 return ThrowableBase

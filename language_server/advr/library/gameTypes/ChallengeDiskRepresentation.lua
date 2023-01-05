@@ -12,6 +12,6 @@ ChallengeDiskRepresentation = {}
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function ChallengeDiskRepresentation.IsUnlocked() end
+function ChallengeDiskRepresentation.isUnlocked() end
 
 return ChallengeDiskRepresentation

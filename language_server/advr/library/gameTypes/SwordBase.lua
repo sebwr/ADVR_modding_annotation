@@ -53,14 +53,14 @@ function SwordBase.remove_EntityHitEvent(value) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function SwordBase.OnEnable() end
+function SwordBase.onEnable() end
 
 --- [WIP] - No method annotation provided
 --- @param c Color [WIP] - Add description for parameter
 --- @param intensity number [WIP] - Add description for parameter
 --- @param weight number [WIP] - Add description for parameter
 --- @return void
-function SwordBase.SetTrailEmission(c,intensity,weight) end
+function SwordBase.setTrailEmission(c,intensity,weight) end
 
 --- [WIP] - No method annotation provided
 --- @param region0 Color [WIP] - Add description for parameter
@@ -72,59 +72,59 @@ function SwordBase.SetTrailEmission(c,intensity,weight) end
 --- @param region6 Color [WIP] - Add description for parameter
 --- @param history boolean [WIP] - Add description for parameter
 --- @return void
-function SwordBase.UpdateWeaponColors(region0,region1,region2,region3,region4,region5,region6,history) end
+function SwordBase.updateWeaponColors(region0,region1,region2,region3,region4,region5,region6,history) end
 
 --- [WIP] - No method annotation provided
 --- @param c Color [WIP] - Add description for parameter
 --- @param weight number [WIP] - Add description for parameter
 --- @return void
-function SwordBase.SetTrailColor(c,weight) end
+function SwordBase.setTrailColor(c,weight) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function SwordBase.OnGrab() end
+function SwordBase.onGrab() end
 
 --- [WIP] - No method annotation provided
 --- @return Vector3
-function SwordBase.GetHandleVelocityEstimate() end
+function SwordBase.getHandleVelocityEstimate() end
 
 --- [WIP] - No method annotation provided
 --- @return Vector3
-function SwordBase.GetTipVelocityEstimate() end
+function SwordBase.getTipVelocityEstimate() end
 
 --- [WIP] - No method annotation provided
 --- @param _hand PlayerHand [WIP] - Add description for parameter
 --- @return void
-function SwordBase.EquipWeapon(_hand) end
+function SwordBase.equipWeapon(_hand) end
 
 --- [WIP] - No method annotation provided
 --- @param collision Collision [WIP] - Add description for parameter
 --- @return void
-function SwordBase.OnCollisionEnter(collision) end
+function SwordBase.onCollisionEnter(collision) end
 
 --- [WIP] - No method annotation provided
 --- @param other Collision [WIP] - Add description for parameter
 --- @param dmg number [WIP] - Add description for parameter
 --- @param e LivingBase [WIP] - Add description for parameter
 --- @return void
-function SwordBase.OnHitEntity(other,dmg,e) end
+function SwordBase.onHitEntity(other,dmg,e) end
 
 --- [WIP] - No method annotation provided
 --- @param other Collision [WIP] - Add description for parameter
 --- @return void
-function SwordBase.SpawnHitImpactParticles(other) end
+function SwordBase.spawnHitImpactParticles(other) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function SwordBase.Update() end
+function SwordBase.update() end
 
 --- [WIP] - No method annotation provided
 --- @param shape Sprite [WIP] - Add description for parameter
 --- @return void
-function SwordBase.UpdateWeaponMesh(shape) end
+function SwordBase.updateWeaponMesh(shape) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function SwordBase.OnPlayerRotate() end
+function SwordBase.onPlayerRotate() end
 
 return SwordBase

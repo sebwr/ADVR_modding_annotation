@@ -70,59 +70,59 @@ function AIWalkToEnemy.remove_OnPathCalculated(value) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIWalkToEnemy.ClearPath() end
+function AIWalkToEnemy.clearPath() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIWalkToEnemy.Start() end
+function AIWalkToEnemy.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIWalkToEnemy.OnEnable() end
+function AIWalkToEnemy.onEnable() end
 
 --- [WIP] - No method annotation provided
 --- @param infos HitEventInfos [WIP] - Add description for parameter
 --- @param dmg integer [WIP] - Add description for parameter
 --- @return void
-function AIWalkToEnemy.OnHit(infos,dmg) end
+function AIWalkToEnemy.onHit(infos,dmg) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIWalkToEnemy.Update() end
+function AIWalkToEnemy.update() end
 
 --- [WIP] - No method annotation provided
 --- @param paramName string [WIP] - Add description for parameter
 --- @return boolean
-function AIWalkToEnemy.HasParameter(paramName) end
+function AIWalkToEnemy.hasParameter(paramName) end
 
 --- [WIP] - No method annotation provided
 --- @param seesPlayer boolean [WIP] - Add description for parameter
 --- @return void
-function AIWalkToEnemy.OnNoPath(seesPlayer) end
+function AIWalkToEnemy.onNoPath(seesPlayer) end
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function AIWalkToEnemy.InReachDistance() end
+function AIWalkToEnemy.inReachDistance() end
 
 --- [WIP] - No method annotation provided
 --- @param goalPoint Vector3 [WIP] - Add description for parameter
 --- @return void
-function AIWalkToEnemy.MoveRoutine(goalPoint) end
+function AIWalkToEnemy.moveRoutine(goalPoint) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIWalkToEnemy.OnSeePlayer() end
+function AIWalkToEnemy.onSeePlayer() end
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function AIWalkToEnemy.IsCustomTargetPlayer() end
+function AIWalkToEnemy.isCustomTargetPlayer() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIWalkToEnemy.OnDrawGizmos() end
+function AIWalkToEnemy.onDrawGizmos() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIWalkToEnemy.OnLoosePlayer() end
+function AIWalkToEnemy.onLoosePlayer() end
 
 return AIWalkToEnemy

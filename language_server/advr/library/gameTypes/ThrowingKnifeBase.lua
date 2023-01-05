@@ -36,39 +36,39 @@ ThrowingKnifeBase = {}
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function ThrowingKnifeBase.IsKnifeStuck() end
+function ThrowingKnifeBase.isKnifeStuck() end
 
 --- [WIP] - No method annotation provided
 --- @param handType HandType [WIP] - Add description for parameter
 --- @return void
-function ThrowingKnifeBase.OnTriggerInputReleased(handType) end
+function ThrowingKnifeBase.onTriggerInputReleased(handType) end
 
 --- [WIP] - No method annotation provided
 --- @param _hand PlayerHand [WIP] - Add description for parameter
 --- @return void
-function ThrowingKnifeBase.EquipWeapon(_hand) end
+function ThrowingKnifeBase.equipWeapon(_hand) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ThrowingKnifeBase.UnequipWeapon() end
+function ThrowingKnifeBase.unequipWeapon() end
 
 --- [WIP] - No method annotation provided
 --- @param _colls Collider[] [WIP] - Add description for parameter
 --- @return void
-function ThrowingKnifeBase.IgnoreCollisions(_colls) end
+function ThrowingKnifeBase.ignoreCollisions(_colls) end
 
 --- [WIP] - No method annotation provided
 --- @param c Color [WIP] - Add description for parameter
 --- @param intensity number [WIP] - Add description for parameter
 --- @param weight number [WIP] - Add description for parameter
 --- @return void
-function ThrowingKnifeBase.SetTrailEmission(c,intensity,weight) end
+function ThrowingKnifeBase.setTrailEmission(c,intensity,weight) end
 
 --- [WIP] - No method annotation provided
 --- @param c Color [WIP] - Add description for parameter
 --- @param weight number [WIP] - Add description for parameter
 --- @return void
-function ThrowingKnifeBase.SetTrailColor(c,weight) end
+function ThrowingKnifeBase.setTrailColor(c,weight) end
 
 --- [WIP] - No method annotation provided
 --- @param region0 Color [WIP] - Add description for parameter
@@ -80,36 +80,36 @@ function ThrowingKnifeBase.SetTrailColor(c,weight) end
 --- @param region6 Color [WIP] - Add description for parameter
 --- @param history boolean [WIP] - Add description for parameter
 --- @return void
-function ThrowingKnifeBase.UpdateWeaponColors(region0,region1,region2,region3,region4,region5,region6,history) end
+function ThrowingKnifeBase.updateWeaponColors(region0,region1,region2,region3,region4,region5,region6,history) end
 
 --- [WIP] - No method annotation provided
 --- @param enable boolean [WIP] - Add description for parameter
 --- @return void
-function ThrowingKnifeBase.EnableCollision(enable) end
+function ThrowingKnifeBase.enableCollision(enable) end
 
 --- [WIP] - No method annotation provided
 --- @param _hand PlayerHand [WIP] - Add description for parameter
 --- @return void
-function ThrowingKnifeBase.OnThrow(_hand) end
+function ThrowingKnifeBase.onThrow(_hand) end
 
 --- [WIP] - No method annotation provided
 --- @param _velocityMultiplier number [WIP] - Add description for parameter
 --- @param _offset Vector3 [WIP] - Add description for parameter
 --- @return void
-function ThrowingKnifeBase.SpawnAdditionalKnife(_velocityMultiplier,_offset) end
+function ThrowingKnifeBase.spawnAdditionalKnife(_velocityMultiplier,_offset) end
 
 --- [WIP] - No method annotation provided
 --- @param goalRot Quaternion [WIP] - Add description for parameter
 --- @return void
-function ThrowingKnifeBase.RefreshKnife(goalRot) end
+function ThrowingKnifeBase.refreshKnife(goalRot) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ThrowingKnifeBase.OnReleaseBeforeAtHand() end
+function ThrowingKnifeBase.onReleaseBeforeAtHand() end
 
 --- [WIP] - No method annotation provided
 --- @param goalPos Vector3 [WIP] - Add description for parameter
 --- @return void
-function ThrowingKnifeBase.MoveTowardsHand(goalPos) end
+function ThrowingKnifeBase.moveTowardsHand(goalPos) end
 
 return ThrowingKnifeBase

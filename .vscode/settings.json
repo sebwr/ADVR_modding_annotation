@@ -1,0 +1,9 @@
+{
+    "Lua.workspace.library": [
+        "${3rd}/advr/library"
+    ],
+    "Lua.workspace.checkThirdParty": false,
+    "Lua.diagnostics.disable": [
+        "lowercase-global"
+    ]
+}

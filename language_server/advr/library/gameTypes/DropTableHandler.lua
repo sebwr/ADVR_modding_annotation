@@ -9,29 +9,29 @@ DropTableHandler = {}
 --- [WIP] - No method annotation provided
 --- @param s string [WIP] - Add description for parameter
 --- @return DropTable[]
-function DropTableHandler.GetDropTablesByName(s) end
+function DropTableHandler.getDropTablesByName(s) end
 
 --- [WIP] - No method annotation provided
 --- @param pos Vector3 [WIP] - Add description for parameter
 --- @param pool string [WIP] - Add description for parameter
 --- @param tier integer [WIP] - Add description for parameter
 --- @return GameObject
-function DropTableHandler.DropUpgradeAt(pos,pool,tier) end
+function DropTableHandler.dropUpgradeAt(pos,pool,tier) end
 
 --- [WIP] - No method annotation provided
 --- @param pos Vector3 [WIP] - Add description for parameter
 --- @param id string [WIP] - Add description for parameter
 --- @return GameObject
-function DropTableHandler.DropUpgradeId(pos,id) end
+function DropTableHandler.dropUpgradeId(pos,id) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function DropTableHandler.InitDropTables() end
+function DropTableHandler.initDropTables() end
 
 --- [WIP] - No method annotation provided
 --- @param _name string [WIP] - Add description for parameter
 --- @return void
-function DropTableHandler.CreateDropTable(_name) end
+function DropTableHandler.createDropTable(_name) end
 
 --- [WIP] - No method annotation provided
 --- @param _addTo string [WIP] - Add description for parameter
@@ -41,18 +41,18 @@ function DropTableHandler.CreateDropTable(_name) end
 --- @param _minAmount integer [WIP] - Add description for parameter
 --- @param _maxAmount integer [WIP] - Add description for parameter
 --- @return void
-function DropTableHandler.AddToDropTable(_addTo,_itemToAdd,_prob,_hardModeProb,_minAmount,_maxAmount) end
+function DropTableHandler.addToDropTable(_addTo,_itemToAdd,_prob,_hardModeProb,_minAmount,_maxAmount) end
 
 --- [WIP] - No method annotation provided
 --- @param _removeFrom string [WIP] - Add description for parameter
 --- @param _itemToRemove string [WIP] - Add description for parameter
 --- @return void
-function DropTableHandler.RemoveFromDropTable(_removeFrom,_itemToRemove) end
+function DropTableHandler.removeFromDropTable(_removeFrom,_itemToRemove) end
 
 --- [WIP] - No method annotation provided
 --- @param _dropTable string [WIP] - Add description for parameter
 --- @param _id string [WIP] - Add description for parameter
 --- @return DropEntry
-function DropTableHandler.GetDropEntry(_dropTable,_id) end
+function DropTableHandler.getDropEntry(_dropTable,_id) end
 
 return DropTableHandler

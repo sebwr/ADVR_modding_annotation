@@ -25,34 +25,34 @@ PickupDiskRepresentation = {}
 --- TODO @Eric
 --- @param code string The code which is used for the override
 --- @return void
-function PickupDiskRepresentation.OverwriteCode(code) end
+function PickupDiskRepresentation.overwriteCode(code) end
 
 --- TODO @Eric
 --- @return void
-function PickupDiskRepresentation.RegisterItem() end
+function PickupDiskRepresentation.registerItem() end
 
 --- TODO @Eric
 --- @return void
-function PickupDiskRepresentation.RegisterUsable() end
+function PickupDiskRepresentation.registerUsable() end
 
 --- TODO @Eric
 --- @return void
-function PickupDiskRepresentation.ActivateUsable() end
+function PickupDiskRepresentation.activateUsable() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function PickupDiskRepresentation.OnPickup() end
+function PickupDiskRepresentation.onPickup() end
 
 --- TODO @Eric
 --- @return boolean
-function PickupDiskRepresentation.HasFoundItem() end
+function PickupDiskRepresentation.hasFoundItem() end
 
 --- TODO @Eric
 --- @return boolean
-function PickupDiskRepresentation.HasUnlockedItem() end
+function PickupDiskRepresentation.hasUnlockedItem() end
 
 --- TODO @Eric
 --- @return integer
-function PickupDiskRepresentation.AmountActive() end
+function PickupDiskRepresentation.amountActive() end
 
 return PickupDiskRepresentation

@@ -12,6 +12,6 @@ ButtonWorldmapFloor = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ButtonWorldmapFloor.Start() end
+function ButtonWorldmapFloor.start() end
 
 return ButtonWorldmapFloor

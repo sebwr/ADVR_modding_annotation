@@ -49,31 +49,31 @@ AIHumanoidAttack = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIHumanoidAttack.Start() end
+function AIHumanoidAttack.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIHumanoidAttack.PlayStepSound() end
+function AIHumanoidAttack.playStepSound() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIHumanoidAttack.PlayAttackSound() end
+function AIHumanoidAttack.playAttackSound() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIHumanoidAttack.EnableSword() end
+function AIHumanoidAttack.enableSword() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIHumanoidAttack.DisableSword() end
+function AIHumanoidAttack.disableSword() end
 
 --- [WIP] - No method annotation provided
 --- @param id integer [WIP] - Add description for parameter
 --- @return void
-function AIHumanoidAttack.SetCurrentAttack(id) end
+function AIHumanoidAttack.setCurrentAttack(id) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIHumanoidAttack.Update() end
+function AIHumanoidAttack.update() end
 
 return AIHumanoidAttack

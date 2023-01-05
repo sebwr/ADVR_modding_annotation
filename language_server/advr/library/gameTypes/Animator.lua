@@ -45,32 +45,32 @@ Animator = {}
 --- [WIP] - No method annotation provided
 --- @param layerIndex integer [WIP] - Add description for parameter
 --- @return AnimationInfo[]
-function Animator.GetCurrentAnimationClipState(layerIndex) end
+function Animator.getCurrentAnimationClipState(layerIndex) end
 
 --- [WIP] - No method annotation provided
 --- @param layerIndex integer [WIP] - Add description for parameter
 --- @return AnimationInfo[]
-function Animator.GetNextAnimationClipState(layerIndex) end
+function Animator.getNextAnimationClipState(layerIndex) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Animator.Stop() end
+function Animator.stop() end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return number
-function Animator.GetFloat(name) end
+function Animator.getFloat(name) end
 
 --- [WIP] - No method annotation provided
 --- @param id integer [WIP] - Add description for parameter
 --- @return number
-function Animator.GetFloat(id) end
+function Animator.getFloat(id) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param value number [WIP] - Add description for parameter
 --- @return void
-function Animator.SetFloat(name,value) end
+function Animator.setFloat(name,value) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
@@ -78,13 +78,13 @@ function Animator.SetFloat(name,value) end
 --- @param dampTime number [WIP] - Add description for parameter
 --- @param deltaTime number [WIP] - Add description for parameter
 --- @return void
-function Animator.SetFloat(name,value,dampTime,deltaTime) end
+function Animator.setFloat(name,value,dampTime,deltaTime) end
 
 --- [WIP] - No method annotation provided
 --- @param id integer [WIP] - Add description for parameter
 --- @param value number [WIP] - Add description for parameter
 --- @return void
-function Animator.SetFloat(id,value) end
+function Animator.setFloat(id,value) end
 
 --- [WIP] - No method annotation provided
 --- @param id integer [WIP] - Add description for parameter
@@ -92,170 +92,170 @@ function Animator.SetFloat(id,value) end
 --- @param dampTime number [WIP] - Add description for parameter
 --- @param deltaTime number [WIP] - Add description for parameter
 --- @return void
-function Animator.SetFloat(id,value,dampTime,deltaTime) end
+function Animator.setFloat(id,value,dampTime,deltaTime) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return boolean
-function Animator.GetBool(name) end
+function Animator.getBool(name) end
 
 --- [WIP] - No method annotation provided
 --- @param id integer [WIP] - Add description for parameter
 --- @return boolean
-function Animator.GetBool(id) end
+function Animator.getBool(id) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param value boolean [WIP] - Add description for parameter
 --- @return void
-function Animator.SetBool(name,value) end
+function Animator.setBool(name,value) end
 
 --- [WIP] - No method annotation provided
 --- @param id integer [WIP] - Add description for parameter
 --- @param value boolean [WIP] - Add description for parameter
 --- @return void
-function Animator.SetBool(id,value) end
+function Animator.setBool(id,value) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return integer
-function Animator.GetInteger(name) end
+function Animator.getInteger(name) end
 
 --- [WIP] - No method annotation provided
 --- @param id integer [WIP] - Add description for parameter
 --- @return integer
-function Animator.GetInteger(id) end
+function Animator.getInteger(id) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param value integer [WIP] - Add description for parameter
 --- @return void
-function Animator.SetInteger(name,value) end
+function Animator.setInteger(name,value) end
 
 --- [WIP] - No method annotation provided
 --- @param id integer [WIP] - Add description for parameter
 --- @param value integer [WIP] - Add description for parameter
 --- @return void
-function Animator.SetInteger(id,value) end
+function Animator.setInteger(id,value) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return void
-function Animator.SetTrigger(name) end
+function Animator.setTrigger(name) end
 
 --- [WIP] - No method annotation provided
 --- @param id integer [WIP] - Add description for parameter
 --- @return void
-function Animator.SetTrigger(id) end
+function Animator.setTrigger(id) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return void
-function Animator.ResetTrigger(name) end
+function Animator.resetTrigger(name) end
 
 --- [WIP] - No method annotation provided
 --- @param id integer [WIP] - Add description for parameter
 --- @return void
-function Animator.ResetTrigger(id) end
+function Animator.resetTrigger(id) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return boolean
-function Animator.IsParameterControlledByCurve(name) end
+function Animator.isParameterControlledByCurve(name) end
 
 --- [WIP] - No method annotation provided
 --- @param id integer [WIP] - Add description for parameter
 --- @return boolean
-function Animator.IsParameterControlledByCurve(id) end
+function Animator.isParameterControlledByCurve(id) end
 
 --- [WIP] - No method annotation provided
 --- @param goal AvatarIKGoal [WIP] - Add description for parameter
 --- @return Vector3
-function Animator.GetIKPosition(goal) end
+function Animator.getIKPosition(goal) end
 
 --- [WIP] - No method annotation provided
 --- @param goal AvatarIKGoal [WIP] - Add description for parameter
 --- @param goalPosition Vector3 [WIP] - Add description for parameter
 --- @return void
-function Animator.SetIKPosition(goal,goalPosition) end
+function Animator.setIKPosition(goal,goalPosition) end
 
 --- [WIP] - No method annotation provided
 --- @param goal AvatarIKGoal [WIP] - Add description for parameter
 --- @return Quaternion
-function Animator.GetIKRotation(goal) end
+function Animator.getIKRotation(goal) end
 
 --- [WIP] - No method annotation provided
 --- @param goal AvatarIKGoal [WIP] - Add description for parameter
 --- @param goalRotation Quaternion [WIP] - Add description for parameter
 --- @return void
-function Animator.SetIKRotation(goal,goalRotation) end
+function Animator.setIKRotation(goal,goalRotation) end
 
 --- [WIP] - No method annotation provided
 --- @param goal AvatarIKGoal [WIP] - Add description for parameter
 --- @return number
-function Animator.GetIKPositionWeight(goal) end
+function Animator.getIKPositionWeight(goal) end
 
 --- [WIP] - No method annotation provided
 --- @param goal AvatarIKGoal [WIP] - Add description for parameter
 --- @param value number [WIP] - Add description for parameter
 --- @return void
-function Animator.SetIKPositionWeight(goal,value) end
+function Animator.setIKPositionWeight(goal,value) end
 
 --- [WIP] - No method annotation provided
 --- @param goal AvatarIKGoal [WIP] - Add description for parameter
 --- @return number
-function Animator.GetIKRotationWeight(goal) end
+function Animator.getIKRotationWeight(goal) end
 
 --- [WIP] - No method annotation provided
 --- @param goal AvatarIKGoal [WIP] - Add description for parameter
 --- @param value number [WIP] - Add description for parameter
 --- @return void
-function Animator.SetIKRotationWeight(goal,value) end
+function Animator.setIKRotationWeight(goal,value) end
 
 --- [WIP] - No method annotation provided
 --- @param hint AvatarIKHint [WIP] - Add description for parameter
 --- @return Vector3
-function Animator.GetIKHintPosition(hint) end
+function Animator.getIKHintPosition(hint) end
 
 --- [WIP] - No method annotation provided
 --- @param hint AvatarIKHint [WIP] - Add description for parameter
 --- @param hintPosition Vector3 [WIP] - Add description for parameter
 --- @return void
-function Animator.SetIKHintPosition(hint,hintPosition) end
+function Animator.setIKHintPosition(hint,hintPosition) end
 
 --- [WIP] - No method annotation provided
 --- @param hint AvatarIKHint [WIP] - Add description for parameter
 --- @return number
-function Animator.GetIKHintPositionWeight(hint) end
+function Animator.getIKHintPositionWeight(hint) end
 
 --- [WIP] - No method annotation provided
 --- @param hint AvatarIKHint [WIP] - Add description for parameter
 --- @param value number [WIP] - Add description for parameter
 --- @return void
-function Animator.SetIKHintPositionWeight(hint,value) end
+function Animator.setIKHintPositionWeight(hint,value) end
 
 --- [WIP] - No method annotation provided
 --- @param lookAtPosition Vector3 [WIP] - Add description for parameter
 --- @return void
-function Animator.SetLookAtPosition(lookAtPosition) end
+function Animator.setLookAtPosition(lookAtPosition) end
 
 --- [WIP] - No method annotation provided
 --- @param weight number [WIP] - Add description for parameter
 --- @return void
-function Animator.SetLookAtWeight(weight) end
+function Animator.setLookAtWeight(weight) end
 
 --- [WIP] - No method annotation provided
 --- @param weight number [WIP] - Add description for parameter
 --- @param bodyWeight number [WIP] - Add description for parameter
 --- @return void
-function Animator.SetLookAtWeight(weight,bodyWeight) end
+function Animator.setLookAtWeight(weight,bodyWeight) end
 
 --- [WIP] - No method annotation provided
 --- @param weight number [WIP] - Add description for parameter
 --- @param bodyWeight number [WIP] - Add description for parameter
 --- @param headWeight number [WIP] - Add description for parameter
 --- @return void
-function Animator.SetLookAtWeight(weight,bodyWeight,headWeight) end
+function Animator.setLookAtWeight(weight,bodyWeight,headWeight) end
 
 --- [WIP] - No method annotation provided
 --- @param weight number [WIP] - Add description for parameter
@@ -263,7 +263,7 @@ function Animator.SetLookAtWeight(weight,bodyWeight,headWeight) end
 --- @param headWeight number [WIP] - Add description for parameter
 --- @param eyesWeight number [WIP] - Add description for parameter
 --- @return void
-function Animator.SetLookAtWeight(weight,bodyWeight,headWeight,eyesWeight) end
+function Animator.setLookAtWeight(weight,bodyWeight,headWeight,eyesWeight) end
 
 --- [WIP] - No method annotation provided
 --- @param weight number [WIP] - Add description for parameter
@@ -272,105 +272,105 @@ function Animator.SetLookAtWeight(weight,bodyWeight,headWeight,eyesWeight) end
 --- @param eyesWeight number [WIP] - Add description for parameter
 --- @param clampWeight number [WIP] - Add description for parameter
 --- @return void
-function Animator.SetLookAtWeight(weight,bodyWeight,headWeight,eyesWeight,clampWeight) end
+function Animator.setLookAtWeight(weight,bodyWeight,headWeight,eyesWeight,clampWeight) end
 
 --- [WIP] - No method annotation provided
 --- @param humanBoneId HumanBodyBones [WIP] - Add description for parameter
 --- @param rotation Quaternion [WIP] - Add description for parameter
 --- @return void
-function Animator.SetBoneLocalRotation(humanBoneId,rotation) end
+function Animator.setBoneLocalRotation(humanBoneId,rotation) end
 
 --- [WIP] - No method annotation provided
 --- @return T
-function Animator.GetBehaviour() end
+function Animator.getBehaviour() end
 
 --- [WIP] - No method annotation provided
 --- @return T[]
-function Animator.GetBehaviours() end
+function Animator.getBehaviours() end
 
 --- [WIP] - No method annotation provided
 --- @param fullPathHash integer [WIP] - Add description for parameter
 --- @param layerIndex integer [WIP] - Add description for parameter
 --- @return StateMachineBehaviour[]
-function Animator.GetBehaviours(fullPathHash,layerIndex) end
+function Animator.getBehaviours(fullPathHash,layerIndex) end
 
 --- [WIP] - No method annotation provided
 --- @param layerIndex integer [WIP] - Add description for parameter
 --- @return string
-function Animator.GetLayerName(layerIndex) end
+function Animator.getLayerName(layerIndex) end
 
 --- [WIP] - No method annotation provided
 --- @param layerName string [WIP] - Add description for parameter
 --- @return integer
-function Animator.GetLayerIndex(layerName) end
+function Animator.getLayerIndex(layerName) end
 
 --- [WIP] - No method annotation provided
 --- @param layerIndex integer [WIP] - Add description for parameter
 --- @return number
-function Animator.GetLayerWeight(layerIndex) end
+function Animator.getLayerWeight(layerIndex) end
 
 --- [WIP] - No method annotation provided
 --- @param layerIndex integer [WIP] - Add description for parameter
 --- @param weight number [WIP] - Add description for parameter
 --- @return void
-function Animator.SetLayerWeight(layerIndex,weight) end
+function Animator.setLayerWeight(layerIndex,weight) end
 
 --- [WIP] - No method annotation provided
 --- @param layerIndex integer [WIP] - Add description for parameter
 --- @return AnimatorStateInfo
-function Animator.GetCurrentAnimatorStateInfo(layerIndex) end
+function Animator.getCurrentAnimatorStateInfo(layerIndex) end
 
 --- [WIP] - No method annotation provided
 --- @param layerIndex integer [WIP] - Add description for parameter
 --- @return AnimatorStateInfo
-function Animator.GetNextAnimatorStateInfo(layerIndex) end
+function Animator.getNextAnimatorStateInfo(layerIndex) end
 
 --- [WIP] - No method annotation provided
 --- @param layerIndex integer [WIP] - Add description for parameter
 --- @return AnimatorTransitionInfo
-function Animator.GetAnimatorTransitionInfo(layerIndex) end
+function Animator.getAnimatorTransitionInfo(layerIndex) end
 
 --- [WIP] - No method annotation provided
 --- @param layerIndex integer [WIP] - Add description for parameter
 --- @return integer
-function Animator.GetCurrentAnimatorClipInfoCount(layerIndex) end
+function Animator.getCurrentAnimatorClipInfoCount(layerIndex) end
 
 --- [WIP] - No method annotation provided
 --- @param layerIndex integer [WIP] - Add description for parameter
 --- @return integer
-function Animator.GetNextAnimatorClipInfoCount(layerIndex) end
+function Animator.getNextAnimatorClipInfoCount(layerIndex) end
 
 --- [WIP] - No method annotation provided
 --- @param layerIndex integer [WIP] - Add description for parameter
 --- @return AnimatorClipInfo[]
-function Animator.GetCurrentAnimatorClipInfo(layerIndex) end
+function Animator.getCurrentAnimatorClipInfo(layerIndex) end
 
 --- [WIP] - No method annotation provided
 --- @param layerIndex integer [WIP] - Add description for parameter
 --- @return AnimatorClipInfo[]
-function Animator.GetNextAnimatorClipInfo(layerIndex) end
+function Animator.getNextAnimatorClipInfo(layerIndex) end
 
 --- [WIP] - No method annotation provided
 --- @param layerIndex integer [WIP] - Add description for parameter
 --- @param clips List<UnityEngine.AnimatorClipInfo> [WIP] - Add description for parameter
 --- @return void
-function Animator.GetCurrentAnimatorClipInfo(layerIndex,clips) end
+function Animator.getCurrentAnimatorClipInfo(layerIndex,clips) end
 
 --- [WIP] - No method annotation provided
 --- @param layerIndex integer [WIP] - Add description for parameter
 --- @param clips List<UnityEngine.AnimatorClipInfo> [WIP] - Add description for parameter
 --- @return void
-function Animator.GetNextAnimatorClipInfo(layerIndex,clips) end
+function Animator.getNextAnimatorClipInfo(layerIndex,clips) end
 
 --- [WIP] - No method annotation provided
 --- @param layerIndex integer [WIP] - Add description for parameter
 --- @return boolean
-function Animator.IsInTransition(layerIndex) end
+function Animator.isInTransition(layerIndex) end
 
 --- [WIP] - No method annotation provided
 --- @param index integer [WIP] - Add description for parameter
 --- @return AnimatorControllerParameter
-function Animator.GetParameter(index) end
+function Animator.getParameter(index) end
 
 --- [WIP] - No method annotation provided
 --- @param matchPosition Vector3 [WIP] - Add description for parameter
@@ -379,7 +379,7 @@ function Animator.GetParameter(index) end
 --- @param weightMask MatchTargetWeightMask [WIP] - Add description for parameter
 --- @param startNormalizedTime number [WIP] - Add description for parameter
 --- @return void
-function Animator.MatchTarget(matchPosition,matchRotation,targetBodyPart,weightMask,startNormalizedTime) end
+function Animator.matchTarget(matchPosition,matchRotation,targetBodyPart,weightMask,startNormalizedTime) end
 
 --- [WIP] - No method annotation provided
 --- @param matchPosition Vector3 [WIP] - Add description for parameter
@@ -389,7 +389,7 @@ function Animator.MatchTarget(matchPosition,matchRotation,targetBodyPart,weightM
 --- @param startNormalizedTime number [WIP] - Add description for parameter
 --- @param targetNormalizedTime number [WIP] - Add description for parameter
 --- @return void
-function Animator.MatchTarget(matchPosition,matchRotation,targetBodyPart,weightMask,startNormalizedTime,targetNormalizedTime) end
+function Animator.matchTarget(matchPosition,matchRotation,targetBodyPart,weightMask,startNormalizedTime,targetNormalizedTime) end
 
 --- [WIP] - No method annotation provided
 --- @param matchPosition Vector3 [WIP] - Add description for parameter
@@ -400,85 +400,85 @@ function Animator.MatchTarget(matchPosition,matchRotation,targetBodyPart,weightM
 --- @param targetNormalizedTime number [WIP] - Add description for parameter
 --- @param completeMatch boolean [WIP] - Add description for parameter
 --- @return void
-function Animator.MatchTarget(matchPosition,matchRotation,targetBodyPart,weightMask,startNormalizedTime,targetNormalizedTime,completeMatch) end
+function Animator.matchTarget(matchPosition,matchRotation,targetBodyPart,weightMask,startNormalizedTime,targetNormalizedTime,completeMatch) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Animator.InterruptMatchTarget() end
+function Animator.interruptMatchTarget() end
 
 --- [WIP] - No method annotation provided
 --- @param completeMatch boolean [WIP] - Add description for parameter
 --- @return void
-function Animator.InterruptMatchTarget(completeMatch) end
+function Animator.interruptMatchTarget(completeMatch) end
 
 --- [WIP] - No method annotation provided
 --- @param normalizedTime number [WIP] - Add description for parameter
 --- @return void
-function Animator.ForceStateNormalizedTime(normalizedTime) end
+function Animator.forceStateNormalizedTime(normalizedTime) end
 
 --- [WIP] - No method annotation provided
 --- @param stateName string [WIP] - Add description for parameter
 --- @param fixedTransitionDuration number [WIP] - Add description for parameter
 --- @return void
-function Animator.CrossFadeInFixedTime(stateName,fixedTransitionDuration) end
-
---- [WIP] - No method annotation provided
---- @param stateName string [WIP] - Add description for parameter
---- @param fixedTransitionDuration number [WIP] - Add description for parameter
---- @param layer integer [WIP] - Add description for parameter
---- @return void
-function Animator.CrossFadeInFixedTime(stateName,fixedTransitionDuration,layer) end
+function Animator.crossFadeInFixedTime(stateName,fixedTransitionDuration) end
 
 --- [WIP] - No method annotation provided
 --- @param stateName string [WIP] - Add description for parameter
 --- @param fixedTransitionDuration number [WIP] - Add description for parameter
 --- @param layer integer [WIP] - Add description for parameter
---- @param fixedTimeOffset number [WIP] - Add description for parameter
 --- @return void
-function Animator.CrossFadeInFixedTime(stateName,fixedTransitionDuration,layer,fixedTimeOffset) end
+function Animator.crossFadeInFixedTime(stateName,fixedTransitionDuration,layer) end
 
 --- [WIP] - No method annotation provided
 --- @param stateName string [WIP] - Add description for parameter
 --- @param fixedTransitionDuration number [WIP] - Add description for parameter
 --- @param layer integer [WIP] - Add description for parameter
 --- @param fixedTimeOffset number [WIP] - Add description for parameter
---- @param normalizedTransitionTime number [WIP] - Add description for parameter
 --- @return void
-function Animator.CrossFadeInFixedTime(stateName,fixedTransitionDuration,layer,fixedTimeOffset,normalizedTransitionTime) end
+function Animator.crossFadeInFixedTime(stateName,fixedTransitionDuration,layer,fixedTimeOffset) end
 
 --- [WIP] - No method annotation provided
---- @param stateHashName integer [WIP] - Add description for parameter
---- @param fixedTransitionDuration number [WIP] - Add description for parameter
---- @param layer integer [WIP] - Add description for parameter
---- @param fixedTimeOffset number [WIP] - Add description for parameter
---- @return void
-function Animator.CrossFadeInFixedTime(stateHashName,fixedTransitionDuration,layer,fixedTimeOffset) end
-
---- [WIP] - No method annotation provided
---- @param stateHashName integer [WIP] - Add description for parameter
---- @param fixedTransitionDuration number [WIP] - Add description for parameter
---- @param layer integer [WIP] - Add description for parameter
---- @return void
-function Animator.CrossFadeInFixedTime(stateHashName,fixedTransitionDuration,layer) end
-
---- [WIP] - No method annotation provided
---- @param stateHashName integer [WIP] - Add description for parameter
---- @param fixedTransitionDuration number [WIP] - Add description for parameter
---- @return void
-function Animator.CrossFadeInFixedTime(stateHashName,fixedTransitionDuration) end
-
---- [WIP] - No method annotation provided
---- @param stateHashName integer [WIP] - Add description for parameter
+--- @param stateName string [WIP] - Add description for parameter
 --- @param fixedTransitionDuration number [WIP] - Add description for parameter
 --- @param layer integer [WIP] - Add description for parameter
 --- @param fixedTimeOffset number [WIP] - Add description for parameter
 --- @param normalizedTransitionTime number [WIP] - Add description for parameter
 --- @return void
-function Animator.CrossFadeInFixedTime(stateHashName,fixedTransitionDuration,layer,fixedTimeOffset,normalizedTransitionTime) end
+function Animator.crossFadeInFixedTime(stateName,fixedTransitionDuration,layer,fixedTimeOffset,normalizedTransitionTime) end
+
+--- [WIP] - No method annotation provided
+--- @param stateHashName integer [WIP] - Add description for parameter
+--- @param fixedTransitionDuration number [WIP] - Add description for parameter
+--- @param layer integer [WIP] - Add description for parameter
+--- @param fixedTimeOffset number [WIP] - Add description for parameter
+--- @return void
+function Animator.crossFadeInFixedTime(stateHashName,fixedTransitionDuration,layer,fixedTimeOffset) end
+
+--- [WIP] - No method annotation provided
+--- @param stateHashName integer [WIP] - Add description for parameter
+--- @param fixedTransitionDuration number [WIP] - Add description for parameter
+--- @param layer integer [WIP] - Add description for parameter
+--- @return void
+function Animator.crossFadeInFixedTime(stateHashName,fixedTransitionDuration,layer) end
+
+--- [WIP] - No method annotation provided
+--- @param stateHashName integer [WIP] - Add description for parameter
+--- @param fixedTransitionDuration number [WIP] - Add description for parameter
+--- @return void
+function Animator.crossFadeInFixedTime(stateHashName,fixedTransitionDuration) end
+
+--- [WIP] - No method annotation provided
+--- @param stateHashName integer [WIP] - Add description for parameter
+--- @param fixedTransitionDuration number [WIP] - Add description for parameter
+--- @param layer integer [WIP] - Add description for parameter
+--- @param fixedTimeOffset number [WIP] - Add description for parameter
+--- @param normalizedTransitionTime number [WIP] - Add description for parameter
+--- @return void
+function Animator.crossFadeInFixedTime(stateHashName,fixedTransitionDuration,layer,fixedTimeOffset,normalizedTransitionTime) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Animator.WriteDefaultValues() end
+function Animator.writeDefaultValues() end
 
 --- [WIP] - No method annotation provided
 --- @param stateName string [WIP] - Add description for parameter
@@ -486,20 +486,20 @@ function Animator.WriteDefaultValues() end
 --- @param layer integer [WIP] - Add description for parameter
 --- @param normalizedTimeOffset number [WIP] - Add description for parameter
 --- @return void
-function Animator.CrossFade(stateName,normalizedTransitionDuration,layer,normalizedTimeOffset) end
+function Animator.crossFade(stateName,normalizedTransitionDuration,layer,normalizedTimeOffset) end
 
 --- [WIP] - No method annotation provided
 --- @param stateName string [WIP] - Add description for parameter
 --- @param normalizedTransitionDuration number [WIP] - Add description for parameter
 --- @param layer integer [WIP] - Add description for parameter
 --- @return void
-function Animator.CrossFade(stateName,normalizedTransitionDuration,layer) end
+function Animator.crossFade(stateName,normalizedTransitionDuration,layer) end
 
 --- [WIP] - No method annotation provided
 --- @param stateName string [WIP] - Add description for parameter
 --- @param normalizedTransitionDuration number [WIP] - Add description for parameter
 --- @return void
-function Animator.CrossFade(stateName,normalizedTransitionDuration) end
+function Animator.crossFade(stateName,normalizedTransitionDuration) end
 
 --- [WIP] - No method annotation provided
 --- @param stateName string [WIP] - Add description for parameter
@@ -508,7 +508,7 @@ function Animator.CrossFade(stateName,normalizedTransitionDuration) end
 --- @param normalizedTimeOffset number [WIP] - Add description for parameter
 --- @param normalizedTransitionTime number [WIP] - Add description for parameter
 --- @return void
-function Animator.CrossFade(stateName,normalizedTransitionDuration,layer,normalizedTimeOffset,normalizedTransitionTime) end
+function Animator.crossFade(stateName,normalizedTransitionDuration,layer,normalizedTimeOffset,normalizedTransitionTime) end
 
 --- [WIP] - No method annotation provided
 --- @param stateHashName integer [WIP] - Add description for parameter
@@ -517,7 +517,7 @@ function Animator.CrossFade(stateName,normalizedTransitionDuration,layer,normali
 --- @param normalizedTimeOffset number [WIP] - Add description for parameter
 --- @param normalizedTransitionTime number [WIP] - Add description for parameter
 --- @return void
-function Animator.CrossFade(stateHashName,normalizedTransitionDuration,layer,normalizedTimeOffset,normalizedTransitionTime) end
+function Animator.crossFade(stateHashName,normalizedTransitionDuration,layer,normalizedTimeOffset,normalizedTransitionTime) end
 
 --- [WIP] - No method annotation provided
 --- @param stateHashName integer [WIP] - Add description for parameter
@@ -525,187 +525,187 @@ function Animator.CrossFade(stateHashName,normalizedTransitionDuration,layer,nor
 --- @param layer integer [WIP] - Add description for parameter
 --- @param normalizedTimeOffset number [WIP] - Add description for parameter
 --- @return void
-function Animator.CrossFade(stateHashName,normalizedTransitionDuration,layer,normalizedTimeOffset) end
+function Animator.crossFade(stateHashName,normalizedTransitionDuration,layer,normalizedTimeOffset) end
 
 --- [WIP] - No method annotation provided
 --- @param stateHashName integer [WIP] - Add description for parameter
 --- @param normalizedTransitionDuration number [WIP] - Add description for parameter
 --- @param layer integer [WIP] - Add description for parameter
 --- @return void
-function Animator.CrossFade(stateHashName,normalizedTransitionDuration,layer) end
+function Animator.crossFade(stateHashName,normalizedTransitionDuration,layer) end
 
 --- [WIP] - No method annotation provided
 --- @param stateHashName integer [WIP] - Add description for parameter
 --- @param normalizedTransitionDuration number [WIP] - Add description for parameter
 --- @return void
-function Animator.CrossFade(stateHashName,normalizedTransitionDuration) end
+function Animator.crossFade(stateHashName,normalizedTransitionDuration) end
 
 --- [WIP] - No method annotation provided
 --- @param stateName string [WIP] - Add description for parameter
 --- @param layer integer [WIP] - Add description for parameter
 --- @return void
-function Animator.PlayInFixedTime(stateName,layer) end
+function Animator.playInFixedTime(stateName,layer) end
 
 --- [WIP] - No method annotation provided
 --- @param stateName string [WIP] - Add description for parameter
 --- @return void
-function Animator.PlayInFixedTime(stateName) end
+function Animator.playInFixedTime(stateName) end
 
 --- [WIP] - No method annotation provided
 --- @param stateName string [WIP] - Add description for parameter
 --- @param layer integer [WIP] - Add description for parameter
 --- @param fixedTime number [WIP] - Add description for parameter
 --- @return void
-function Animator.PlayInFixedTime(stateName,layer,fixedTime) end
+function Animator.playInFixedTime(stateName,layer,fixedTime) end
 
 --- [WIP] - No method annotation provided
 --- @param stateNameHash integer [WIP] - Add description for parameter
 --- @param layer integer [WIP] - Add description for parameter
 --- @param fixedTime number [WIP] - Add description for parameter
 --- @return void
-function Animator.PlayInFixedTime(stateNameHash,layer,fixedTime) end
+function Animator.playInFixedTime(stateNameHash,layer,fixedTime) end
 
 --- [WIP] - No method annotation provided
 --- @param stateNameHash integer [WIP] - Add description for parameter
 --- @param layer integer [WIP] - Add description for parameter
 --- @return void
-function Animator.PlayInFixedTime(stateNameHash,layer) end
+function Animator.playInFixedTime(stateNameHash,layer) end
 
 --- [WIP] - No method annotation provided
 --- @param stateNameHash integer [WIP] - Add description for parameter
 --- @return void
-function Animator.PlayInFixedTime(stateNameHash) end
+function Animator.playInFixedTime(stateNameHash) end
 
 --- [WIP] - No method annotation provided
 --- @param stateName string [WIP] - Add description for parameter
 --- @param layer integer [WIP] - Add description for parameter
 --- @return void
-function Animator.Play(stateName,layer) end
+function Animator.play(stateName,layer) end
 
 --- [WIP] - No method annotation provided
 --- @param stateName string [WIP] - Add description for parameter
 --- @return void
-function Animator.Play(stateName) end
+function Animator.play(stateName) end
 
 --- [WIP] - No method annotation provided
 --- @param stateName string [WIP] - Add description for parameter
 --- @param layer integer [WIP] - Add description for parameter
 --- @param normalizedTime number [WIP] - Add description for parameter
 --- @return void
-function Animator.Play(stateName,layer,normalizedTime) end
+function Animator.play(stateName,layer,normalizedTime) end
 
 --- [WIP] - No method annotation provided
 --- @param stateNameHash integer [WIP] - Add description for parameter
 --- @param layer integer [WIP] - Add description for parameter
 --- @param normalizedTime number [WIP] - Add description for parameter
 --- @return void
-function Animator.Play(stateNameHash,layer,normalizedTime) end
+function Animator.play(stateNameHash,layer,normalizedTime) end
 
 --- [WIP] - No method annotation provided
 --- @param stateNameHash integer [WIP] - Add description for parameter
 --- @param layer integer [WIP] - Add description for parameter
 --- @return void
-function Animator.Play(stateNameHash,layer) end
+function Animator.play(stateNameHash,layer) end
 
 --- [WIP] - No method annotation provided
 --- @param stateNameHash integer [WIP] - Add description for parameter
 --- @return void
-function Animator.Play(stateNameHash) end
+function Animator.play(stateNameHash) end
 
 --- [WIP] - No method annotation provided
 --- @param targetIndex AvatarTarget [WIP] - Add description for parameter
 --- @param targetNormalizedTime number [WIP] - Add description for parameter
 --- @return void
-function Animator.SetTarget(targetIndex,targetNormalizedTime) end
+function Animator.setTarget(targetIndex,targetNormalizedTime) end
 
 --- [WIP] - No method annotation provided
 --- @param transform Transform [WIP] - Add description for parameter
 --- @return boolean
-function Animator.IsControlled(transform) end
+function Animator.isControlled(transform) end
 
 --- [WIP] - No method annotation provided
 --- @param humanBoneId HumanBodyBones [WIP] - Add description for parameter
 --- @return Transform
-function Animator.GetBoneTransform(humanBoneId) end
+function Animator.getBoneTransform(humanBoneId) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Animator.StartPlayback() end
+function Animator.startPlayback() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Animator.StopPlayback() end
+function Animator.stopPlayback() end
 
 --- [WIP] - No method annotation provided
 --- @param frameCount integer [WIP] - Add description for parameter
 --- @return void
-function Animator.StartRecording(frameCount) end
+function Animator.startRecording(frameCount) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Animator.StopRecording() end
+function Animator.stopRecording() end
 
 --- [WIP] - No method annotation provided
 --- @param layerIndex integer [WIP] - Add description for parameter
 --- @param stateID integer [WIP] - Add description for parameter
 --- @return boolean
-function Animator.HasState(layerIndex,stateID) end
+function Animator.hasState(layerIndex,stateID) end
 
 --- [WIP] - No method annotation provided
 --- @param deltaTime number [WIP] - Add description for parameter
 --- @return void
-function Animator.Update(deltaTime) end
+function Animator.update(deltaTime) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Animator.Rebind() end
+function Animator.rebind() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Animator.ApplyBuiltinRootMotion() end
+function Animator.applyBuiltinRootMotion() end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return Vector3
-function Animator.GetVector(name) end
+function Animator.getVector(name) end
 
 --- [WIP] - No method annotation provided
 --- @param id integer [WIP] - Add description for parameter
 --- @return Vector3
-function Animator.GetVector(id) end
+function Animator.getVector(id) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param value Vector3 [WIP] - Add description for parameter
 --- @return void
-function Animator.SetVector(name,value) end
+function Animator.setVector(name,value) end
 
 --- [WIP] - No method annotation provided
 --- @param id integer [WIP] - Add description for parameter
 --- @param value Vector3 [WIP] - Add description for parameter
 --- @return void
-function Animator.SetVector(id,value) end
+function Animator.setVector(id,value) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return Quaternion
-function Animator.GetQuaternion(name) end
+function Animator.getQuaternion(name) end
 
 --- [WIP] - No method annotation provided
 --- @param id integer [WIP] - Add description for parameter
 --- @return Quaternion
-function Animator.GetQuaternion(id) end
+function Animator.getQuaternion(id) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param value Quaternion [WIP] - Add description for parameter
 --- @return void
-function Animator.SetQuaternion(name,value) end
+function Animator.setQuaternion(name,value) end
 
 --- [WIP] - No method annotation provided
 --- @param id integer [WIP] - Add description for parameter
 --- @param value Quaternion [WIP] - Add description for parameter
 --- @return void
-function Animator.SetQuaternion(id,value) end
+function Animator.setQuaternion(id,value) end
 
 return Animator

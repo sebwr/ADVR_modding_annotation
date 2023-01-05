@@ -18,11 +18,11 @@ CharacterController = {}
 --- [WIP] - No method annotation provided
 --- @param speed Vector3 [WIP] - Add description for parameter
 --- @return boolean
-function CharacterController.SimpleMove(speed) end
+function CharacterController.simpleMove(speed) end
 
 --- [WIP] - No method annotation provided
 --- @param motion Vector3 [WIP] - Add description for parameter
 --- @return CollisionFlags
-function CharacterController.Move(motion) end
+function CharacterController.move(motion) end
 
 return CharacterController

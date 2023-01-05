@@ -9,6 +9,6 @@ EnemiesInRoom = {}
 
 --- [WIP] - No method annotation provided
 --- @return EnemiesInRoom
-function EnemiesInRoom.ShallowCopy() end
+function EnemiesInRoom.shallowCopy() end
 
 return EnemiesInRoom

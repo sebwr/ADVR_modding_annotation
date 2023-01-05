@@ -15,29 +15,29 @@ RectTransform = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function RectTransform.ForceUpdateRectTransforms() end
+function RectTransform.forceUpdateRectTransforms() end
 
 --- [WIP] - No method annotation provided
 --- @param fourCornersArray Vector3[] [WIP] - Add description for parameter
 --- @return void
-function RectTransform.GetLocalCorners(fourCornersArray) end
+function RectTransform.getLocalCorners(fourCornersArray) end
 
 --- [WIP] - No method annotation provided
 --- @param fourCornersArray Vector3[] [WIP] - Add description for parameter
 --- @return void
-function RectTransform.GetWorldCorners(fourCornersArray) end
+function RectTransform.getWorldCorners(fourCornersArray) end
 
 --- [WIP] - No method annotation provided
 --- @param edge Edge [WIP] - Add description for parameter
 --- @param inset number [WIP] - Add description for parameter
 --- @param size number [WIP] - Add description for parameter
 --- @return void
-function RectTransform.SetInsetAndSizeFromParentEdge(edge,inset,size) end
+function RectTransform.setInsetAndSizeFromParentEdge(edge,inset,size) end
 
 --- [WIP] - No method annotation provided
 --- @param axis Axis [WIP] - Add description for parameter
 --- @param size number [WIP] - Add description for parameter
 --- @return void
-function RectTransform.SetSizeWithCurrentAnchors(axis,size) end
+function RectTransform.setSizeWithCurrentAnchors(axis,size) end
 
 return RectTransform

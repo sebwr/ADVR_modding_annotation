@@ -9,6 +9,6 @@ WorldMapUI = {}
 --- @param pos Vector3 [WIP] - Add description for parameter
 --- @param text string [WIP] - Add description for parameter
 --- @return void
-function WorldMapUI.ShowHoverInfo(pos,text) end
+function WorldMapUI.showHoverInfo(pos,text) end
 
 return WorldMapUI

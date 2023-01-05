@@ -6,10 +6,10 @@ GetSuckedInByPlayer = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function GetSuckedInByPlayer.Start() end
+function GetSuckedInByPlayer.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function GetSuckedInByPlayer.OnSuckIn() end
+function GetSuckedInByPlayer.onSuckIn() end
 
 return GetSuckedInByPlayer

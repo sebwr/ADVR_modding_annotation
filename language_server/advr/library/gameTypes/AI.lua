@@ -55,67 +55,67 @@ function AI.remove_OnLoosesTarget(value) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AI.Start() end
+function AI.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AI.OnEnable() end
+function AI.onEnable() end
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function AI.IsStunned() end
+function AI.isStunned() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AI.OnHitPlayer() end
+function AI.onHitPlayer() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AI.OnDisable() end
+function AI.onDisable() end
 
 --- [WIP] - No method annotation provided
 --- @param infos HitEventInfos [WIP] - Add description for parameter
 --- @param dmg integer [WIP] - Add description for parameter
 --- @return void
-function AI.OnHit(infos,dmg) end
+function AI.onHit(infos,dmg) end
 
 --- [WIP] - No method annotation provided
 --- @param _stunTime number [WIP] - Add description for parameter
 --- @return void
-function AI.Stun(_stunTime) end
+function AI.stun(_stunTime) end
 
 --- [WIP] - No method annotation provided
 --- @param s string [WIP] - Add description for parameter
 --- @return void
-function AI.SetTrigger(s) end
+function AI.setTrigger(s) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AI.CheckForTarget() end
+function AI.checkForTarget() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AI.SetAlwaysAttackTarget() end
+function AI.setAlwaysAttackTarget() end
 
 --- [WIP] - No method annotation provided
 --- @param newDirection Vector3 [WIP] - Add description for parameter
 --- @param strength number [WIP] - Add description for parameter
 --- @return Quaternion
-function AI.SmoothLookY(newDirection,strength) end
+function AI.smoothLookY(newDirection,strength) end
 
 --- [WIP] - No method annotation provided
 --- @param newDirection Vector3 [WIP] - Add description for parameter
 --- @param up Vector3 [WIP] - Add description for parameter
 --- @param strength number [WIP] - Add description for parameter
 --- @return Quaternion
-function AI.SmoothLookXYZ(newDirection,up,strength) end
+function AI.smoothLookXYZ(newDirection,up,strength) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AI.OnSeePlayer() end
+function AI.onSeePlayer() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AI.OnLoosePlayer() end
+function AI.onLoosePlayer() end
 
 return AI

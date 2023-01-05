@@ -42,6 +42,6 @@ AISkeletonDefault = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AISkeletonDefault.Update() end
+function AISkeletonDefault.update() end
 
 return AISkeletonDefault

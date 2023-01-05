@@ -22,18 +22,18 @@ SpeechbubbleNew = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function SpeechbubbleNew.ClearBubble() end
+function SpeechbubbleNew.clearBubble() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function SpeechbubbleNew.OnPressTalk() end
+function SpeechbubbleNew.onPressTalk() end
 
 --- [WIP] - No method annotation provided
 --- @param _id string [WIP] - Add description for parameter
 --- @param _text string [WIP] - Add description for parameter
 --- @param _nextId string [WIP] - Add description for parameter
 --- @return void
-function SpeechbubbleNew.AddDialog(_id,_text,_nextId) end
+function SpeechbubbleNew.addDialog(_id,_text,_nextId) end
 
 --- [WIP] - No method annotation provided
 --- @param _id string [WIP] - Add description for parameter
@@ -41,23 +41,23 @@ function SpeechbubbleNew.AddDialog(_id,_text,_nextId) end
 --- @param _text string [WIP] - Add description for parameter
 --- @param _nextID string [WIP] - Add description for parameter
 --- @return void
-function SpeechbubbleNew.AddChoice(_id,_internalID,_text,_nextID) end
+function SpeechbubbleNew.addChoice(_id,_internalID,_text,_nextID) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function SpeechbubbleNew.OpenBubble() end
+function SpeechbubbleNew.openBubble() end
 
 --- [WIP] - No method annotation provided
 --- @param _id string [WIP] - Add description for parameter
 --- @return void
-function SpeechbubbleNew.DisplayText(_id) end
+function SpeechbubbleNew.displayText(_id) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function SpeechbubbleNew.CloseSpeechbubble() end
+function SpeechbubbleNew.closeSpeechbubble() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function SpeechbubbleNew.ReadSpeechbubbleFromDisk() end
+function SpeechbubbleNew.readSpeechbubbleFromDisk() end
 
 return SpeechbubbleNew

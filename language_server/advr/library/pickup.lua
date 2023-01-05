@@ -25,34 +25,34 @@ pickup = {}
 --- TODO @Eric
 --- @param code string The code which is used for the override
 --- @return void
-function pickup.OverwriteCode(code) end
+function pickup.overwriteCode(code) end
 
 --- TODO @Eric
 --- @return void
-function pickup.RegisterItem() end
+function pickup.registerItem() end
 
 --- TODO @Eric
 --- @return void
-function pickup.RegisterUsable() end
+function pickup.registerUsable() end
 
 --- TODO @Eric
 --- @return void
-function pickup.ActivateUsable() end
+function pickup.activateUsable() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function pickup.OnPickup() end
+function pickup.onPickup() end
 
 --- TODO @Eric
 --- @return boolean
-function pickup.HasFoundItem() end
+function pickup.hasFoundItem() end
 
 --- TODO @Eric
 --- @return boolean
-function pickup.HasUnlockedItem() end
+function pickup.hasUnlockedItem() end
 
 --- TODO @Eric
 --- @return integer
-function pickup.AmountActive() end
+function pickup.amountActive() end
 
 return pickup

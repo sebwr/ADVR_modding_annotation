@@ -20,26 +20,26 @@ ItemBase = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ItemBase.Start() end
+function ItemBase.start() end
 
 --- [WIP] - No method annotation provided
 --- @param left boolean [WIP] - Add description for parameter
 --- @return void
-function ItemBase.OnTouchStart(left) end
+function ItemBase.onTouchStart(left) end
 
 --- [WIP] - No method annotation provided
 --- @param left boolean [WIP] - Add description for parameter
 --- @return void
-function ItemBase.OnTouchEnd(left) end
+function ItemBase.onTouchEnd(left) end
 
 --- [WIP] - No method annotation provided
 --- @param left boolean [WIP] - Add description for parameter
 --- @return void
-function ItemBase.OnGripStart(left) end
+function ItemBase.onGripStart(left) end
 
 --- [WIP] - No method annotation provided
 --- @param left boolean [WIP] - Add description for parameter
 --- @return void
-function ItemBase.OnGripEnd(left) end
+function ItemBase.onGripEnd(left) end
 
 return ItemBase

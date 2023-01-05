@@ -9,17 +9,17 @@ ADVRHapticsManager = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ADVRHapticsManager.Initialize() end
+function ADVRHapticsManager.initialize() end
 
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @return void
-function ADVRHapticsManager.PlayHaptic(id) end
+function ADVRHapticsManager.playHaptic(id) end
 
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @param contactPos Vector3 [WIP] - Add description for parameter
 --- @return void
-function ADVRHapticsManager.PlayHapticAtContact(id,contactPos) end
+function ADVRHapticsManager.playHapticAtContact(id,contactPos) end
 
 return ADVRHapticsManager

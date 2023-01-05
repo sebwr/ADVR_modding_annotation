@@ -155,99 +155,99 @@ function GameHandler.remove_ObjectSpawned(value) end
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function GameHandler.GetGameVersion() end
+function GameHandler.getGameVersion() end
 
 --- [WIP] - No method annotation provided
 --- @return string
-function GameHandler.GetGameVersionString() end
+function GameHandler.getGameVersionString() end
 
 --- [WIP] - No method annotation provided
 --- @return string
-function GameHandler.GetSaveFileNameExperimentalIncluded() end
+function GameHandler.getSaveFileNameExperimentalIncluded() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function GameHandler.EndRunFadeout() end
+function GameHandler.endRunFadeout() end
 
 --- [WIP] - No method annotation provided
 --- @param itemBase ItemBase [WIP] - Add description for parameter
 --- @return integer
-function GameHandler.GetHandCountForItem(itemBase) end
+function GameHandler.getHandCountForItem(itemBase) end
 
 --- [WIP] - No method annotation provided
 --- @param removeSave boolean [WIP] - Add description for parameter
 --- @return void
-function GameHandler.EndRun(removeSave) end
+function GameHandler.endRun(removeSave) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function GameHandler.GenerateModdingDocumentation() end
+function GameHandler.generateModdingDocumentation() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function GameHandler.GenerateLuaLanguageServerConfig() end
+function GameHandler.generateLuaLanguageServerConfig() end
 
 --- [WIP] - No method annotation provided
 --- @param _s string [WIP] - Add description for parameter
 --- @return void
-function GameHandler.OnControllerSet(_s) end
+function GameHandler.onControllerSet(_s) end
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function GameHandler.IsVanillaRun() end
+function GameHandler.isVanillaRun() end
 
 --- [WIP] - No method annotation provided
 --- @param val number [WIP] - Add description for parameter
 --- @return void
-function GameHandler.ChangePlayerMoveSpeed(val) end
+function GameHandler.changePlayerMoveSpeed(val) end
 
 --- TODO @Eric
 --- @param text string The text which is shown
 --- @param duration number How long the text is shown
 --- @param popupSpeed number How fast the popup is opened
 --- @return void
-function GameHandler.ShowMessageInWorld(text,duration,popupSpeed) end
+function GameHandler.showMessageInWorld(text,duration,popupSpeed) end
 
 --- [WIP] - No method annotation provided
 --- @param g GameObject [WIP] - Add description for parameter
 --- @return void
-function GameHandler.Delete(g) end
+function GameHandler.delete(g) end
 
 --- [WIP] - No method annotation provided
 --- @param tag string [WIP] - Add description for parameter
 --- @return GameObject
-function GameHandler.GetObjectWithTag(tag) end
+function GameHandler.getObjectWithTag(tag) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function GameHandler.RefreshHomeBaseUIs() end
+function GameHandler.refreshHomeBaseUIs() end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @param precision boolean [WIP] - Add description for parameter
 --- @return void
-function GameHandler.TeleportTo(position,precision) end
+function GameHandler.teleportTo(position,precision) end
 
 --- [WIP] - No method annotation provided
 --- @param rotation number [WIP] - Add description for parameter
 --- @param fadeSpeed number [WIP] - Add description for parameter
 --- @return void
-function GameHandler.FaceInDirectionCameraRigWithFade(rotation,fadeSpeed) end
+function GameHandler.faceInDirectionCameraRigWithFade(rotation,fadeSpeed) end
 
 --- [WIP] - No method annotation provided
 --- @param fadeSpeed number [WIP] - Add description for parameter
 --- @return void
-function GameHandler.RotateTowardsClosestSnapTurnAngle(fadeSpeed) end
+function GameHandler.rotateTowardsClosestSnapTurnAngle(fadeSpeed) end
 
 --- [WIP] - No method annotation provided
 --- @param _rotation number [WIP] - Add description for parameter
 --- @return void
-function GameHandler.FaceInDirCameraRig(_rotation) end
+function GameHandler.faceInDirCameraRig(_rotation) end
 
 --- [WIP] - No method annotation provided
 --- @param rot number [WIP] - Add description for parameter
 --- @return void
-function GameHandler.FaceInDir(rot) end
+function GameHandler.faceInDir(rot) end
 
 --- [WIP] - No method annotation provided
 --- @param amount integer [WIP] - Add description for parameter
@@ -261,18 +261,18 @@ function GameHandler.FaceInDir(rot) end
 --- @param shootingSound ADSoundEffect [WIP] - Add description for parameter
 --- @param randXDegreeDiff number [WIP] - Add description for parameter
 --- @return GameObject[]
-function GameHandler.FireMultiProjectile(amount,degreesDiff,source,forward,projectilePrefab,pos,collsToIgnore,speed,shootingSound,randXDegreeDiff) end
+function GameHandler.fireMultiProjectile(amount,degreesDiff,source,forward,projectilePrefab,pos,collsToIgnore,speed,shootingSound,randXDegreeDiff) end
 
 --- [WIP] - No method annotation provided
 --- @param s string [WIP] - Add description for parameter
 --- @return GameObject
-function GameHandler.GetObjectMapping(s) end
+function GameHandler.getObjectMapping(s) end
 
 --- [WIP] - No method annotation provided
 --- @param _id string [WIP] - Add description for parameter
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @return GameObject
-function GameHandler.DropItem(_id,position) end
+function GameHandler.dropItem(_id,position) end
 
 --- [WIP] - No method annotation provided
 --- @param table string [WIP] - Add description for parameter
@@ -280,7 +280,7 @@ function GameHandler.DropItem(_id,position) end
 --- @param dropOffset Vector3 [WIP] - Add description for parameter
 --- @param hash integer [WIP] - Add description for parameter
 --- @return GameObject[]
-function GameHandler.DropItemFromTable(table,position,dropOffset,hash) end
+function GameHandler.dropItemFromTable(table,position,dropOffset,hash) end
 
 --- [WIP] - No method annotation provided
 --- @param source Transform [WIP] - Add description for parameter
@@ -292,39 +292,39 @@ function GameHandler.DropItemFromTable(table,position,dropOffset,hash) end
 --- @param shootingSound ADSoundEffect [WIP] - Add description for parameter
 --- @param maxDist number [WIP] - Add description for parameter
 --- @return GameObject
-function GameHandler.FireProjectile(source,forward,projectilePrefab,pos,collsToIgnore,speed,shootingSound,maxDist) end
+function GameHandler.fireProjectile(source,forward,projectilePrefab,pos,collsToIgnore,speed,shootingSound,maxDist) end
 
 --- [WIP] - No method annotation provided
 --- @param obj GameObject [WIP] - Add description for parameter
 --- @param pos Vector3 [WIP] - Add description for parameter
 --- @return GameObject
-function GameHandler.SpawnObject(obj,pos) end
+function GameHandler.spawnObject(obj,pos) end
 
 --- [WIP] - No method annotation provided
 --- @param obj GameObject [WIP] - Add description for parameter
 --- @param pos Vector3 [WIP] - Add description for parameter
 --- @return GameObject
-function GameHandler.SpawnObjectWithoutEvents(obj,pos) end
+function GameHandler.spawnObjectWithoutEvents(obj,pos) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param pos Vector3 [WIP] - Add description for parameter
 --- @return GameObject
-function GameHandler.SpawnObject(name,pos) end
+function GameHandler.spawnObject(name,pos) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param amount integer [WIP] - Add description for parameter
 --- @param pos Vector3 [WIP] - Add description for parameter
 --- @return GameObject[]
-function GameHandler.SpawnObjects(name,amount,pos) end
+function GameHandler.spawnObjects(name,amount,pos) end
 
 --- [WIP] - No method annotation provided
 --- @param radius number [WIP] - Add description for parameter
 --- @param center Vector3 [WIP] - Add description for parameter
 --- @param onlyVisible boolean [WIP] - Add description for parameter
 --- @return EnemyBase[]
-function GameHandler.GetEnemiesInRadius(radius,center,onlyVisible) end
+function GameHandler.getEnemiesInRadius(radius,center,onlyVisible) end
 
 --- [WIP] - No method annotation provided
 --- @param radius number [WIP] - Add description for parameter
@@ -332,32 +332,32 @@ function GameHandler.GetEnemiesInRadius(radius,center,onlyVisible) end
 --- @param forceMultiplier number [WIP] - Add description for parameter
 --- @param t Transform [WIP] - Add description for parameter
 --- @return void
-function GameHandler.CreateExplosion(radius,damage,forceMultiplier,t) end
+function GameHandler.createExplosion(radius,damage,forceMultiplier,t) end
 
 --- [WIP] - No method annotation provided
 --- @param g GameObject [WIP] - Add description for parameter
 --- @return void
-function GameHandler.CheckObjectForShadows(g) end
+function GameHandler.checkObjectForShadows(g) end
 
 --- [WIP] - No method annotation provided
 --- @param prefab GameObject [WIP] - Add description for parameter
 --- @param parent Transform [WIP] - Add description for parameter
 --- @param instantiateInWorldSpace boolean [WIP] - Add description for parameter
 --- @return GameObject
-function GameHandler.QueueInstantiate(prefab,parent,instantiateInWorldSpace) end
+function GameHandler.queueInstantiate(prefab,parent,instantiateInWorldSpace) end
 
 --- [WIP] - No method annotation provided
 --- @param prefab GameObject [WIP] - Add description for parameter
 --- @param parent Transform [WIP] - Add description for parameter
 --- @return GameObject
-function GameHandler.QueueInstantiate(prefab,parent) end
+function GameHandler.queueInstantiate(prefab,parent) end
 
 --- [WIP] - No method annotation provided
 --- @param prefab GameObject [WIP] - Add description for parameter
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @param rotation Quaternion [WIP] - Add description for parameter
 --- @return GameObject
-function GameHandler.QueueInstantiate(prefab,position,rotation) end
+function GameHandler.queueInstantiate(prefab,position,rotation) end
 
 --- [WIP] - No method annotation provided
 --- @param prefab GameObject [WIP] - Add description for parameter
@@ -365,41 +365,41 @@ function GameHandler.QueueInstantiate(prefab,position,rotation) end
 --- @param rotation Quaternion [WIP] - Add description for parameter
 --- @param parent Transform [WIP] - Add description for parameter
 --- @return GameObject
-function GameHandler.QueueInstantiate(prefab,position,rotation,parent) end
+function GameHandler.queueInstantiate(prefab,position,rotation,parent) end
 
 --- [WIP] - No method annotation provided
 --- @param radius number [WIP] - Add description for parameter
 --- @param center Vector3 [WIP] - Add description for parameter
 --- @param onlyVisible boolean [WIP] - Add description for parameter
 --- @return LivingBase[]
-function GameHandler.GetLivingInRadius(radius,center,onlyVisible) end
+function GameHandler.getLivingInRadius(radius,center,onlyVisible) end
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function GameHandler.IsInMenu() end
+function GameHandler.isInMenu() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function GameHandler.OnPausedResumePress() end
+function GameHandler.onPausedResumePress() end
 
 --- [WIP] - No method annotation provided
 --- @param _type string [WIP] - Add description for parameter
 --- @return Object[]
-function GameHandler.FindObjectsOfType(_type) end
+function GameHandler.findObjectsOfType(_type) end
 
 --- [WIP] - No method annotation provided
 --- @param _type string [WIP] - Add description for parameter
 --- @return Object
-function GameHandler.FindObjectOfType(_type) end
+function GameHandler.findObjectOfType(_type) end
 
 --- [WIP] - No method annotation provided
 --- @param v boolean [WIP] - Add description for parameter
 --- @return void
-function GameHandler.ToggleShadowsForObjectsInScene(v) end
+function GameHandler.toggleShadowsForObjectsInScene(v) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function GameHandler.DebugTestStaticBatch() end
+function GameHandler.debugTestStaticBatch() end
 
 --- [WIP] - No method annotation provided
 --- @param dmg string [WIP] - Add description for parameter
@@ -408,21 +408,21 @@ function GameHandler.DebugTestStaticBatch() end
 --- @param critical boolean [WIP] - Add description for parameter
 --- @param timeToStay number [WIP] - Add description for parameter
 --- @return void
-function GameHandler.SpawnHit(dmg,pos,attacktype,critical,timeToStay) end
+function GameHandler.spawnHit(dmg,pos,attacktype,critical,timeToStay) end
 
 --- [WIP] - No method annotation provided
 --- @param strength number [WIP] - Add description for parameter
 --- @param duration number [WIP] - Add description for parameter
 --- @param pulseInterval number [WIP] - Add description for parameter
 --- @return void
-function GameHandler.DoHapticPulseWithMainUIHand(strength,duration,pulseInterval) end
+function GameHandler.doHapticPulseWithMainUIHand(strength,duration,pulseInterval) end
 
 --- [WIP] - No method annotation provided
 --- @param strength number [WIP] - Add description for parameter
 --- @param duration number [WIP] - Add description for parameter
 --- @param pulseInterval number [WIP] - Add description for parameter
 --- @return void
-function GameHandler.DoHapticPulseWithMainHand(strength,duration,pulseInterval) end
+function GameHandler.doHapticPulseWithMainHand(strength,duration,pulseInterval) end
 
 --- [WIP] - No method annotation provided
 --- @param handType HandType [WIP] - Add description for parameter
@@ -430,19 +430,19 @@ function GameHandler.DoHapticPulseWithMainHand(strength,duration,pulseInterval) 
 --- @param duration number [WIP] - Add description for parameter
 --- @param pulseInterval number [WIP] - Add description for parameter
 --- @return void
-function GameHandler.DoHapticPulse(handType,strength,duration,pulseInterval) end
+function GameHandler.doHapticPulse(handType,strength,duration,pulseInterval) end
 
 --- [WIP] - No method annotation provided
 --- @param item ItemBase [WIP] - Add description for parameter
 --- @param left boolean [WIP] - Add description for parameter
 --- @return void
-function GameHandler.RegisterToHighlightInfo(item,left) end
+function GameHandler.registerToHighlightInfo(item,left) end
 
 --- [WIP] - No method annotation provided
 --- @param item ItemBase [WIP] - Add description for parameter
 --- @param left boolean [WIP] - Add description for parameter
 --- @return void
-function GameHandler.UnregisterFromHighlightInfo(item,left) end
+function GameHandler.unregisterFromHighlightInfo(item,left) end
 
 --- [WIP] - No method annotation provided
 --- @param reset boolean [WIP] - Add description for parameter
@@ -450,48 +450,48 @@ function GameHandler.UnregisterFromHighlightInfo(item,left) end
 --- @param seed integer [WIP] - Add description for parameter
 --- @param _yRotationLastFloor number [WIP] - Add description for parameter
 --- @return void
-function GameHandler.GenerateNewDungeon(reset,offset,seed,_yRotationLastFloor) end
+function GameHandler.generateNewDungeon(reset,offset,seed,_yRotationLastFloor) end
 
 --- [WIP] - No method annotation provided
 --- @return WeaponComboDiskRepresentation
-function GameHandler.GetPlayerWeaponCombo() end
+function GameHandler.getPlayerWeaponCombo() end
 
 --- [WIP] - No method annotation provided
 --- @param _e EnemyBase [WIP] - Add description for parameter
 --- @return void
-function GameHandler.RegisterEnemy(_e) end
+function GameHandler.registerEnemy(_e) end
 
 --- [WIP] - No method annotation provided
 --- @param _e EnemyBase [WIP] - Add description for parameter
 --- @return void
-function GameHandler.UnregisterEnemy(_e) end
+function GameHandler.unregisterEnemy(_e) end
 
 --- [WIP] - No method annotation provided
 --- @param _l LivingBase [WIP] - Add description for parameter
 --- @return void
-function GameHandler.RegisterLiving(_l) end
+function GameHandler.registerLiving(_l) end
 
 --- [WIP] - No method annotation provided
 --- @param _l LivingBase [WIP] - Add description for parameter
 --- @return void
-function GameHandler.UnregisterLiving(_l) end
+function GameHandler.unregisterLiving(_l) end
 
 --- [WIP] - No method annotation provided
 --- @param scale number [WIP] - Add description for parameter
 --- @return void
-function GameHandler.SetFogDistance(scale) end
+function GameHandler.setFogDistance(scale) end
 
 --- [WIP] - No method annotation provided
 --- @return number
-function GameHandler.GetFogDistance() end
+function GameHandler.getFogDistance() end
 
 --- [WIP] - No method annotation provided
 --- @param c Color [WIP] - Add description for parameter
 --- @return void
-function GameHandler.SetAmbientLight(c) end
+function GameHandler.setAmbientLight(c) end
 
 --- [WIP] - No method annotation provided
 --- @return Color
-function GameHandler.GetAmbientLight() end
+function GameHandler.getAmbientLight() end
 
 return GameHandler

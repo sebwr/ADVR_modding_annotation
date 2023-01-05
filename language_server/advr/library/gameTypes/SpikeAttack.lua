@@ -19,6 +19,6 @@ SpikeAttack = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function SpikeAttack.Attack() end
+function SpikeAttack.attack() end
 
 return SpikeAttack

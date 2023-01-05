@@ -30,18 +30,18 @@ AI4WayShroom = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AI4WayShroom.Start() end
+function AI4WayShroom.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AI4WayShroom.Update() end
+function AI4WayShroom.update() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AI4WayShroom.OnSeePlayer() end
+function AI4WayShroom.onSeePlayer() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AI4WayShroom.OnLoosePlayer() end
+function AI4WayShroom.onLoosePlayer() end
 
 return AI4WayShroom

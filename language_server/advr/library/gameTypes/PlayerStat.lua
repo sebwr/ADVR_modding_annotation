@@ -20,87 +20,87 @@ function PlayerStat.remove_ValueChanged(value) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function PlayerStat.SavePlayerStatForSavedRun() end
+function PlayerStat.savePlayerStatForSavedRun() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function PlayerStat.LoadPlayerStatsFromSavedRun() end
+function PlayerStat.loadPlayerStatsFromSavedRun() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function PlayerStat.ClearAllCustomAddendsAndMultipliers() end
+function PlayerStat.clearAllCustomAddendsAndMultipliers() end
 
 --- [WIP] - No method annotation provided
 --- @param key string [WIP] - Add description for parameter
 --- @param addend number [WIP] - Add description for parameter
 --- @return void
-function PlayerStat.RegisterAddend(key,addend) end
+function PlayerStat.registerAddend(key,addend) end
 
 --- [WIP] - No method annotation provided
 --- @param key string [WIP] - Add description for parameter
 --- @param index integer [WIP] - Add description for parameter
 --- @return void
-function PlayerStat.RemoveAddendAt(key,index) end
+function PlayerStat.removeAddendAt(key,index) end
 
 --- [WIP] - No method annotation provided
 --- @param key string [WIP] - Add description for parameter
 --- @param index integer [WIP] - Add description for parameter
 --- @return void
-function PlayerStat.RemoveMultiplierAt(key,index) end
+function PlayerStat.removeMultiplierAt(key,index) end
 
 --- [WIP] - No method annotation provided
 --- @param key string [WIP] - Add description for parameter
 --- @param addend number [WIP] - Add description for parameter
 --- @return void
-function PlayerStat.RemoveAddend(key,addend) end
+function PlayerStat.removeAddend(key,addend) end
 
 --- [WIP] - No method annotation provided
 --- @param key string [WIP] - Add description for parameter
 --- @param multiplier number [WIP] - Add description for parameter
 --- @return void
-function PlayerStat.RemoveMultiplier(key,multiplier) end
+function PlayerStat.removeMultiplier(key,multiplier) end
 
 --- [WIP] - No method annotation provided
 --- @param key string [WIP] - Add description for parameter
 --- @param addend number [WIP] - Add description for parameter
 --- @return void
-function PlayerStat.ChangeAddend(key,addend) end
+function PlayerStat.changeAddend(key,addend) end
 
 --- [WIP] - No method annotation provided
 --- @param key string [WIP] - Add description for parameter
 --- @param multiplier number [WIP] - Add description for parameter
 --- @return void
-function PlayerStat.ChangeMultiplier(key,multiplier) end
+function PlayerStat.changeMultiplier(key,multiplier) end
 
 --- [WIP] - No method annotation provided
 --- @param key string [WIP] - Add description for parameter
 --- @return void
-function PlayerStat.ClearAddend(key) end
+function PlayerStat.clearAddend(key) end
 
 --- [WIP] - No method annotation provided
 --- @param key string [WIP] - Add description for parameter
 --- @return void
-function PlayerStat.ClearMultiplier(key) end
+function PlayerStat.clearMultiplier(key) end
 
 --- [WIP] - No method annotation provided
 --- @param key string [WIP] - Add description for parameter
 --- @param multiplier number [WIP] - Add description for parameter
 --- @return void
-function PlayerStat.RegisterMultiplier(key,multiplier) end
+function PlayerStat.registerMultiplier(key,multiplier) end
 
 --- [WIP] - No method annotation provided
 --- @param key string [WIP] - Add description for parameter
 --- @param value number [WIP] - Add description for parameter
 --- @param multiplier number [WIP] - Add description for parameter
 --- @return void
-function PlayerStat.RegisterAddMult(key,value,multiplier) end
+function PlayerStat.registerAddMult(key,value,multiplier) end
 
 --- [WIP] - No method annotation provided
 --- @return number
-function PlayerStat.GetValueFloat() end
+function PlayerStat.getValueFloat() end
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function PlayerStat.GetValueInt() end
+function PlayerStat.getValueInt() end
 
 return PlayerStat

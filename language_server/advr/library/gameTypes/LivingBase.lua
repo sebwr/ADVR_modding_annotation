@@ -58,37 +58,37 @@ function LivingBase.remove_HealthChangedEvent(value) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function LivingBase.Start() end
+function LivingBase.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function LivingBase.OnDestroy() end
+function LivingBase.onDestroy() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function LivingBase.CalculateCenter() end
+function LivingBase.calculateCenter() end
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function LivingBase.IsEnemy() end
+function LivingBase.isEnemy() end
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function LivingBase.IsChampion() end
+function LivingBase.isChampion() end
 
 --- [WIP] - No method annotation provided
 --- @return Vector3
-function LivingBase.GetMeshCenterInWorld() end
+function LivingBase.getMeshCenterInWorld() end
 
 --- [WIP] - No method annotation provided
 --- @return Vector3
-function LivingBase.GetCenterInWorld() end
+function LivingBase.getCenterInWorld() end
 
 --- [WIP] - No method annotation provided
 --- @param newDirection Vector3 [WIP] - Add description for parameter
 --- @param strength number [WIP] - Add description for parameter
 --- @return void
-function LivingBase.SmoothLook(newDirection,strength) end
+function LivingBase.smoothLook(newDirection,strength) end
 
 --- [WIP] - No method annotation provided
 --- @param forceRefresh boolean [WIP] - Add description for parameter
@@ -97,46 +97,46 @@ function LivingBase.SmoothLook(newDirection,strength) end
 --- @param boxExtends number [WIP] - Add description for parameter
 --- @param _triggerInteraction QueryTriggerInteraction [WIP] - Add description for parameter
 --- @return boolean
-function LivingBase.IsGrounded(forceRefresh,checkDistance,boxMode,boxExtends,_triggerInteraction) end
+function LivingBase.isGrounded(forceRefresh,checkDistance,boxMode,boxExtends,_triggerInteraction) end
 
 --- [WIP] - No method annotation provided
 --- @param goalScale number [WIP] - Add description for parameter
 --- @param time number [WIP] - Add description for parameter
 --- @return void
-function LivingBase.ScaleTo(goalScale,time) end
+function LivingBase.scaleTo(goalScale,time) end
 
 --- [WIP] - No method annotation provided
 --- @param amount integer [WIP] - Add description for parameter
 --- @param isEthereal boolean [WIP] - Add description for parameter
 --- @return void
-function LivingBase.Heal(amount,isEthereal) end
+function LivingBase.heal(amount,isEthereal) end
 
 --- [WIP] - No method annotation provided
 --- @param infos HitEventInfos [WIP] - Add description for parameter
 --- @param dmg integer [WIP] - Add description for parameter
 --- @return void
-function LivingBase.InvokeHitEvent(infos,dmg) end
+function LivingBase.invokeHitEvent(infos,dmg) end
 
 --- [WIP] - No method annotation provided
 --- @param s string [WIP] - Add description for parameter
 --- @return void
-function LivingBase.PlaySound(s) end
+function LivingBase.playSound(s) end
 
 --- [WIP] - No method annotation provided
 --- @param s string [WIP] - Add description for parameter
 --- @return void
-function LivingBase.PlaySoundWithLivingID(s) end
+function LivingBase.playSoundWithLivingID(s) end
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function LivingBase.IsBoss() end
+function LivingBase.isBoss() end
 
 --- [WIP] - No method annotation provided
 --- @param source GameObject [WIP] - Add description for parameter
 --- @param dmg integer [WIP] - Add description for parameter
 --- @param playerdmg integer [WIP] - Add description for parameter
 --- @return number
-function LivingBase.DoHit(source,dmg,playerdmg) end
+function LivingBase.doHit(source,dmg,playerdmg) end
 
 --- [WIP] - No method annotation provided
 --- @param _source GameObject [WIP] - Add description for parameter
@@ -144,7 +144,7 @@ function LivingBase.DoHit(source,dmg,playerdmg) end
 --- @param _attacktype ATTACKTYPE [WIP] - Add description for parameter
 --- @param _hitPos Vector3 [WIP] - Add description for parameter
 --- @return boolean
-function LivingBase.IsHitValid(_source,_damage,_attacktype,_hitPos) end
+function LivingBase.isHitValid(_source,_damage,_attacktype,_hitPos) end
 
 --- [WIP] - No method annotation provided
 --- @param _source GameObject [WIP] - Add description for parameter
@@ -153,7 +153,7 @@ function LivingBase.IsHitValid(_source,_damage,_attacktype,_hitPos) end
 --- @param _hitPos Vector3 [WIP] - Add description for parameter
 --- @param _criticalDamageMultiplier number [WIP] - Add description for parameter
 --- @return number
-function LivingBase.DoHitWithPlayerCriticalChance(_source,_damage,_attackType,_hitPos,_criticalDamageMultiplier) end
+function LivingBase.doHitWithPlayerCriticalChance(_source,_damage,_attackType,_hitPos,_criticalDamageMultiplier) end
 
 --- [WIP] - No method annotation provided
 --- @param _source GameObject [WIP] - Add description for parameter
@@ -163,7 +163,7 @@ function LivingBase.DoHitWithPlayerCriticalChance(_source,_damage,_attackType,_h
 --- @param _criticalChance number [WIP] - Add description for parameter
 --- @param _criticalDamageMultiplier number [WIP] - Add description for parameter
 --- @return number
-function LivingBase.DoHitWithCriticalChance(_source,_damage,_attackType,_hitPos,_criticalChance,_criticalDamageMultiplier) end
+function LivingBase.doHitWithCriticalChance(_source,_damage,_attackType,_hitPos,_criticalChance,_criticalDamageMultiplier) end
 
 --- [WIP] - No method annotation provided
 --- @param _source GameObject [WIP] - Add description for parameter
@@ -172,55 +172,55 @@ function LivingBase.DoHitWithCriticalChance(_source,_damage,_attackType,_hitPos,
 --- @param _hitPos Vector3 [WIP] - Add description for parameter
 --- @param _critical boolean [WIP] - Add description for parameter
 --- @return number
-function LivingBase.DoHit(_source,_damage,_attackType,_hitPos,_critical) end
+function LivingBase.doHit(_source,_damage,_attackType,_hitPos,_critical) end
 
 --- [WIP] - No method annotation provided
 --- @param _val integer [WIP] - Add description for parameter
 --- @return void
-function LivingBase.RemoveHealth(_val) end
+function LivingBase.removeHealth(_val) end
 
 --- [WIP] - No method annotation provided
 --- @param source GameObject [WIP] - Add description for parameter
 --- @param dmg integer [WIP] - Add description for parameter
 --- @param _attackType ATTACKTYPE [WIP] - Add description for parameter
 --- @return void
-function LivingBase.OnHitEvent(source,dmg,_attackType) end
+function LivingBase.onHitEvent(source,dmg,_attackType) end
 
 --- [WIP] - No method annotation provided
 --- @param source GameObject [WIP] - Add description for parameter
 --- @param timeTillDestroy number [WIP] - Add description for parameter
 --- @return void
-function LivingBase.OnDeath(source,timeTillDestroy) end
+function LivingBase.onDeath(source,timeTillDestroy) end
 
 --- [WIP] - No method annotation provided
 --- @param source GameObject [WIP] - Add description for parameter
 --- @return void
-function LivingBase.OnDeath(source) end
+function LivingBase.onDeath(source) end
 
 --- [WIP] - No method annotation provided
 --- @param type ATTACKTYPE [WIP] - Add description for parameter
 --- @param dmg number [WIP] - Add description for parameter
 --- @param time number [WIP] - Add description for parameter
 --- @return void
-function LivingBase.ApplyEffect(type,dmg,time) end
+function LivingBase.applyEffect(type,dmg,time) end
 
 --- [WIP] - No method annotation provided
 --- @param dmg number [WIP] - Add description for parameter
 --- @param type ATTACKTYPE [WIP] - Add description for parameter
 --- @return void
-function LivingBase.DoEffectHit(dmg,type) end
+function LivingBase.doEffectHit(dmg,type) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function LivingBase.Update() end
+function LivingBase.update() end
 
 --- [WIP] - No method annotation provided
 --- @return Vector3
-function LivingBase.GetLightningEffectPos() end
+function LivingBase.getLightningEffectPos() end
 
 --- [WIP] - No method annotation provided
 --- @param time number [WIP] - Add description for parameter
 --- @return void
-function LivingBase.SetInvincibleFor(time) end
+function LivingBase.setInvincibleFor(time) end
 
 return LivingBase

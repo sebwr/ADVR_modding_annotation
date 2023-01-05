@@ -31,36 +31,36 @@ GenerationDetails = {}
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @return WallMapping
-function GenerationDetails.GetWallMapping(id) end
+function GenerationDetails.getWallMapping(id) end
 
 --- [WIP] - No method annotation provided
 --- @param deepness integer [WIP] - Add description for parameter
 --- @param _wgRandom Random [WIP] - Add description for parameter
 --- @return SpecialRoomsForDeepness
-function GenerationDetails.GetSpecialRoomsForDeepness(deepness,_wgRandom) end
+function GenerationDetails.getSpecialRoomsForDeepness(deepness,_wgRandom) end
 
 --- [WIP] - No method annotation provided
 --- @return number
-function GenerationDetails.GetShopProbability() end
+function GenerationDetails.getShopProbability() end
 
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @return RoomMappingEntry
-function GenerationDetails.GetRoomType(id) end
+function GenerationDetails.getRoomType(id) end
 
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @return GameObject
-function GenerationDetails.GetCeilingObjFor(id) end
+function GenerationDetails.getCeilingObjFor(id) end
 
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @return GroundMapping
-function GenerationDetails.GetGround(id) end
+function GenerationDetails.getGround(id) end
 
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @return DoorMapping
-function GenerationDetails.GetDoor(id) end
+function GenerationDetails.getDoor(id) end
 
 return GenerationDetails

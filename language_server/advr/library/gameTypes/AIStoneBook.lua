@@ -30,22 +30,22 @@ AIStoneBook = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIStoneBook.Start() end
+function AIStoneBook.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIStoneBook.OnLoosePlayer() end
+function AIStoneBook.onLoosePlayer() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIStoneBook.OnSeePlayer() end
+function AIStoneBook.onSeePlayer() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIStoneBook.Fire() end
+function AIStoneBook.fire() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIStoneBook.Update() end
+function AIStoneBook.update() end
 
 return AIStoneBook

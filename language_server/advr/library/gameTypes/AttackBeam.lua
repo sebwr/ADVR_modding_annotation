@@ -12,10 +12,10 @@ AttackBeam = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AttackBeam.DisableBeam() end
+function AttackBeam.disableBeam() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AttackBeam.EnableBeam() end
+function AttackBeam.enableBeam() end
 
 return AttackBeam

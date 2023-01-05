@@ -35,28 +35,28 @@ HandBase = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function HandBase.Start() end
+function HandBase.start() end
 
 --- [WIP] - No method annotation provided
 --- @return Vector3
-function HandBase.GetHandleVelocityEstimate() end
+function HandBase.getHandleVelocityEstimate() end
 
 --- [WIP] - No method annotation provided
 --- @return Vector3
-function HandBase.GetTipVelocityEstimate() end
+function HandBase.getTipVelocityEstimate() end
 
 --- [WIP] - No method annotation provided
 --- @param collision Collision [WIP] - Add description for parameter
 --- @return void
-function HandBase.OnCollisionEnter(collision) end
+function HandBase.onCollisionEnter(collision) end
 
 --- [WIP] - No method annotation provided
 --- @param strength number [WIP] - Add description for parameter
 --- @return void
-function HandBase.DoHapticPulse(strength) end
+function HandBase.doHapticPulse(strength) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function HandBase.Update() end
+function HandBase.update() end
 
 return HandBase

@@ -15,31 +15,31 @@ Color = {}
 
 --- [WIP] - No method annotation provided
 --- @return string
-function Color.ToString() end
+function Color.toString() end
 
 --- [WIP] - No method annotation provided
 --- @param format string [WIP] - Add description for parameter
 --- @return string
-function Color.ToString(format) end
+function Color.toString(format) end
 
 --- [WIP] - No method annotation provided
 --- @param format string [WIP] - Add description for parameter
 --- @param formatProvider IFormatProvider [WIP] - Add description for parameter
 --- @return string
-function Color.ToString(format,formatProvider) end
+function Color.toString(format,formatProvider) end
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function Color.GetHashCode() end
+function Color.getHashCode() end
 
 --- [WIP] - No method annotation provided
 --- @param other Object [WIP] - Add description for parameter
 --- @return boolean
-function Color.Equals(other) end
+function Color.equals(other) end
 
 --- [WIP] - No method annotation provided
 --- @param other Color [WIP] - Add description for parameter
 --- @return boolean
-function Color.Equals(other) end
+function Color.equals(other) end
 
 return Color

@@ -10,15 +10,15 @@ DropOnDeath = {}
 --- [WIP] - No method annotation provided
 --- @param h integer [WIP] - Add description for parameter
 --- @return void
-function DropOnDeath.OverrideHash(h) end
+function DropOnDeath.overrideHash(h) end
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function DropOnDeath.GetHash() end
+function DropOnDeath.getHash() end
 
 --- [WIP] - No method annotation provided
 --- @param l LivingBase [WIP] - Add description for parameter
 --- @return void
-function DropOnDeath.DropTable_DeathEvent(l) end
+function DropOnDeath.dropTable_DeathEvent(l) end
 
 return DropOnDeath

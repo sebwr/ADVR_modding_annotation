@@ -18,44 +18,44 @@ vector3 = {}
 --- @param newY number [WIP] - Add description for parameter
 --- @param newZ number [WIP] - Add description for parameter
 --- @return void
-function vector3.Set(newX,newY,newZ) end
+function vector3.set(newX,newY,newZ) end
 
 --- [WIP] - No method annotation provided
 --- @param scale Vector3 [WIP] - Add description for parameter
 --- @return void
-function vector3.Scale(scale) end
+function vector3.scale(scale) end
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function vector3.GetHashCode() end
+function vector3.getHashCode() end
 
 --- [WIP] - No method annotation provided
 --- @param other Object [WIP] - Add description for parameter
 --- @return boolean
-function vector3.Equals(other) end
+function vector3.equals(other) end
 
 --- [WIP] - No method annotation provided
 --- @param other Vector3 [WIP] - Add description for parameter
 --- @return boolean
-function vector3.Equals(other) end
+function vector3.equals(other) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function vector3.Normalize() end
+function vector3.normalize() end
 
 --- [WIP] - No method annotation provided
 --- @return string
-function vector3.ToString() end
+function vector3.toString() end
 
 --- [WIP] - No method annotation provided
 --- @param format string [WIP] - Add description for parameter
 --- @return string
-function vector3.ToString(format) end
+function vector3.toString(format) end
 
 --- [WIP] - No method annotation provided
 --- @param format string [WIP] - Add description for parameter
 --- @param formatProvider IFormatProvider [WIP] - Add description for parameter
 --- @return string
-function vector3.ToString(format,formatProvider) end
+function vector3.toString(format,formatProvider) end
 
 return vector3

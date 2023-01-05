@@ -22,11 +22,11 @@ ItemFood = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ItemFood.OnEnable() end
+function ItemFood.onEnable() end
 
 --- [WIP] - No method annotation provided
 --- @param slot Slot [WIP] - Add description for parameter
 --- @return void
-function ItemFood.OnPutInSlot(slot) end
+function ItemFood.onPutInSlot(slot) end
 
 return ItemFood

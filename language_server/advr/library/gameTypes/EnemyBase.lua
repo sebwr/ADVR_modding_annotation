@@ -43,23 +43,23 @@ EnemyBase = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function EnemyBase.Start() end
+function EnemyBase.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function EnemyBase.OnDestroy() end
+function EnemyBase.onDestroy() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function EnemyBase.DEBUG_UPDATE_NAMES() end
+function EnemyBase.dEBUG_UPDATE_NAMES() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function EnemyBase.Update() end
+function EnemyBase.update() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function EnemyBase.UpdateAnimatorPosition() end
+function EnemyBase.updateAnimatorPosition() end
 
 --- [WIP] - No method annotation provided
 --- @param distance number [WIP] - Add description for parameter
@@ -68,29 +68,29 @@ function EnemyBase.UpdateAnimatorPosition() end
 --- @param attackType ATTACKTYPE [WIP] - Add description for parameter
 --- @param type KnockbackType [WIP] - Add description for parameter
 --- @return void
-function EnemyBase.Knockback(distance,origin,speed,attackType,type) end
+function EnemyBase.knockback(distance,origin,speed,attackType,type) end
 
 --- [WIP] - No method annotation provided
 --- @param _infos HitEventInfos [WIP] - Add description for parameter
 --- @return void
-function EnemyBase.HandleHitAnimation(_infos) end
+function EnemyBase.handleHitAnimation(_infos) end
 
 --- [WIP] - No method annotation provided
 --- @param source GameObject [WIP] - Add description for parameter
 --- @return void
-function EnemyBase.OnDeath(source) end
+function EnemyBase.onDeath(source) end
 
 --- [WIP] - No method annotation provided
 --- @return number
-function EnemyBase.DistanceToPlayer() end
+function EnemyBase.distanceToPlayer() end
 
 --- [WIP] - No method annotation provided
 --- @param p PlayerLiving [WIP] - Add description for parameter
 --- @return void
-function EnemyBase.OnHitPlayer(p) end
+function EnemyBase.onHitPlayer(p) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function EnemyBase.UpdateAllMeshRenderers() end
+function EnemyBase.updateAllMeshRenderers() end
 
 return EnemyBase

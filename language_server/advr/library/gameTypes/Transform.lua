@@ -24,30 +24,30 @@ Transform = {}
 --- [WIP] - No method annotation provided
 --- @param p Transform [WIP] - Add description for parameter
 --- @return void
-function Transform.SetParent(p) end
+function Transform.setParent(p) end
 
 --- [WIP] - No method annotation provided
 --- @param parent Transform [WIP] - Add description for parameter
 --- @param worldPositionStays boolean [WIP] - Add description for parameter
 --- @return void
-function Transform.SetParent(parent,worldPositionStays) end
+function Transform.setParent(parent,worldPositionStays) end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @param rotation Quaternion [WIP] - Add description for parameter
 --- @return void
-function Transform.SetPositionAndRotation(position,rotation) end
+function Transform.setPositionAndRotation(position,rotation) end
 
 --- [WIP] - No method annotation provided
 --- @param translation Vector3 [WIP] - Add description for parameter
 --- @param relativeTo Space [WIP] - Add description for parameter
 --- @return void
-function Transform.Translate(translation,relativeTo) end
+function Transform.translate(translation,relativeTo) end
 
 --- [WIP] - No method annotation provided
 --- @param translation Vector3 [WIP] - Add description for parameter
 --- @return void
-function Transform.Translate(translation) end
+function Transform.translate(translation) end
 
 --- [WIP] - No method annotation provided
 --- @param x number [WIP] - Add description for parameter
@@ -55,20 +55,20 @@ function Transform.Translate(translation) end
 --- @param z number [WIP] - Add description for parameter
 --- @param relativeTo Space [WIP] - Add description for parameter
 --- @return void
-function Transform.Translate(x,y,z,relativeTo) end
+function Transform.translate(x,y,z,relativeTo) end
 
 --- [WIP] - No method annotation provided
 --- @param x number [WIP] - Add description for parameter
 --- @param y number [WIP] - Add description for parameter
 --- @param z number [WIP] - Add description for parameter
 --- @return void
-function Transform.Translate(x,y,z) end
+function Transform.translate(x,y,z) end
 
 --- [WIP] - No method annotation provided
 --- @param translation Vector3 [WIP] - Add description for parameter
 --- @param relativeTo Transform [WIP] - Add description for parameter
 --- @return void
-function Transform.Translate(translation,relativeTo) end
+function Transform.translate(translation,relativeTo) end
 
 --- [WIP] - No method annotation provided
 --- @param x number [WIP] - Add description for parameter
@@ -76,18 +76,18 @@ function Transform.Translate(translation,relativeTo) end
 --- @param z number [WIP] - Add description for parameter
 --- @param relativeTo Transform [WIP] - Add description for parameter
 --- @return void
-function Transform.Translate(x,y,z,relativeTo) end
+function Transform.translate(x,y,z,relativeTo) end
 
 --- [WIP] - No method annotation provided
 --- @param eulers Vector3 [WIP] - Add description for parameter
 --- @param relativeTo Space [WIP] - Add description for parameter
 --- @return void
-function Transform.Rotate(eulers,relativeTo) end
+function Transform.rotate(eulers,relativeTo) end
 
 --- [WIP] - No method annotation provided
 --- @param eulers Vector3 [WIP] - Add description for parameter
 --- @return void
-function Transform.Rotate(eulers) end
+function Transform.rotate(eulers) end
 
 --- [WIP] - No method annotation provided
 --- @param xAngle number [WIP] - Add description for parameter
@@ -95,188 +95,188 @@ function Transform.Rotate(eulers) end
 --- @param zAngle number [WIP] - Add description for parameter
 --- @param relativeTo Space [WIP] - Add description for parameter
 --- @return void
-function Transform.Rotate(xAngle,yAngle,zAngle,relativeTo) end
+function Transform.rotate(xAngle,yAngle,zAngle,relativeTo) end
 
 --- [WIP] - No method annotation provided
 --- @param xAngle number [WIP] - Add description for parameter
 --- @param yAngle number [WIP] - Add description for parameter
 --- @param zAngle number [WIP] - Add description for parameter
 --- @return void
-function Transform.Rotate(xAngle,yAngle,zAngle) end
+function Transform.rotate(xAngle,yAngle,zAngle) end
 
 --- [WIP] - No method annotation provided
 --- @param axis Vector3 [WIP] - Add description for parameter
 --- @param angle number [WIP] - Add description for parameter
 --- @param relativeTo Space [WIP] - Add description for parameter
 --- @return void
-function Transform.Rotate(axis,angle,relativeTo) end
+function Transform.rotate(axis,angle,relativeTo) end
 
 --- [WIP] - No method annotation provided
 --- @param axis Vector3 [WIP] - Add description for parameter
 --- @param angle number [WIP] - Add description for parameter
 --- @return void
-function Transform.Rotate(axis,angle) end
+function Transform.rotate(axis,angle) end
 
 --- [WIP] - No method annotation provided
 --- @param point Vector3 [WIP] - Add description for parameter
 --- @param axis Vector3 [WIP] - Add description for parameter
 --- @param angle number [WIP] - Add description for parameter
 --- @return void
-function Transform.RotateAround(point,axis,angle) end
+function Transform.rotateAround(point,axis,angle) end
 
 --- [WIP] - No method annotation provided
 --- @param target Transform [WIP] - Add description for parameter
 --- @param worldUp Vector3 [WIP] - Add description for parameter
 --- @return void
-function Transform.LookAt(target,worldUp) end
+function Transform.lookAt(target,worldUp) end
 
 --- [WIP] - No method annotation provided
 --- @param target Transform [WIP] - Add description for parameter
 --- @return void
-function Transform.LookAt(target) end
+function Transform.lookAt(target) end
 
 --- [WIP] - No method annotation provided
 --- @param worldPosition Vector3 [WIP] - Add description for parameter
 --- @param worldUp Vector3 [WIP] - Add description for parameter
 --- @return void
-function Transform.LookAt(worldPosition,worldUp) end
+function Transform.lookAt(worldPosition,worldUp) end
 
 --- [WIP] - No method annotation provided
 --- @param worldPosition Vector3 [WIP] - Add description for parameter
 --- @return void
-function Transform.LookAt(worldPosition) end
+function Transform.lookAt(worldPosition) end
 
 --- [WIP] - No method annotation provided
 --- @param direction Vector3 [WIP] - Add description for parameter
 --- @return Vector3
-function Transform.TransformDirection(direction) end
+function Transform.transformDirection(direction) end
 
 --- [WIP] - No method annotation provided
 --- @param x number [WIP] - Add description for parameter
 --- @param y number [WIP] - Add description for parameter
 --- @param z number [WIP] - Add description for parameter
 --- @return Vector3
-function Transform.TransformDirection(x,y,z) end
+function Transform.transformDirection(x,y,z) end
 
 --- [WIP] - No method annotation provided
 --- @param direction Vector3 [WIP] - Add description for parameter
 --- @return Vector3
-function Transform.InverseTransformDirection(direction) end
+function Transform.inverseTransformDirection(direction) end
 
 --- [WIP] - No method annotation provided
 --- @param x number [WIP] - Add description for parameter
 --- @param y number [WIP] - Add description for parameter
 --- @param z number [WIP] - Add description for parameter
 --- @return Vector3
-function Transform.InverseTransformDirection(x,y,z) end
+function Transform.inverseTransformDirection(x,y,z) end
 
 --- [WIP] - No method annotation provided
 --- @param vector Vector3 [WIP] - Add description for parameter
 --- @return Vector3
-function Transform.TransformVector(vector) end
+function Transform.transformVector(vector) end
 
 --- [WIP] - No method annotation provided
 --- @param x number [WIP] - Add description for parameter
 --- @param y number [WIP] - Add description for parameter
 --- @param z number [WIP] - Add description for parameter
 --- @return Vector3
-function Transform.TransformVector(x,y,z) end
+function Transform.transformVector(x,y,z) end
 
 --- [WIP] - No method annotation provided
 --- @param vector Vector3 [WIP] - Add description for parameter
 --- @return Vector3
-function Transform.InverseTransformVector(vector) end
+function Transform.inverseTransformVector(vector) end
 
 --- [WIP] - No method annotation provided
 --- @param x number [WIP] - Add description for parameter
 --- @param y number [WIP] - Add description for parameter
 --- @param z number [WIP] - Add description for parameter
 --- @return Vector3
-function Transform.InverseTransformVector(x,y,z) end
+function Transform.inverseTransformVector(x,y,z) end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @return Vector3
-function Transform.TransformPoint(position) end
+function Transform.transformPoint(position) end
 
 --- [WIP] - No method annotation provided
 --- @param x number [WIP] - Add description for parameter
 --- @param y number [WIP] - Add description for parameter
 --- @param z number [WIP] - Add description for parameter
 --- @return Vector3
-function Transform.TransformPoint(x,y,z) end
+function Transform.transformPoint(x,y,z) end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
 --- @return Vector3
-function Transform.InverseTransformPoint(position) end
+function Transform.inverseTransformPoint(position) end
 
 --- [WIP] - No method annotation provided
 --- @param x number [WIP] - Add description for parameter
 --- @param y number [WIP] - Add description for parameter
 --- @param z number [WIP] - Add description for parameter
 --- @return Vector3
-function Transform.InverseTransformPoint(x,y,z) end
+function Transform.inverseTransformPoint(x,y,z) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Transform.DetachChildren() end
+function Transform.detachChildren() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Transform.SetAsFirstSibling() end
+function Transform.setAsFirstSibling() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Transform.SetAsLastSibling() end
+function Transform.setAsLastSibling() end
 
 --- [WIP] - No method annotation provided
 --- @param index integer [WIP] - Add description for parameter
 --- @return void
-function Transform.SetSiblingIndex(index) end
+function Transform.setSiblingIndex(index) end
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function Transform.GetSiblingIndex() end
+function Transform.getSiblingIndex() end
 
 --- [WIP] - No method annotation provided
 --- @param n string [WIP] - Add description for parameter
 --- @return Transform
-function Transform.Find(n) end
+function Transform.find(n) end
 
 --- [WIP] - No method annotation provided
 --- @param parent Transform [WIP] - Add description for parameter
 --- @return boolean
-function Transform.IsChildOf(parent) end
+function Transform.isChildOf(parent) end
 
 --- [WIP] - No method annotation provided
 --- @param n string [WIP] - Add description for parameter
 --- @return Transform
-function Transform.FindChild(n) end
+function Transform.findChild(n) end
 
 --- [WIP] - No method annotation provided
 --- @return IEnumerator
-function Transform.GetEnumerator() end
+function Transform.getEnumerator() end
 
 --- [WIP] - No method annotation provided
 --- @param axis Vector3 [WIP] - Add description for parameter
 --- @param angle number [WIP] - Add description for parameter
 --- @return void
-function Transform.RotateAround(axis,angle) end
+function Transform.rotateAround(axis,angle) end
 
 --- [WIP] - No method annotation provided
 --- @param axis Vector3 [WIP] - Add description for parameter
 --- @param angle number [WIP] - Add description for parameter
 --- @return void
-function Transform.RotateAroundLocal(axis,angle) end
+function Transform.rotateAroundLocal(axis,angle) end
 
 --- [WIP] - No method annotation provided
 --- @param index integer [WIP] - Add description for parameter
 --- @return Transform
-function Transform.GetChild(index) end
+function Transform.getChild(index) end
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function Transform.GetChildCount() end
+function Transform.getChildCount() end
 
 return Transform

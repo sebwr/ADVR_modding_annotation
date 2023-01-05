@@ -15,58 +15,58 @@ Array = {}
 --- @param array Array [WIP] - Add description for parameter
 --- @param index integer [WIP] - Add description for parameter
 --- @return void
-function Array.CopyTo(array,index) end
+function Array.copyTo(array,index) end
 
 --- [WIP] - No method annotation provided
 --- @return Object
-function Array.Clone() end
+function Array.clone() end
 
 --- [WIP] - No method annotation provided
 --- @param array Array [WIP] - Add description for parameter
 --- @param index Int64 [WIP] - Add description for parameter
 --- @return void
-function Array.CopyTo(array,index) end
+function Array.copyTo(array,index) end
 
 --- [WIP] - No method annotation provided
 --- @param dimension integer [WIP] - Add description for parameter
 --- @return Int64
-function Array.GetLongLength(dimension) end
+function Array.getLongLength(dimension) end
 
 --- [WIP] - No method annotation provided
 --- @param index Int64 [WIP] - Add description for parameter
 --- @return Object
-function Array.GetValue(index) end
+function Array.getValue(index) end
 
 --- [WIP] - No method annotation provided
 --- @param index1 Int64 [WIP] - Add description for parameter
 --- @param index2 Int64 [WIP] - Add description for parameter
 --- @return Object
-function Array.GetValue(index1,index2) end
+function Array.getValue(index1,index2) end
 
 --- [WIP] - No method annotation provided
 --- @param index1 Int64 [WIP] - Add description for parameter
 --- @param index2 Int64 [WIP] - Add description for parameter
 --- @param index3 Int64 [WIP] - Add description for parameter
 --- @return Object
-function Array.GetValue(index1,index2,index3) end
+function Array.getValue(index1,index2,index3) end
 
 --- [WIP] - No method annotation provided
 --- @param indices Int64[] [WIP] - Add description for parameter
 --- @return Object
-function Array.GetValue(indices) end
+function Array.getValue(indices) end
 
 --- [WIP] - No method annotation provided
 --- @param value Object [WIP] - Add description for parameter
 --- @param index Int64 [WIP] - Add description for parameter
 --- @return void
-function Array.SetValue(value,index) end
+function Array.setValue(value,index) end
 
 --- [WIP] - No method annotation provided
 --- @param value Object [WIP] - Add description for parameter
 --- @param index1 Int64 [WIP] - Add description for parameter
 --- @param index2 Int64 [WIP] - Add description for parameter
 --- @return void
-function Array.SetValue(value,index1,index2) end
+function Array.setValue(value,index1,index2) end
 
 --- [WIP] - No method annotation provided
 --- @param value Object [WIP] - Add description for parameter
@@ -74,74 +74,74 @@ function Array.SetValue(value,index1,index2) end
 --- @param index2 Int64 [WIP] - Add description for parameter
 --- @param index3 Int64 [WIP] - Add description for parameter
 --- @return void
-function Array.SetValue(value,index1,index2,index3) end
+function Array.setValue(value,index1,index2,index3) end
 
 --- [WIP] - No method annotation provided
 --- @param value Object [WIP] - Add description for parameter
 --- @param indices Int64[] [WIP] - Add description for parameter
 --- @return void
-function Array.SetValue(value,indices) end
+function Array.setValue(value,indices) end
 
 --- [WIP] - No method annotation provided
 --- @return IEnumerator
-function Array.GetEnumerator() end
+function Array.getEnumerator() end
 
 --- [WIP] - No method annotation provided
 --- @param dimension integer [WIP] - Add description for parameter
 --- @return integer
-function Array.GetLength(dimension) end
+function Array.getLength(dimension) end
 
 --- [WIP] - No method annotation provided
 --- @param dimension integer [WIP] - Add description for parameter
 --- @return integer
-function Array.GetLowerBound(dimension) end
+function Array.getLowerBound(dimension) end
 
 --- [WIP] - No method annotation provided
 --- @param indices integer[] [WIP] - Add description for parameter
 --- @return Object
-function Array.GetValue(indices) end
+function Array.getValue(indices) end
 
 --- [WIP] - No method annotation provided
 --- @param value Object [WIP] - Add description for parameter
 --- @param indices integer[] [WIP] - Add description for parameter
 --- @return void
-function Array.SetValue(value,indices) end
+function Array.setValue(value,indices) end
 
 --- [WIP] - No method annotation provided
 --- @param dimension integer [WIP] - Add description for parameter
 --- @return integer
-function Array.GetUpperBound(dimension) end
+function Array.getUpperBound(dimension) end
 
 --- [WIP] - No method annotation provided
 --- @param index integer [WIP] - Add description for parameter
 --- @return Object
-function Array.GetValue(index) end
+function Array.getValue(index) end
 
 --- [WIP] - No method annotation provided
 --- @param index1 integer [WIP] - Add description for parameter
 --- @param index2 integer [WIP] - Add description for parameter
 --- @return Object
-function Array.GetValue(index1,index2) end
+function Array.getValue(index1,index2) end
 
 --- [WIP] - No method annotation provided
 --- @param index1 integer [WIP] - Add description for parameter
 --- @param index2 integer [WIP] - Add description for parameter
 --- @param index3 integer [WIP] - Add description for parameter
 --- @return Object
-function Array.GetValue(index1,index2,index3) end
+function Array.getValue(index1,index2,index3) end
 
 --- [WIP] - No method annotation provided
 --- @param value Object [WIP] - Add description for parameter
 --- @param index integer [WIP] - Add description for parameter
 --- @return void
-function Array.SetValue(value,index) end
+function Array.setValue(value,index) end
 
 --- [WIP] - No method annotation provided
 --- @param value Object [WIP] - Add description for parameter
 --- @param index1 integer [WIP] - Add description for parameter
 --- @param index2 integer [WIP] - Add description for parameter
 --- @return void
-function Array.SetValue(value,index1,index2) end
+function Array.setValue(value,index1,index2) end
 
 --- [WIP] - No method annotation provided
 --- @param value Object [WIP] - Add description for parameter
@@ -149,10 +149,10 @@ function Array.SetValue(value,index1,index2) end
 --- @param index2 integer [WIP] - Add description for parameter
 --- @param index3 integer [WIP] - Add description for parameter
 --- @return void
-function Array.SetValue(value,index1,index2,index3) end
+function Array.setValue(value,index1,index2,index3) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Array.Initialize() end
+function Array.initialize() end
 
 return Array

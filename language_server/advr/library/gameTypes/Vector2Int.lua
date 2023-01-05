@@ -13,46 +13,46 @@ Vector2Int = {}
 --- @param x integer [WIP] - Add description for parameter
 --- @param y integer [WIP] - Add description for parameter
 --- @return void
-function Vector2Int.Set(x,y) end
+function Vector2Int.set(x,y) end
 
 --- [WIP] - No method annotation provided
 --- @param scale Vector2Int [WIP] - Add description for parameter
 --- @return void
-function Vector2Int.Scale(scale) end
+function Vector2Int.scale(scale) end
 
 --- [WIP] - No method annotation provided
 --- @param min Vector2Int [WIP] - Add description for parameter
 --- @param max Vector2Int [WIP] - Add description for parameter
 --- @return void
-function Vector2Int.Clamp(min,max) end
+function Vector2Int.clamp(min,max) end
 
 --- [WIP] - No method annotation provided
 --- @param other Object [WIP] - Add description for parameter
 --- @return boolean
-function Vector2Int.Equals(other) end
+function Vector2Int.equals(other) end
 
 --- [WIP] - No method annotation provided
 --- @param other Vector2Int [WIP] - Add description for parameter
 --- @return boolean
-function Vector2Int.Equals(other) end
+function Vector2Int.equals(other) end
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function Vector2Int.GetHashCode() end
+function Vector2Int.getHashCode() end
 
 --- [WIP] - No method annotation provided
 --- @return string
-function Vector2Int.ToString() end
+function Vector2Int.toString() end
 
 --- [WIP] - No method annotation provided
 --- @param format string [WIP] - Add description for parameter
 --- @return string
-function Vector2Int.ToString(format) end
+function Vector2Int.toString(format) end
 
 --- [WIP] - No method annotation provided
 --- @param format string [WIP] - Add description for parameter
 --- @param formatProvider IFormatProvider [WIP] - Add description for parameter
 --- @return string
-function Vector2Int.ToString(format,formatProvider) end
+function Vector2Int.toString(format,formatProvider) end
 
 return Vector2Int

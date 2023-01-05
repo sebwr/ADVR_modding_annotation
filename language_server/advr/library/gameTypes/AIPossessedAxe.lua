@@ -10,6 +10,6 @@ AIPossessedAxe = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIPossessedAxe.DoAttack() end
+function AIPossessedAxe.doAttack() end
 
 return AIPossessedAxe

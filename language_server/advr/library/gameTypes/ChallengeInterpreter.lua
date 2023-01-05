@@ -9,10 +9,10 @@ ChallengeInterpreter = {}
 --- [WIP] - No method annotation provided
 --- @param excludeVisited boolean [WIP] - Add description for parameter
 --- @return GameObject
-function ChallengeInterpreter.PlaceStoryGhostAroundPlayerInDungeon(excludeVisited) end
+function ChallengeInterpreter.placeStoryGhostAroundPlayerInDungeon(excludeVisited) end
 
 --- [WIP] - No method annotation provided
 --- @return IEnumerator
-function ChallengeInterpreter.ReadChallengesFromDisk() end
+function ChallengeInterpreter.readChallengesFromDisk() end
 
 return ChallengeInterpreter

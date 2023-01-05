@@ -17,22 +17,22 @@ UIMainMenu = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function UIMainMenu.QuitGame() end
+function UIMainMenu.quitGame() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function UIMainMenu.OpenMainMenu() end
+function UIMainMenu.openMainMenu() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function UIMainMenu.DisableAndFixBrokenMods() end
+function UIMainMenu.disableAndFixBrokenMods() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function UIMainMenu.ContinueLastRun() end
+function UIMainMenu.continueLastRun() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function UIMainMenu.CloseMainMenu() end
+function UIMainMenu.closeMainMenu() end
 
 return UIMainMenu

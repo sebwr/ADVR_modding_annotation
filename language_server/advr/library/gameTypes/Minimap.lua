@@ -17,10 +17,10 @@ Minimap = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Minimap.CreateMinimap() end
+function Minimap.createMinimap() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Minimap.RevealCurrentFloorMap() end
+function Minimap.revealCurrentFloorMap() end
 
 return Minimap

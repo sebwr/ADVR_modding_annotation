@@ -8,7 +8,7 @@ LuaModSettings = {}
 --- [WIP] - No method annotation provided
 --- @param headerName string [WIP] - Add description for parameter
 --- @return void
-function LuaModSettings.Header(headerName) end
+function LuaModSettings.header(headerName) end
 
 --- [WIP] - No method annotation provided
 --- @param identifier string [WIP] - Add description for parameter
@@ -17,7 +17,7 @@ function LuaModSettings.Header(headerName) end
 --- @param max number [WIP] - Add description for parameter
 --- @param defaultValue number [WIP] - Add description for parameter
 --- @return void
-function LuaModSettings.Slider(identifier,callback,min,max,defaultValue) end
+function LuaModSettings.slider(identifier,callback,min,max,defaultValue) end
 
 --- [WIP] - No method annotation provided
 --- @param identifier string [WIP] - Add description for parameter
@@ -25,6 +25,6 @@ function LuaModSettings.Slider(identifier,callback,min,max,defaultValue) end
 --- @param defaultIndex integer [WIP] - Add description for parameter
 --- @param options string[] [WIP] - Add description for parameter
 --- @return void
-function LuaModSettings.Buttons(identifier,callback,defaultIndex,options) end
+function LuaModSettings.buttons(identifier,callback,defaultIndex,options) end
 
 return LuaModSettings

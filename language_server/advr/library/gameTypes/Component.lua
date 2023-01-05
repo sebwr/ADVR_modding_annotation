@@ -23,220 +23,220 @@ Component = {}
 --- [WIP] - No method annotation provided
 --- @param type Type [WIP] - Add description for parameter
 --- @return Component
-function Component.GetComponent(type) end
+function Component.getComponent(type) end
 
 --- [WIP] - No method annotation provided
 --- @return T
-function Component.GetComponent() end
+function Component.getComponent() end
 
 --- [WIP] - No method annotation provided
 --- @param type Type [WIP] - Add description for parameter
 --- @param component Component& [WIP] - Add description for parameter
 --- @return boolean
-function Component.TryGetComponent(type,component) end
+function Component.tryGetComponent(type,component) end
 
 --- [WIP] - No method annotation provided
 --- @param component T& [WIP] - Add description for parameter
 --- @return boolean
-function Component.TryGetComponent(component) end
+function Component.tryGetComponent(component) end
 
 --- [WIP] - No method annotation provided
 --- @param type string [WIP] - Add description for parameter
 --- @return Component
-function Component.GetComponent(type) end
+function Component.getComponent(type) end
 
 --- [WIP] - No method annotation provided
 --- @param t Type [WIP] - Add description for parameter
 --- @param includeInactive boolean [WIP] - Add description for parameter
 --- @return Component
-function Component.GetComponentInChildren(t,includeInactive) end
+function Component.getComponentInChildren(t,includeInactive) end
 
 --- [WIP] - No method annotation provided
 --- @param t Type [WIP] - Add description for parameter
 --- @return Component
-function Component.GetComponentInChildren(t) end
+function Component.getComponentInChildren(t) end
 
 --- [WIP] - No method annotation provided
 --- @param includeInactive boolean [WIP] - Add description for parameter
 --- @return T
-function Component.GetComponentInChildren(includeInactive) end
+function Component.getComponentInChildren(includeInactive) end
 
 --- [WIP] - No method annotation provided
 --- @return T
-function Component.GetComponentInChildren() end
+function Component.getComponentInChildren() end
 
 --- [WIP] - No method annotation provided
 --- @param t Type [WIP] - Add description for parameter
 --- @param includeInactive boolean [WIP] - Add description for parameter
 --- @return Component[]
-function Component.GetComponentsInChildren(t,includeInactive) end
+function Component.getComponentsInChildren(t,includeInactive) end
 
 --- [WIP] - No method annotation provided
 --- @param t Type [WIP] - Add description for parameter
 --- @return Component[]
-function Component.GetComponentsInChildren(t) end
+function Component.getComponentsInChildren(t) end
 
 --- [WIP] - No method annotation provided
 --- @param includeInactive boolean [WIP] - Add description for parameter
 --- @return T[]
-function Component.GetComponentsInChildren(includeInactive) end
+function Component.getComponentsInChildren(includeInactive) end
 
 --- [WIP] - No method annotation provided
 --- @param includeInactive boolean [WIP] - Add description for parameter
 --- @param result List<> [WIP] - Add description for parameter
 --- @return void
-function Component.GetComponentsInChildren(includeInactive,result) end
+function Component.getComponentsInChildren(includeInactive,result) end
 
 --- [WIP] - No method annotation provided
 --- @return T[]
-function Component.GetComponentsInChildren() end
+function Component.getComponentsInChildren() end
 
 --- [WIP] - No method annotation provided
 --- @param results List<> [WIP] - Add description for parameter
 --- @return void
-function Component.GetComponentsInChildren(results) end
+function Component.getComponentsInChildren(results) end
 
 --- [WIP] - No method annotation provided
 --- @param t Type [WIP] - Add description for parameter
 --- @param includeInactive boolean [WIP] - Add description for parameter
 --- @return Component
-function Component.GetComponentInParent(t,includeInactive) end
+function Component.getComponentInParent(t,includeInactive) end
 
 --- [WIP] - No method annotation provided
 --- @param t Type [WIP] - Add description for parameter
 --- @return Component
-function Component.GetComponentInParent(t) end
+function Component.getComponentInParent(t) end
 
 --- [WIP] - No method annotation provided
 --- @param includeInactive boolean [WIP] - Add description for parameter
 --- @return T
-function Component.GetComponentInParent(includeInactive) end
+function Component.getComponentInParent(includeInactive) end
 
 --- [WIP] - No method annotation provided
 --- @return T
-function Component.GetComponentInParent() end
+function Component.getComponentInParent() end
 
 --- [WIP] - No method annotation provided
 --- @param t Type [WIP] - Add description for parameter
 --- @param includeInactive boolean [WIP] - Add description for parameter
 --- @return Component[]
-function Component.GetComponentsInParent(t,includeInactive) end
+function Component.getComponentsInParent(t,includeInactive) end
 
 --- [WIP] - No method annotation provided
 --- @param t Type [WIP] - Add description for parameter
 --- @return Component[]
-function Component.GetComponentsInParent(t) end
+function Component.getComponentsInParent(t) end
 
 --- [WIP] - No method annotation provided
 --- @param includeInactive boolean [WIP] - Add description for parameter
 --- @return T[]
-function Component.GetComponentsInParent(includeInactive) end
+function Component.getComponentsInParent(includeInactive) end
 
 --- [WIP] - No method annotation provided
 --- @param includeInactive boolean [WIP] - Add description for parameter
 --- @param results List<> [WIP] - Add description for parameter
 --- @return void
-function Component.GetComponentsInParent(includeInactive,results) end
+function Component.getComponentsInParent(includeInactive,results) end
 
 --- [WIP] - No method annotation provided
 --- @return T[]
-function Component.GetComponentsInParent() end
+function Component.getComponentsInParent() end
 
 --- [WIP] - No method annotation provided
 --- @param type Type [WIP] - Add description for parameter
 --- @return Component[]
-function Component.GetComponents(type) end
+function Component.getComponents(type) end
 
 --- [WIP] - No method annotation provided
 --- @param type Type [WIP] - Add description for parameter
 --- @param results List<UnityEngine.Component> [WIP] - Add description for parameter
 --- @return void
-function Component.GetComponents(type,results) end
+function Component.getComponents(type,results) end
 
 --- [WIP] - No method annotation provided
 --- @param results List<> [WIP] - Add description for parameter
 --- @return void
-function Component.GetComponents(results) end
+function Component.getComponents(results) end
 
 --- [WIP] - No method annotation provided
 --- @return T[]
-function Component.GetComponents() end
+function Component.getComponents() end
 
 --- [WIP] - No method annotation provided
 --- @param tag string [WIP] - Add description for parameter
 --- @return boolean
-function Component.CompareTag(tag) end
+function Component.compareTag(tag) end
 
 --- [WIP] - No method annotation provided
 --- @param methodName string [WIP] - Add description for parameter
 --- @param value Object [WIP] - Add description for parameter
 --- @param options SendMessageOptions [WIP] - Add description for parameter
 --- @return void
-function Component.SendMessageUpwards(methodName,value,options) end
+function Component.sendMessageUpwards(methodName,value,options) end
 
 --- [WIP] - No method annotation provided
 --- @param methodName string [WIP] - Add description for parameter
 --- @param value Object [WIP] - Add description for parameter
 --- @return void
-function Component.SendMessageUpwards(methodName,value) end
+function Component.sendMessageUpwards(methodName,value) end
 
 --- [WIP] - No method annotation provided
 --- @param methodName string [WIP] - Add description for parameter
 --- @return void
-function Component.SendMessageUpwards(methodName) end
+function Component.sendMessageUpwards(methodName) end
 
 --- [WIP] - No method annotation provided
 --- @param methodName string [WIP] - Add description for parameter
 --- @param options SendMessageOptions [WIP] - Add description for parameter
 --- @return void
-function Component.SendMessageUpwards(methodName,options) end
+function Component.sendMessageUpwards(methodName,options) end
 
 --- [WIP] - No method annotation provided
 --- @param methodName string [WIP] - Add description for parameter
 --- @param value Object [WIP] - Add description for parameter
 --- @return void
-function Component.SendMessage(methodName,value) end
+function Component.sendMessage(methodName,value) end
 
 --- [WIP] - No method annotation provided
 --- @param methodName string [WIP] - Add description for parameter
 --- @return void
-function Component.SendMessage(methodName) end
+function Component.sendMessage(methodName) end
 
 --- [WIP] - No method annotation provided
 --- @param methodName string [WIP] - Add description for parameter
 --- @param value Object [WIP] - Add description for parameter
 --- @param options SendMessageOptions [WIP] - Add description for parameter
 --- @return void
-function Component.SendMessage(methodName,value,options) end
+function Component.sendMessage(methodName,value,options) end
 
 --- [WIP] - No method annotation provided
 --- @param methodName string [WIP] - Add description for parameter
 --- @param options SendMessageOptions [WIP] - Add description for parameter
 --- @return void
-function Component.SendMessage(methodName,options) end
+function Component.sendMessage(methodName,options) end
 
 --- [WIP] - No method annotation provided
 --- @param methodName string [WIP] - Add description for parameter
 --- @param parameter Object [WIP] - Add description for parameter
 --- @param options SendMessageOptions [WIP] - Add description for parameter
 --- @return void
-function Component.BroadcastMessage(methodName,parameter,options) end
+function Component.broadcastMessage(methodName,parameter,options) end
 
 --- [WIP] - No method annotation provided
 --- @param methodName string [WIP] - Add description for parameter
 --- @param parameter Object [WIP] - Add description for parameter
 --- @return void
-function Component.BroadcastMessage(methodName,parameter) end
+function Component.broadcastMessage(methodName,parameter) end
 
 --- [WIP] - No method annotation provided
 --- @param methodName string [WIP] - Add description for parameter
 --- @return void
-function Component.BroadcastMessage(methodName) end
+function Component.broadcastMessage(methodName) end
 
 --- [WIP] - No method annotation provided
 --- @param methodName string [WIP] - Add description for parameter
 --- @param options SendMessageOptions [WIP] - Add description for parameter
 --- @return void
-function Component.BroadcastMessage(methodName,options) end
+function Component.broadcastMessage(methodName,options) end
 
 return Component

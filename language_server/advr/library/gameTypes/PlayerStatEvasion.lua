@@ -10,6 +10,6 @@ PlayerStatEvasion = {}
 
 --- [WIP] - No method annotation provided
 --- @return number
-function PlayerStatEvasion.GetValueFloat() end
+function PlayerStatEvasion.getValueFloat() end
 
 return PlayerStatEvasion

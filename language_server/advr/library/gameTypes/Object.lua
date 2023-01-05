@@ -7,19 +7,19 @@ Object = {}
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function Object.GetInstanceID() end
+function Object.getInstanceID() end
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function Object.GetHashCode() end
+function Object.getHashCode() end
 
 --- [WIP] - No method annotation provided
 --- @param other Object [WIP] - Add description for parameter
 --- @return boolean
-function Object.Equals(other) end
+function Object.equals(other) end
 
 --- [WIP] - No method annotation provided
 --- @return string
-function Object.ToString() end
+function Object.toString() end
 
 return Object

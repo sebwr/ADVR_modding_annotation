@@ -8,11 +8,11 @@ WeaponComboInterpreter = {}
 
 --- [WIP] - No method annotation provided
 --- @return IEnumerator
-function WeaponComboInterpreter.ReadWeaponCombosFromDisk() end
+function WeaponComboInterpreter.readWeaponCombosFromDisk() end
 
 --- [WIP] - No method annotation provided
 --- @param id string [WIP] - Add description for parameter
 --- @return WeaponComboDiskRepresentation
-function WeaponComboInterpreter.GetWeaponComboById(id) end
+function WeaponComboInterpreter.getWeaponComboById(id) end
 
 return WeaponComboInterpreter

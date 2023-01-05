@@ -11,31 +11,31 @@ JournalInterpreter = {}
 --- @param belongsTo string [WIP] - Add description for parameter
 --- @param fileID string [WIP] - Add description for parameter
 --- @return GameObject
-function JournalInterpreter.CheckRequestJournalPage(saveID,belongsTo,fileID) end
+function JournalInterpreter.checkRequestJournalPage(saveID,belongsTo,fileID) end
 
 --- [WIP] - No method annotation provided
 --- @param belongsTo string [WIP] - Add description for parameter
 --- @param fileID string [WIP] - Add description for parameter
 --- @return JournalPage
-function JournalInterpreter.GetJournalPageByFileID(belongsTo,fileID) end
+function JournalInterpreter.getJournalPageByFileID(belongsTo,fileID) end
 
 --- [WIP] - No method annotation provided
 --- @param fileID string [WIP] - Add description for parameter
 --- @return JournalPage
-function JournalInterpreter.GetJournalPageByFileID(fileID) end
+function JournalInterpreter.getJournalPageByFileID(fileID) end
 
 --- [WIP] - No method annotation provided
 --- @param belongsTo string [WIP] - Add description for parameter
 --- @return JournalPage[]
-function JournalInterpreter.GetPagesFrom(belongsTo) end
+function JournalInterpreter.getPagesFrom(belongsTo) end
 
 --- [WIP] - No method annotation provided
 --- @param belongsTo string [WIP] - Add description for parameter
 --- @return JournalPage[]
-function JournalInterpreter.GetUnlockedPagesFrom(belongsTo) end
+function JournalInterpreter.getUnlockedPagesFrom(belongsTo) end
 
 --- [WIP] - No method annotation provided
 --- @return IEnumerator
-function JournalInterpreter.ReadJournalsFromDisk() end
+function JournalInterpreter.readJournalsFromDisk() end
 
 return JournalInterpreter

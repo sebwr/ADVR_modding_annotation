@@ -10,7 +10,7 @@ ImpactHandler = {}
 --- [WIP] - No method annotation provided
 --- @param s string [WIP] - Add description for parameter
 --- @return ImpactInfo
-function ImpactHandler.GetImpactByName(s) end
+function ImpactHandler.getImpactByName(s) end
 
 --- [WIP] - No method annotation provided
 --- @param _physicMaterial PhysicMaterial [WIP] - Add description for parameter
@@ -21,6 +21,6 @@ function ImpactHandler.GetImpactByName(s) end
 --- @param amountMultiplier number [WIP] - Add description for parameter
 --- @param impactType IMPACT_TYPE [WIP] - Add description for parameter
 --- @return void
-function ImpactHandler.CreateImpactAt(_physicMaterial,_pos,_amount,_ignoreTime,volumeMultiplier,amountMultiplier,impactType) end
+function ImpactHandler.createImpactAt(_physicMaterial,_pos,_amount,_ignoreTime,volumeMultiplier,amountMultiplier,impactType) end
 
 return ImpactHandler

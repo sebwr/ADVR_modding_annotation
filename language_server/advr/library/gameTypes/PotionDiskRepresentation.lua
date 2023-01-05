@@ -22,20 +22,20 @@ PotionDiskRepresentation = {}
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function PotionDiskRepresentation.GetTimesPlayerAffected() end
+function PotionDiskRepresentation.getTimesPlayerAffected() end
 
 --- [WIP] - No method annotation provided
 --- @param potion ItemPotion [WIP] - Add description for parameter
 --- @return void
-function PotionDiskRepresentation.OnPotionBreak(potion) end
+function PotionDiskRepresentation.onPotionBreak(potion) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function PotionDiskRepresentation.ClearEffects() end
+function PotionDiskRepresentation.clearEffects() end
 
 --- [WIP] - No method annotation provided
 --- @param effectInstance PotionEffectInstance [WIP] - Add description for parameter
 --- @return void
-function PotionDiskRepresentation.OnPotionRunOut(effectInstance) end
+function PotionDiskRepresentation.onPotionRunOut(effectInstance) end
 
 return PotionDiskRepresentation

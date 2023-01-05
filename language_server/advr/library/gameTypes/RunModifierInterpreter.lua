@@ -7,6 +7,6 @@ RunModifierInterpreter = {}
 
 --- [WIP] - No method annotation provided
 --- @return IEnumerator
-function RunModifierInterpreter.ReadRunModifiersFromDisk() end
+function RunModifierInterpreter.readRunModifiersFromDisk() end
 
 return RunModifierInterpreter

@@ -35,12 +35,12 @@ AudioManager = {}
 --- @param spatialize boolean [WIP] - Add description for parameter
 --- @param range integer [WIP] - Add description for parameter
 --- @return ADVRSoundEffect
-function AudioManager.CreateNewSoundEffect(id,sounds,volume,spatialize,range) end
+function AudioManager.createNewSoundEffect(id,sounds,volume,spatialize,range) end
 
 --- [WIP] - No method annotation provided
 --- @param floor CURRENT_FLOOR [WIP] - Add description for parameter
 --- @return DungeonMusicInfo
-function AudioManager.GetDungeonMusicInfoForFloor(floor) end
+function AudioManager.getDungeonMusicInfoForFloor(floor) end
 
 --- [WIP] - No method annotation provided
 --- @param soundID string [WIP] - Add description for parameter
@@ -49,12 +49,12 @@ function AudioManager.GetDungeonMusicInfoForFloor(floor) end
 --- @param pitchMultiplier number [WIP] - Add description for parameter
 --- @param followObject Transform [WIP] - Add description for parameter
 --- @return void
-function AudioManager.PlaySoundAt(soundID,position,volume,pitchMultiplier,followObject) end
+function AudioManager.playSoundAt(soundID,position,volume,pitchMultiplier,followObject) end
 
 --- [WIP] - No method annotation provided
 --- @param soundID string [WIP] - Add description for parameter
 --- @return boolean
-function AudioManager.DoesSoundExist(soundID) end
+function AudioManager.doesSoundExist(soundID) end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
@@ -71,7 +71,7 @@ function AudioManager.DoesSoundExist(soundID) end
 --- @param spread integer [WIP] - Add description for parameter
 --- @param followObject Transform [WIP] - Add description for parameter
 --- @return void
-function AudioManager.PlayRandomOneShotAt(position,volume,minPitch,maxPitch,clips,priority,distance,mono,spatialize,goalMixer,checkOcclusion,spread,followObject) end
+function AudioManager.playRandomOneShotAt(position,volume,minPitch,maxPitch,clips,priority,distance,mono,spatialize,goalMixer,checkOcclusion,spread,followObject) end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
@@ -88,20 +88,20 @@ function AudioManager.PlayRandomOneShotAt(position,volume,minPitch,maxPitch,clip
 --- @param spread integer [WIP] - Add description for parameter
 --- @param followObject Transform [WIP] - Add description for parameter
 --- @return void
-function AudioManager.PlayCombinedOneShotAt(position,volume,minPitch,maxPitch,clips,priority,distance,mono,spatialize,goalMixer,checkOcclusion,spread,followObject) end
+function AudioManager.playCombinedOneShotAt(position,volume,minPitch,maxPitch,clips,priority,distance,mono,spatialize,goalMixer,checkOcclusion,spread,followObject) end
 
 --- [WIP] - No method annotation provided
 --- @param clip AudioClip [WIP] - Add description for parameter
 --- @param loop boolean [WIP] - Add description for parameter
 --- @return void
-function AudioManager.CrossFadeMusicToInstant(clip,loop) end
+function AudioManager.crossFadeMusicToInstant(clip,loop) end
 
 --- [WIP] - No method annotation provided
 --- @param clip AudioClip [WIP] - Add description for parameter
 --- @param speed number [WIP] - Add description for parameter
 --- @param loop boolean [WIP] - Add description for parameter
 --- @return void
-function AudioManager.CrossFadeMusicTo(clip,speed,loop) end
+function AudioManager.crossFadeMusicTo(clip,speed,loop) end
 
 --- [WIP] - No method annotation provided
 --- @param position Vector3 [WIP] - Add description for parameter
@@ -118,15 +118,15 @@ function AudioManager.CrossFadeMusicTo(clip,speed,loop) end
 --- @param spread integer [WIP] - Add description for parameter
 --- @param followObject Transform [WIP] - Add description for parameter
 --- @return void
-function AudioManager.PlayOneShotAt(position,volume,minPitch,maxPitch,clip,priority,distance,mono,spatialize,goalMixer,checkOcclusion,spread,followObject) end
+function AudioManager.playOneShotAt(position,volume,minPitch,maxPitch,clip,priority,distance,mono,spatialize,goalMixer,checkOcclusion,spread,followObject) end
 
 --- [WIP] - No method annotation provided
 --- @param floor CURRENT_FLOOR [WIP] - Add description for parameter
 --- @return void
-function AudioManager.UpdateMusic(floor) end
+function AudioManager.updateMusic(floor) end
 
 --- [WIP] - No method annotation provided
 --- @return AudioClip
-function AudioManager.GetCurrentFloorMusic() end
+function AudioManager.getCurrentFloorMusic() end
 
 return AudioManager

@@ -35,35 +35,35 @@ AISkeletonBoss = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AISkeletonBoss.Start() end
+function AISkeletonBoss.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AISkeletonBoss.ResetAttackState() end
+function AISkeletonBoss.resetAttackState() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AISkeletonBoss.SummonStones() end
+function AISkeletonBoss.summonStones() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AISkeletonBoss.ShootProjectile() end
+function AISkeletonBoss.shootProjectile() end
 
 --- [WIP] - No method annotation provided
 --- @param i integer [WIP] - Add description for parameter
 --- @return void
-function AISkeletonBoss.SetShootParticles(i) end
+function AISkeletonBoss.setShootParticles(i) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AISkeletonBoss.Teleport() end
+function AISkeletonBoss.teleport() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AISkeletonBoss.OnSeePlayer() end
+function AISkeletonBoss.onSeePlayer() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AISkeletonBoss.OnLoosePlayer() end
+function AISkeletonBoss.onLoosePlayer() end
 
 return AISkeletonBoss

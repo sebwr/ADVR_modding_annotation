@@ -14,28 +14,28 @@ Sprite = {}
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function Sprite.GetPhysicsShapeCount() end
+function Sprite.getPhysicsShapeCount() end
 
 --- [WIP] - No method annotation provided
 --- @param shapeIdx integer [WIP] - Add description for parameter
 --- @return integer
-function Sprite.GetPhysicsShapePointCount(shapeIdx) end
+function Sprite.getPhysicsShapePointCount(shapeIdx) end
 
 --- [WIP] - No method annotation provided
 --- @param shapeIdx integer [WIP] - Add description for parameter
 --- @param physicsShape List<UnityEngine.Vector2> [WIP] - Add description for parameter
 --- @return integer
-function Sprite.GetPhysicsShape(shapeIdx,physicsShape) end
+function Sprite.getPhysicsShape(shapeIdx,physicsShape) end
 
 --- [WIP] - No method annotation provided
 --- @param physicsShapes IList<UnityEngine.Vector2[]> [WIP] - Add description for parameter
 --- @return void
-function Sprite.OverridePhysicsShape(physicsShapes) end
+function Sprite.overridePhysicsShape(physicsShapes) end
 
 --- [WIP] - No method annotation provided
 --- @param vertices Vector2[] [WIP] - Add description for parameter
 --- @param triangles UInt16[] [WIP] - Add description for parameter
 --- @return void
-function Sprite.OverrideGeometry(vertices,triangles) end
+function Sprite.overrideGeometry(vertices,triangles) end
 
 return Sprite

@@ -72,93 +72,93 @@ function BaseInteract.remove_TouchEnd(value) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function BaseInteract.Start() end
+function BaseInteract.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function BaseInteract.ResetInteractingHands() end
-
---- [WIP] - No method annotation provided
---- @param obj CallbackContext [WIP] - Add description for parameter
---- @return void
-function BaseInteract.OnUseEndLeft(obj) end
+function BaseInteract.resetInteractingHands() end
 
 --- [WIP] - No method annotation provided
 --- @param obj CallbackContext [WIP] - Add description for parameter
 --- @return void
-function BaseInteract.OnUseEndRight(obj) end
+function BaseInteract.onUseEndLeft(obj) end
 
 --- [WIP] - No method annotation provided
 --- @param obj CallbackContext [WIP] - Add description for parameter
 --- @return void
-function BaseInteract.OnUseEnd(obj) end
+function BaseInteract.onUseEndRight(obj) end
 
 --- [WIP] - No method annotation provided
 --- @param obj CallbackContext [WIP] - Add description for parameter
 --- @return void
-function BaseInteract.OnUseStart(obj) end
+function BaseInteract.onUseEnd(obj) end
 
 --- [WIP] - No method annotation provided
 --- @param obj CallbackContext [WIP] - Add description for parameter
 --- @return void
-function BaseInteract.OnUseStartLeft(obj) end
+function BaseInteract.onUseStart(obj) end
 
 --- [WIP] - No method annotation provided
 --- @param obj CallbackContext [WIP] - Add description for parameter
 --- @return void
-function BaseInteract.OnUseStartRight(obj) end
+function BaseInteract.onUseStartLeft(obj) end
+
+--- [WIP] - No method annotation provided
+--- @param obj CallbackContext [WIP] - Add description for parameter
+--- @return void
+function BaseInteract.onUseStartRight(obj) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function BaseInteract.OnUseStart() end
+function BaseInteract.onUseStart() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function BaseInteract.OnUseEnd() end
+function BaseInteract.onUseEnd() end
 
 --- [WIP] - No method annotation provided
 --- @param left boolean [WIP] - Add description for parameter
 --- @return void
-function BaseInteract.OnTouchStart(left) end
+function BaseInteract.onTouchStart(left) end
 
 --- [WIP] - No method annotation provided
 --- @param left boolean [WIP] - Add description for parameter
 --- @return void
-function BaseInteract.OnTouchEnd(left) end
+function BaseInteract.onTouchEnd(left) end
 
 --- [WIP] - No method annotation provided
 --- @param left boolean [WIP] - Add description for parameter
 --- @return void
-function BaseInteract.OnGripEnd(left) end
+function BaseInteract.onGripEnd(left) end
 
 --- [WIP] - No method annotation provided
 --- @param left boolean [WIP] - Add description for parameter
 --- @return void
-function BaseInteract.OnGripStart(left) end
+function BaseInteract.onGripStart(left) end
 
 --- [WIP] - No method annotation provided
 --- @return PlayerHand
-function BaseInteract.GetCurrentGrabbedHand() end
+function BaseInteract.getCurrentGrabbedHand() end
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function BaseInteract.IsInInventory() end
+function BaseInteract.isInInventory() end
 
 --- [WIP] - No method annotation provided
 --- @return Slot
-function BaseInteract.GetCurrentInventorySlot() end
+function BaseInteract.getCurrentInventorySlot() end
 
 --- [WIP] - No method annotation provided
 --- @return List<PlayerHand>
-function BaseInteract.GetInteractingHands() end
+function BaseInteract.getInteractingHands() end
 
 --- [WIP] - No method annotation provided
 --- @param slot Slot [WIP] - Add description for parameter
 --- @return void
-function BaseInteract.OnPutInSlot(slot) end
+function BaseInteract.onPutInSlot(slot) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function BaseInteract.OnTakeFromSlot() end
+function BaseInteract.onTakeFromSlot() end
 
 return BaseInteract

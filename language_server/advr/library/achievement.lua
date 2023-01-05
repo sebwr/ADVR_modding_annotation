@@ -14,6 +14,6 @@ achievement = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function achievement.Unlock() end
+function achievement.unlock() end
 
 return achievement

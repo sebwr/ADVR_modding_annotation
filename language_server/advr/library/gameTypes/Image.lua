@@ -27,32 +27,32 @@ Image = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Image.DisableSpriteOptimizations() end
+function Image.disableSpriteOptimizations() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Image.OnBeforeSerialize() end
+function Image.onBeforeSerialize() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Image.OnAfterDeserialize() end
+function Image.onAfterDeserialize() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Image.SetNativeSize() end
+function Image.setNativeSize() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Image.CalculateLayoutInputHorizontal() end
+function Image.calculateLayoutInputHorizontal() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Image.CalculateLayoutInputVertical() end
+function Image.calculateLayoutInputVertical() end
 
 --- [WIP] - No method annotation provided
 --- @param screenPoint Vector2 [WIP] - Add description for parameter
 --- @param eventCamera Camera [WIP] - Add description for parameter
 --- @return boolean
-function Image.IsRaycastLocationValid(screenPoint,eventCamera) end
+function Image.isRaycastLocationValid(screenPoint,eventCamera) end
 
 return Image

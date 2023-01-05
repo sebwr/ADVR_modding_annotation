@@ -27,20 +27,20 @@ AIMimic = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIMimic.Start() end
+function AIMimic.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIMimic.OnLoosePlayer() end
+function AIMimic.onLoosePlayer() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIMimic.OnSeePlayer() end
+function AIMimic.onSeePlayer() end
 
 --- [WIP] - No method annotation provided
 --- @param infos HitEventInfos [WIP] - Add description for parameter
 --- @param dmg integer [WIP] - Add description for parameter
 --- @return void
-function AIMimic.OnHit(infos,dmg) end
+function AIMimic.onHit(infos,dmg) end
 
 return AIMimic

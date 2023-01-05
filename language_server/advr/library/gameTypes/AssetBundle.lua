@@ -9,136 +9,136 @@ AssetBundle = {}
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return boolean
-function AssetBundle.Contains(name) end
+function AssetBundle.contains(name) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return Object
-function AssetBundle.Load(name) end
+function AssetBundle.load(name) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return Object
-function AssetBundle.Load(name) end
+function AssetBundle.load(name) end
 
 --- [WIP] - No method annotation provided
 --- @return Object[]
-function AssetBundle.LoadAll() end
+function AssetBundle.loadAll() end
 
 --- [WIP] - No method annotation provided
 --- @return T[]
-function AssetBundle.LoadAll() end
+function AssetBundle.loadAll() end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return Object
-function AssetBundle.LoadAsset(name) end
+function AssetBundle.loadAsset(name) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return T
-function AssetBundle.LoadAsset(name) end
+function AssetBundle.loadAsset(name) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param type Type [WIP] - Add description for parameter
 --- @return Object
-function AssetBundle.LoadAsset(name,type) end
+function AssetBundle.loadAsset(name,type) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return AssetBundleRequest
-function AssetBundle.LoadAssetAsync(name) end
+function AssetBundle.loadAssetAsync(name) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return AssetBundleRequest
-function AssetBundle.LoadAssetAsync(name) end
+function AssetBundle.loadAssetAsync(name) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param type Type [WIP] - Add description for parameter
 --- @return AssetBundleRequest
-function AssetBundle.LoadAssetAsync(name,type) end
+function AssetBundle.loadAssetAsync(name,type) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return Object[]
-function AssetBundle.LoadAssetWithSubAssets(name) end
+function AssetBundle.loadAssetWithSubAssets(name) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return T[]
-function AssetBundle.LoadAssetWithSubAssets(name) end
+function AssetBundle.loadAssetWithSubAssets(name) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param type Type [WIP] - Add description for parameter
 --- @return Object[]
-function AssetBundle.LoadAssetWithSubAssets(name,type) end
+function AssetBundle.loadAssetWithSubAssets(name,type) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return AssetBundleRequest
-function AssetBundle.LoadAssetWithSubAssetsAsync(name) end
+function AssetBundle.loadAssetWithSubAssetsAsync(name) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @return AssetBundleRequest
-function AssetBundle.LoadAssetWithSubAssetsAsync(name) end
+function AssetBundle.loadAssetWithSubAssetsAsync(name) end
 
 --- [WIP] - No method annotation provided
 --- @param name string [WIP] - Add description for parameter
 --- @param type Type [WIP] - Add description for parameter
 --- @return AssetBundleRequest
-function AssetBundle.LoadAssetWithSubAssetsAsync(name,type) end
+function AssetBundle.loadAssetWithSubAssetsAsync(name,type) end
 
 --- [WIP] - No method annotation provided
 --- @return Object[]
-function AssetBundle.LoadAllAssets() end
+function AssetBundle.loadAllAssets() end
 
 --- [WIP] - No method annotation provided
 --- @return T[]
-function AssetBundle.LoadAllAssets() end
+function AssetBundle.loadAllAssets() end
 
 --- [WIP] - No method annotation provided
 --- @param type Type [WIP] - Add description for parameter
 --- @return Object[]
-function AssetBundle.LoadAllAssets(type) end
+function AssetBundle.loadAllAssets(type) end
 
 --- [WIP] - No method annotation provided
 --- @return AssetBundleRequest
-function AssetBundle.LoadAllAssetsAsync() end
+function AssetBundle.loadAllAssetsAsync() end
 
 --- [WIP] - No method annotation provided
 --- @return AssetBundleRequest
-function AssetBundle.LoadAllAssetsAsync() end
+function AssetBundle.loadAllAssetsAsync() end
 
 --- [WIP] - No method annotation provided
 --- @param type Type [WIP] - Add description for parameter
 --- @return AssetBundleRequest
-function AssetBundle.LoadAllAssetsAsync(type) end
+function AssetBundle.loadAllAssetsAsync(type) end
 
 --- [WIP] - No method annotation provided
 --- @return string[]
-function AssetBundle.AllAssetNames() end
+function AssetBundle.allAssetNames() end
 
 --- [WIP] - No method annotation provided
 --- @param unloadAllLoadedObjects boolean [WIP] - Add description for parameter
 --- @return void
-function AssetBundle.Unload(unloadAllLoadedObjects) end
+function AssetBundle.unload(unloadAllLoadedObjects) end
 
 --- [WIP] - No method annotation provided
 --- @param unloadAllLoadedObjects boolean [WIP] - Add description for parameter
 --- @return AsyncOperation
-function AssetBundle.UnloadAsync(unloadAllLoadedObjects) end
+function AssetBundle.unloadAsync(unloadAllLoadedObjects) end
 
 --- [WIP] - No method annotation provided
 --- @return string[]
-function AssetBundle.GetAllAssetNames() end
+function AssetBundle.getAllAssetNames() end
 
 --- [WIP] - No method annotation provided
 --- @return string[]
-function AssetBundle.GetAllScenePaths() end
+function AssetBundle.getAllScenePaths() end
 
 return AssetBundle

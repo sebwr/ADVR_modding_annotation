@@ -9,6 +9,6 @@ ParticleMaterialOnGenerationChange = {}
 --- [WIP] - No method annotation provided
 --- @param _floor CURRENT_FLOOR [WIP] - Add description for parameter
 --- @return void
-function ParticleMaterialOnGenerationChange.UpdateMaterialColor(_floor) end
+function ParticleMaterialOnGenerationChange.updateMaterialColor(_floor) end
 
 return ParticleMaterialOnGenerationChange

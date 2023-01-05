@@ -12,26 +12,26 @@ VelocityEstimator = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function VelocityEstimator.BeginEstimatingVelocity() end
+function VelocityEstimator.beginEstimatingVelocity() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function VelocityEstimator.FinishEstimatingVelocity() end
+function VelocityEstimator.finishEstimatingVelocity() end
 
 --- [WIP] - No method annotation provided
 --- @return Vector3
-function VelocityEstimator.GetVelocityEstimate() end
+function VelocityEstimator.getVelocityEstimate() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function VelocityEstimator.ResetValues() end
+function VelocityEstimator.resetValues() end
 
 --- [WIP] - No method annotation provided
 --- @return Vector3
-function VelocityEstimator.GetAngularVelocityEstimate() end
+function VelocityEstimator.getAngularVelocityEstimate() end
 
 --- [WIP] - No method annotation provided
 --- @return Vector3
-function VelocityEstimator.GetAccelerationEstimate() end
+function VelocityEstimator.getAccelerationEstimate() end
 
 return VelocityEstimator

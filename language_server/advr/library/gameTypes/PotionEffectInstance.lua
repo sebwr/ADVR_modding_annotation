@@ -10,10 +10,10 @@ PotionEffectInstance = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function PotionEffectInstance.ForceStopEffect() end
+function PotionEffectInstance.forceStopEffect() end
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function PotionEffectInstance.IsEffectTimeInvalid() end
+function PotionEffectInstance.isEffectTimeInvalid() end
 
 return PotionEffectInstance

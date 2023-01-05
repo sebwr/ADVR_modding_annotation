@@ -35,18 +35,18 @@ AIGhost = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIGhost.Start() end
+function AIGhost.start() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIGhost.OnLoosePlayer() end
+function AIGhost.onLoosePlayer() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIGhost.OnSeePlayer() end
+function AIGhost.onSeePlayer() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function AIGhost.Update() end
+function AIGhost.update() end
 
 return AIGhost

@@ -22,20 +22,20 @@ potion = {}
 
 --- [WIP] - No method annotation provided
 --- @return integer
-function potion.GetTimesPlayerAffected() end
+function potion.getTimesPlayerAffected() end
 
 --- [WIP] - No method annotation provided
 --- @param potion ItemPotion [WIP] - Add description for parameter
 --- @return void
-function potion.OnPotionBreak(potion) end
+function potion.onPotionBreak(potion) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function potion.ClearEffects() end
+function potion.clearEffects() end
 
 --- [WIP] - No method annotation provided
 --- @param effectInstance PotionEffectInstance [WIP] - Add description for parameter
 --- @return void
-function potion.OnPotionRunOut(effectInstance) end
+function potion.onPotionRunOut(effectInstance) end
 
 return potion

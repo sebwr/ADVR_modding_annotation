@@ -10,10 +10,10 @@ SpeechbubbleButton = {}
 --- @param _choice Choice [WIP] - Add description for parameter
 --- @param _bubble SpeechbubbleNew [WIP] - Add description for parameter
 --- @return void
-function SpeechbubbleButton.SetChoice(_choice,_bubble) end
+function SpeechbubbleButton.setChoice(_choice,_bubble) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function SpeechbubbleButton.SelectChoice() end
+function SpeechbubbleButton.selectChoice() end
 
 return SpeechbubbleButton

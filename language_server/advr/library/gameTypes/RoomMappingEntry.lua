@@ -10,13 +10,13 @@ RoomMappingEntry = {}
 --- [WIP] - No method annotation provided
 --- @param _id string [WIP] - Add description for parameter
 --- @return Variation
-function RoomMappingEntry.GetVariation(_id) end
+function RoomMappingEntry.getVariation(_id) end
 
 --- [WIP] - No method annotation provided
 --- @param generatorRandom Random [WIP] - Add description for parameter
 --- @param _wge WorldGeneratorEvolved [WIP] - Add description for parameter
 --- @param _try integer [WIP] - Add description for parameter
 --- @return Variation
-function RoomMappingEntry.GetWeightedVariation(generatorRandom,_wge,_try) end
+function RoomMappingEntry.getWeightedVariation(generatorRandom,_wge,_try) end
 
 return RoomMappingEntry

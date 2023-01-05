@@ -12,6 +12,6 @@ challenge = {}
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function challenge.IsUnlocked() end
+function challenge.isUnlocked() end
 
 return challenge

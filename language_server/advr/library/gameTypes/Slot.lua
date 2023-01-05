@@ -9,16 +9,16 @@ Slot = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function Slot.ClearSlot() end
+function Slot.clearSlot() end
 
 --- [WIP] - No method annotation provided
 --- @param bi BaseInteract [WIP] - Add description for parameter
 --- @return boolean
-function Slot.PlaceObjectInSlot(bi) end
+function Slot.placeObjectInSlot(bi) end
 
 --- [WIP] - No method annotation provided
 --- @param _v boolean [WIP] - Add description for parameter
 --- @return void
-function Slot.SetBaseInteract(_v) end
+function Slot.setBaseInteract(_v) end
 
 return Slot

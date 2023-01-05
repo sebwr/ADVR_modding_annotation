@@ -8,14 +8,14 @@ RunSaveManager = {}
 
 --- [WIP] - No method annotation provided
 --- @return boolean
-function RunSaveManager.DoesSaveExist() end
+function RunSaveManager.doesSaveExist() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function RunSaveManager.SaveRun() end
+function RunSaveManager.saveRun() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function RunSaveManager.LoadRun() end
+function RunSaveManager.loadRun() end
 
 return RunSaveManager

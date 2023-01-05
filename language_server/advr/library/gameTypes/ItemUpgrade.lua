@@ -25,24 +25,24 @@ ItemUpgrade = {}
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ItemUpgrade.Start() end
+function ItemUpgrade.start() end
 
 --- [WIP] - No method annotation provided
 --- @param hash integer [WIP] - Add description for parameter
 --- @return void
-function ItemUpgrade.OverrideHash(hash) end
+function ItemUpgrade.overrideHash(hash) end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ItemUpgrade.RollItem() end
+function ItemUpgrade.rollItem() end
 
 --- [WIP] - No method annotation provided
 --- @return void
-function ItemUpgrade.OnUseStart() end
+function ItemUpgrade.onUseStart() end
 
 --- [WIP] - No method annotation provided
 --- @param left boolean [WIP] - Add description for parameter
 --- @return void
-function ItemUpgrade.OnGripStart(left) end
+function ItemUpgrade.onGripStart(left) end
 
 return ItemUpgrade
