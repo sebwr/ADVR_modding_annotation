@@ -8,7 +8,7 @@
 PlayerStatEvasion = {}
 
 
---- [WIP] - No method annotation provided
+--- Calculates the resulting value and returns it as float
 --- @return number
 function PlayerStatEvasion.getValueFloat() end
 

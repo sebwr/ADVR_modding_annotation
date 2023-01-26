@@ -8,14 +8,14 @@
 --- @field fadeHelper ClimbingFadeHelper [WIP] - No field annotation provided 
 --- @field playerState PLAYER_STATE [WIP] - No field annotation provided 
 --- @field currentKills integer [WIP] - No field annotation provided 
---- @field PrimaryDamage PlayerStat [WIP] - No field annotation provided 
---- @field PrimaryCritChance PlayerStat [WIP] - No field annotation provided 
---- @field SecondaryDamage PlayerStat [WIP] - No field annotation provided 
---- @field SecondaryCritChance PlayerStat [WIP] - No field annotation provided 
---- @field Luck PlayerStat [WIP] - No field annotation provided 
---- @field EvasionChance PlayerStatEvasion [WIP] - No field annotation provided 
---- @field ShopDiscount PlayerStat [WIP] - No field annotation provided 
---- @field MoveSpeed PlayerStat [WIP] - No field annotation provided 
+--- @field PrimaryDamage PlayerStat The primary damage which is dealt by the primary waepon. 
+--- @field PrimaryCritChance PlayerStat The primary critical strike chance which is used for the damage calculation of the primary weapon. 
+--- @field SecondaryDamage PlayerStat The secondary damage which is dealt by the secondary waepon. 
+--- @field SecondaryCritChance PlayerStat The secondary critical strike chance which is used for the damage calculation of the secondary weapon. 
+--- @field Luck PlayerStat The luck value of a player. 
+--- @field EvasionChance PlayerStatEvasion The evasion chance of a player. Is capped at 95% 
+--- @field ShopDiscount PlayerStat The shop discount of the player. 
+--- @field MoveSpeed PlayerStat The move speed of the player.  
 --- @field knockbackDistance number [WIP] - No field annotation provided 
 --- @field freeStoreItems integer [WIP] - No field annotation provided 
 --- @field newGamePlusLevel integer [WIP] - No field annotation provided 
